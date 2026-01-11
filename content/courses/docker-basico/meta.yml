@@ -1,0 +1,15 @@
+
+id: docker-basico
+title: Curso Básico de Docker
+description: Fundamentos de containers, imagens, comandos essenciais e boas práticas com Docker.
+duration: 45 min
+level: Iniciante
+area: DevOps
+tags:
+  - Docker
+  - Containers
+  - DevOps
+instructor:
+  id: comunidade-aprendi
+published: true
+featured: false

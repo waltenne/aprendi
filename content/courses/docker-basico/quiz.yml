@@ -1,0 +1,201 @@
+quiz:
+  course_id: docker-basico
+  title: 'Quiz: Docker Básico - Containers em 30 Minutos'
+  description: 'Teste seus conhecimentos sobre Docker e containers'
+  time_limit: 600
+  passing_score: 70
+  questions:
+    - id: q1
+      question: 'O que é um container Docker?'
+      type: multiple_choice_single
+      options:
+        - 'Uma máquina virtual completa com seu próprio sistema operacional'
+        - 'Um ambiente isolado e leve para executar aplicações'
+        - 'Um banco de dados para armazenar imagens'
+        - 'Um editor de código para desenvolvimento'
+      explanation: 'Um container Docker é um ambiente isolado e leve que executa aplicações. Diferente de VMs, containers compartilham o kernel do sistema host, tornando-os muito mais leves e rápidos.'
+      correct_answer: 1
+    - id: q2
+      question: 'Qual a principal diferença entre containers e máquinas virtuais?'
+      type: multiple_choice_single
+      options:
+        - 'Containers são mais pesados que máquinas virtuais'
+        - 'Containers compartilham o kernel do host, VMs não'
+        - 'VMs são mais portáteis que containers'
+        - 'Só containers podem rodar aplicações web'
+      explanation: 'Containers compartilham o kernel do sistema operacional host, enquanto cada máquina virtual precisa de seu próprio sistema operacional completo. Isso torna containers muito mais leves e rápidos para iniciar.'
+      correct_answer: 1
+    - id: q3
+      question: 'Qual é a analogia correta para entender Imagem vs Container?'
+      type: multiple_choice_single
+      options:
+        - 'Imagem é o bolo assado, Container é a receita'
+        - 'Imagem é a receita/matriz, Container é a instância em execução'
+        - 'Imagem e Container são a mesma coisa'
+        - 'Imagem é o restaurante, Container é a cozinha'
+      explanation: 'A imagem Docker é como uma receita ou molde - contém todas as instruções. O container é a instância real em execução, criada a partir dessa imagem. Você pode ter múltiplos containers rodando da mesma imagem.'
+      correct_answer: 1
+    - id: q4
+      question: 'Qual comando cria uma imagem Docker a partir de um Dockerfile?'
+      type: multiple_choice_single
+      options:
+        - 'docker run'
+        - 'docker create'
+        - 'docker build'
+        - 'docker make'
+      explanation: 'O comando "docker build" lê as instruções de um Dockerfile e cria uma nova imagem. Exemplo: `docker build -t minha-imagem:tag .`'
+      correct_answer: 2
+    - id: q5
+      question: 'Como você inicia um container em background (detached mode)?'
+      type: multiple_choice_single
+      options:
+        - 'docker start -d'
+        - 'docker run -d'
+        - 'docker execute --background'
+        - 'docker launch --detach'
+      explanation: 'A flag `-d` ou `--detach` executa o container em segundo plano. Exemplo: `docker run -d -p 8080:80 nginx`'
+      correct_answer: 1
+    - id: q6
+      question: 'Qual comando lista todos os containers em execução?'
+      type: multiple_choice_single
+      options:
+        - 'docker list'
+        - 'docker containers'
+        - 'docker ps'
+        - 'docker show'
+      explanation: '`docker ps` mostra containers em execução. Use `docker ps -a` para ver todos os containers (incluindo parados).'
+      correct_answer: 2
+    - id: q7
+      question: 'Qual é o propósito do comando "FROM" em um Dockerfile?'
+      type: multiple_choice_single
+      options:
+        - 'Copiar arquivos do host para o container'
+        - 'Especificar a imagem base para construção'
+        - 'Definir o diretório de trabalho'
+        - 'Executar comandos durante o build'
+      explanation: 'A instrução "FROM" define a imagem base que será usada como ponto de partida. É geralmente a primeira linha de um Dockerfile. Exemplo: `FROM node:18-alpine`'
+      correct_answer: 1
+    - id: q8
+      question: 'Em um Dockerfile, qual instrução é usada para copiar arquivos do host para a imagem?'
+      type: multiple_choice_single
+      options:
+        - 'ADD'
+        - 'COPY'
+        - 'MOVE'
+        - 'TRANSFER'
+      explanation: 'A instrução "COPY" copia arquivos e diretórios do host para o sistema de arquivos da imagem. Exemplo: `COPY package.json ./`'
+      correct_answer: 1
+    - id: q9
+      question: 'O que significa a flag "-p 8080:80" no comando docker run?'
+      type: multiple_choice_single
+      options:
+        - 'Pausa o container após 8080 segundos'
+        - 'Mapeia a porta 80 do container para a porta 8080 do host'
+        - 'Define a prioridade do processo para 80'
+        - 'Configura 8080MB de memória para o container'
+      explanation: 'A flag `-p` mapeia portas. `-p 8080:80` significa: "Tudo que chegar na porta 8080 do meu computador, redirecione para a porta 80 dentro do container". Assim você acessa via http://localhost:8080'
+      correct_answer: 1
+    - id: q10
+      question: 'Qual problema comum no desenvolvimento o Docker ajuda a resolver?'
+      type: multiple_choice_single
+      options:
+        - 'Falta de cores no terminal'
+        - 'Velocidade da internet'
+        - '"Funciona na minha máquina" (inconsistências de ambiente)'
+        - 'Custo alto de IDEs'
+      explanation: 'Docker resolve o clássico problema "funciona na minha máquina" garantindo ambientes consistentes em desenvolvimento, teste e produção através de containers padronizados.'
+      correct_answer: 2
+    - id: q11
+      question: 'Como você para um container Docker graciosamente?'
+      type: multiple_choice_single
+      options:
+        - 'docker kill [container]'
+        - 'docker stop [container]'
+        - 'docker end [container]'
+        - 'docker terminate [container]'
+      explanation: '`docker stop` envia um sinal SIGTERM, permitindo que o container finalize processos graciosamente. `docker kill` força a parada imediata (SIGKILL).'
+      correct_answer: 1
+    - id: q12
+      question: 'O que é o Docker Hub?'
+      type: multiple_choice_single
+      options:
+        - 'Um hardware especial para rodar Docker'
+        - 'Um repositório público de imagens Docker'
+        - 'Uma interface gráfica para o Docker'
+        - 'Um serviço de hospedagem de containers'
+      explanation: 'Docker Hub é o maior repositório público de imagens Docker, onde você encontra imagens oficiais (nginx, node, python) e compartilha suas próprias imagens.'
+      correct_answer: 1
+    - id: q13
+      question: 'Você tem um Dockerfile e quer criar uma imagem chamada "meu-app" com a tag "v1.0". Qual comando usar?'
+      type: multiple_choice_single
+      options:
+        - 'docker create meu-app:v1.0'
+        - 'docker build -t meu-app:v1.0 .'
+        - 'docker run meu-app:v1.0'
+        - 'docker tag meu-app v1.0'
+      explanation: 'A flag `-t` define o nome e tag da imagem. O ponto final (.) indica o contexto de build (diretório atual onde está o Dockerfile).'
+      correct_answer: 1
+    - id: q14
+      question: 'Você precisa ver os logs de um container em execução chamado "web-server". Como fazer?'
+      type: multiple_choice_single
+      options:
+        - 'docker logs web-server'
+        - 'docker show logs web-server'
+        - 'docker inspect web-server --logs'
+        - 'docker output web-server'
+      explanation: '`docker logs` mostra a saída padrão (stdout/stderr) do container. Use `docker logs -f` para seguir os logs em tempo real.'
+      correct_answer: 0
+    - id: q15
+      question: 'Qual é o propósito do comando "docker exec"?'
+      type: multiple_choice_single
+      options:
+        - 'Executar um novo comando em um container em execução'
+        - 'Executar o Docker pela primeira vez'
+        - 'Criar um executável do container'
+        - 'Exportar o container para um arquivo'
+      explanation: '`docker exec` permite executar comandos adicionais dentro de um container já em execução. Exemplo: `docker exec -it meu-container bash` para obter um shell.'
+      correct_answer: 0
+    - id: q16
+      question: 'Verdadeiro ou Falso: Containers são mais pesados que máquinas virtuais porque precisam de um sistema operacional completo.'
+      type: true_false
+      options:
+        - 'Verdadeiro'
+        - 'Falso'
+      explanation: 'FALSO! Containers são MAIS LEVES que VMs porque compartilham o kernel do host. VMs precisam de um SO completo para cada instância, tornando-as muito mais pesadas.'
+      correct_answer: 1
+    - id: q17
+      question: 'Verdadeiro ou Falso: Você pode ter múltiplos containers rodando a partir da mesma imagem Docker.'
+      type: true_false
+      options:
+        - 'Verdadeiro'
+        - 'Falso'
+      explanation: 'VERDADEIRO! Uma imagem é um template. Você pode criar quantos containers quiser a partir dela, cada um isolado dos outros.'
+      correct_answer: 0
+    - id: q18
+      question: 'Verdadeiro ou Falso: Docker só funciona em sistemas Linux.'
+      type: true_false
+      options:
+        - 'Verdadeiro'
+        - 'Falso'
+      explanation: 'FALSO! Docker funciona em Windows, Mac e Linux. No Windows e Mac, ele roda em uma máquina virtual Linux leve, mas a experiência do usuário é a mesma.'
+      correct_answer: 1
+    - id: q19
+      question: 'O que significa a sigla DevOps na prática com Docker?'
+      type: multiple_choice_single
+      options:
+        - 'Desenvolvedores fazendo trabalho de operações'
+        - 'Colaboração entre desenvolvimento e operações usando automação'
+        - 'Desenvolvedores substituindo a equipe de operações'
+        - 'Operações escrevendo código de aplicação'
+      explanation: 'DevOps é sobre colaboração e automação. Docker facilita isso fornecendo ambientes consistentes do desenvolvimento à produção, reduzindo atritos entre times.'
+      correct_answer: 1
+    - id: q20
+      question: 'Qual é uma vantagem de usar containers para microserviços?'
+      type: multiple_choice_single
+      options:
+        - 'Cada microserviço pode ter suas próprias dependências isoladas'
+        - 'Todos os microserviços devem usar as mesmas versões de bibliotecas'
+        - 'Containers obrigam todos os serviços a usar a mesma linguagem'
+        - 'Microserviços em containers não podem se comunicar entre si'
+      explanation: 'Containers permitem que cada microserviço tenha suas próprias dependências, versões de runtime e configurações, sem conflitar com outros serviços.'
+      correct_answer: 0

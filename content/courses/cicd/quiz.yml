@@ -1,0 +1,326 @@
+quiz:
+  course_id: cicd
+  title: 'Quiz: CI/CD Fundamentos e Prática'
+  description: Teste seus conhecimentos sobre Integração e Entrega Contínua
+  time_limit: 1500
+  passing_score: 70
+  questions:
+  - id: q1
+    question: O que significa CI no contexto de CI/CD?
+    type: multiple_choice_single
+    options:
+      - Continuous Inspection
+      - Continuous Integration
+      - Constant Improvement
+      - Code Integration
+    explanation: CI significa Integração Contínua - prática de integrar código frequentemente com builds e testes automatizados.
+    correct_answer: 1
+  - id: q2
+    question: Qual é a principal diferença entre Continuous Delivery e Continuous Deployment?
+    type: multiple_choice_single
+    options:
+      - Delivery tem deploy manual, Deployment é totalmente automático
+      - Delivery usa Docker, Deployment não
+      - São termos sinônimos
+      - Delivery é mais rápido que Deployment
+    explanation: Continuous Delivery permite deploy manual após testes, enquanto Continuous Deployment implanta automaticamente após aprovação.
+    correct_answer: 0
+  - id: q3
+    question: Com qual frequência o código deve ser integrado em um sistema CI?
+    type: multiple_choice_single
+    options:
+      - Diariamente
+      - Várias vezes ao dia
+      - Semanalmente
+      - A cada sprint
+    explanation: O ideal é integrar pequenas mudanças várias vezes ao dia para minimizar conflitos e detectar bugs rapidamente.
+    correct_answer: 1
+  - id: q4
+    question: Qual destes NÃO é um benefício direto do CI/CD?
+    type: multiple_choice_single
+    options:
+      - Feedback rápido sobre bugs
+      - Redução de bugs em produção
+      - Aumento de burocracia
+      - Entrega mais frequente
+    explanation: CI/CD REDUZ burocracia ao automatizar processos. Os benefícios incluem feedback rápido, menos bugs e entregas frequentes.
+    correct_answer: 2
+  - id: q5
+    question: 'O termo "Pipeline" em CI/CD se refere a:'
+    type: multiple_choice_single
+    options:
+      - Um conjunto automatizado de etapas do código à produção
+      - Um banco de dados de configurações
+      - Um servidor de builds
+      - Um tipo de teste automatizado
+    explanation: Pipeline é a sequência automatizada de etapas que leva o código desde
+      o commit até a produção.
+    correct_answer: 0
+  - id: "6"
+    question: Qual prática é essencial para um CI efetivo?
+    type: multiple_choice_single
+    options:
+    - Testes automatizados abrangentes
+    - Reuniões diárias longas
+    - Documentação extensa
+    - Uso de metodologia ágil
+    explanation: Testes automatizados são fundamentais para CI, pois fornecem feedback
+      imediato sobre a qualidade do código integrado.
+    correct_answer: 0
+  - id: "7"
+    question: 'Trunk-Based Development é recomendado para CI/CD porque:'
+    type: multiple_choice_single
+    options:
+    - Promove branches de curta duração e integração frequente
+    - É mais fácil gerenciar do que Git Flow
+    - Não requer controle de versão
+    - Elimina a necessidade de testes
+    explanation: Trunk-Based Development com branches de curta duração facilita a
+      integração frequente, essencial para CI.
+    correct_answer: 0
+  - id: "8"
+    question: O que é um 'Build Breaker'?
+    type: multiple_choice_single
+    options:
+    - Uma ferramenta para parar builds
+    - Um commit que faz a pipeline falhar
+    - Um servidor de CI com defeito
+    - Um tipo de teste de carga
+    explanation: Build Breaker é qualquer commit que cause falha na pipeline, exigindo
+      correção imediata.
+    correct_answer: 1
+  - id: "9"
+    question: 'Verdadeiro ou Falso: CI/CD elimina completamente a necessidade de testes
+      manuais.'
+    type: true_false
+    options:
+    - Verdadeiro
+    - Falso
+    explanation: Falso. Testes manuais ainda são necessários para UX, testes exploratórios
+      e certos cenários complexos.
+    correct_answer: 1
+  - id: "10"
+    question: Qual destes é um anti-padrão em CI/CD?
+    type: multiple_choice_single
+    options:
+    - Pipeline longa (>30 minutos)
+    - Notificações em caso de falha
+    - Testes paralelos
+    - Cache de dependências
+    explanation: Pipelines muito longas (>30min) são um anti-padrão pois atrasam o
+      feedback. O ideal é <10 minutos.
+    correct_answer: 0
+  - id: "11"
+    question: Qual ferramenta é self-hosted e altamente customizável?
+    type: multiple_choice_single
+    options:
+    - Jenkins
+    - GitHub Actions
+    - CircleCI
+    - Travis CI
+    explanation: Jenkins é open-source e self-hosted, permitindo alta customização
+      através de plugins.
+    correct_answer: 0
+  - id: "12"
+    question: Qual ferramenta é nativa do GitHub?
+    type: multiple_choice_single
+    options:
+    - GitLab CI
+    - GitHub Actions
+    - Jenkins
+    - Azure Pipelines
+    explanation: GitHub Actions é a solução nativa de CI/CD da plataforma GitHub.
+    correct_answer: 1
+  - id: "13"
+    question: Qual destes NÃO é um tipo comum de ferramenta CI/CD?
+    type: multiple_choice_single
+    options:
+    - SaaS (Software as a Service)
+    - Self-hosted
+    - Hybrid
+    - Blockchain-based
+    explanation: As categorias principais são SaaS (nuvem), self-hosted (on-premise)
+      e híbridas. Blockchain-based não é uma categoria comum.
+    correct_answer: 3
+  - id: "14"
+    question: O que significa 'Pipeline as Code' (PaC)?
+    type: multiple_choice_single
+    options:
+    - Escrever pipeline em arquivos de configuração versionados
+    - Gerar código automaticamente da pipeline
+    - Usar código para testar a pipeline
+    - Pipeline que escreve código sozinha
+    explanation: Pipeline as Code significa definir pipelines em arquivos de configuração
+      (YAML, Groovy) versionados no Git.
+    correct_answer: 0
+  - id: "15"
+    question: Qual vantagem NÃO é oferecida por ferramentas SaaS como GitHub Actions?
+    type: multiple_choice_single
+    options:
+    - Manutenção zero de infraestrutura
+    - Escalabilidade automática
+    - Custo total previsível
+    - Customização ilimitada sem custo
+    explanation: Ferramentas SaaS tem custos que aumentam com o uso e podem ter limites
+      de customização.
+    correct_answer: 3
+  - id: "16"
+    question: Para uma startup com orçamento limitado, qual ferramenta é mais adequada?
+    type: multiple_choice_single
+    options:
+    - GitHub Actions (plano gratuito)
+    - Jenkins Enterprise
+    - CircleCI Pro
+    - Azure DevOps Server
+    explanation: GitHub Actions oferece plano gratuito generoso para repositórios
+      públicos e uso moderado.
+    correct_answer: 0
+  - id: "17"
+    question: Qual ferramenta faz parte do GitLab?
+    type: multiple_choice_single
+    options:
+    - GitHub Actions
+    - GitLab CI
+    - Bitbucket Pipelines
+    - Jenkins X
+    explanation: GitLab CI/CD é a solução nativa integrada ao GitLab.
+    correct_answer: 1
+  - id: "18"
+    question: 'Verdadeiro ou Falso: Jenkins requer apenas Java para funcionar.'
+    type: true_false
+    options:
+    - Verdadeiro
+    - Falso
+    explanation: Verdadeiro. Jenkins é uma aplicação Java que roda em qualquer sistema
+      com JRE.
+    correct_answer: 0
+  - id: "19"
+    question: O que são 'Runners' em GitLab CI?
+    type: multiple_choice_single
+    options:
+    - Máquinas que executam jobs da pipeline
+    - Usuários que revisam código
+    - Testes de performance
+    - Scripts de deployment
+    explanation: Runners são agentes/máquinas que executam os jobs definidos na pipeline
+      do GitLab CI.
+    correct_answer: 0
+  - id: "20"
+    question: Qual formato de arquivo é comum para definir pipelines?
+    type: multiple_choice_single
+    options:
+    - YAML
+    - XML
+    - JSON
+    - CSV
+    explanation: YAML é o formato mais comum para definir pipelines em ferramentas
+      modernas como GitHub Actions e GitLab CI.
+    correct_answer: 0
+  - id: "21"
+    question: O que é Blue-Green Deployment?
+    type: multiple_choice_single
+    options:
+    - Dois ambientes idênticos onde alterna-se o tráfego
+    - Deploy apenas às segundas e quintas
+    - Usar containers azuis e verdes
+    - Estratégia para economizar custos
+    explanation: Blue-Green mantém dois ambientes idênticos (blue e green), alternando
+      o tráfego entre eles para zero downtime.
+    correct_answer: 0
+  - id: "22"
+    question: Qual destes é um risco de segurança em CI/CD?
+    type: multiple_choice_single
+    options:
+    - Secrets hardcoded no repositório
+    - Usar HTTPS para clones
+    - Logs detalhados
+    - Testes automatizados
+    explanation: Secrets hardcoded são um grave risco. Use variáveis de ambiente gerenciadas
+      pela plataforma.
+    correct_answer: 0
+  - id: "23"
+    question: O que significa 'Canary Release'?
+    type: multiple_choice_single
+    options:
+    - Liberar nova versão gradualmente para um subconjunto de usuários
+    - Liberar apenas em horários específicos
+    - Testar com pássaros canários (brincadeira)
+    - Usar apenas releases estáveis
+    explanation: Canary Release libera mudanças gradualmente, começando com pequeno
+      percentual de usuários para validar.
+    correct_answer: 0
+  - id: "24"
+    question: Qual métrica NÃO faz parte das Four Key Metrics do DORA?
+    type: multiple_choice_single
+    options:
+    - Lead Time for Changes
+    - Deployment Frequency
+    - Mean Time to Recovery (MTTR)
+    - Lines of Code Written
+    explanation: 'As Four Key Metrics são: Lead Time, Deployment Frequency, Change
+      Failure Rate e MTTR. LOC não é uma delas.'
+    correct_answer: 3
+  - id: "25"
+    question: O que é 'GitOps'?
+    type: multiple_choice_single
+    options:
+    - Usar Git como única fonte de verdade para infraestrutura e deployments
+    - Operar apenas com Git
+    - Substituir CI/CD por Git
+    - Usar Git para tudo
+    explanation: GitOps usa Git como fonte declarativa para infraestrutura, com reconciliação
+      automática para o estado desejado.
+    correct_answer: 0
+  - id: "26"
+    question: Qual destes NÃO é um tipo comum de cache em pipelines?
+    type: multiple_choice_single
+    options:
+    - Cache de dependências
+    - Cache de imagens Docker
+    - Cache de banco de dados
+    - Cache de diretórios de build
+    explanation: 'Cache de banco de dados não é comum em pipelines. Caches comuns
+      são: dependências, imagens Docker e artefatos.'
+    correct_answer: 2
+  - id: "27"
+    question: O que são 'Flaky Tests'?
+    type: multiple_choice_single
+    options:
+    - Testes que falham aleatoriamente sem mudança no código
+    - Testes muito rápidos
+    - Testes escritos em linguagem diferente
+    - Testes que sempre passam
+    explanation: Flaky Tests são inconsistentes - passam ou falham aleatoriamente,
+      prejudicando a confiança na pipeline.
+    correct_answer: 0
+  - id: "28"
+    question: Qual prática ajuda a reduzir pipeline flaky?
+    type: multiple_choice_single
+    options:
+    - Isolar e quarantenar testes flaky
+    - Remover todos os testes
+    - Executar testes apenas manualmente
+    - Ignorar falhas de testes
+    explanation: Isolar testes flaky em quarentena evita que prejudiquem a pipeline
+      enquanto são investigados.
+    correct_answer: 0
+  - id: "29"
+    question: Verdadeiro ou Falso Feature Flags são úteis para Continuous Deployment.
+    type: true_false
+    options:
+    - Verdadeiro
+    - Falso
+    explanation: Verdadeiro. Feature Flags permitem deploy contínuo de código com
+      controle sobre quando features são ativadas.
+    correct_answer: 0
+  - id: "30"
+    question: Qual destes é um benefício de medir métricas de CI/CD?
+    type: multiple_choice_single
+    options:
+    - Identificar bottlenecks na pipeline
+    - Aumentar burocracia
+    - Substituir comunicação da equipe
+    - Eliminar necessidade de testes
+    explanation: Métricas ajudam a identificar gargalos, medir eficiência e tomar
+      decisões baseadas em dados para melhorar a pipeline.
+    correct_answer: 0

@@ -1,0 +1,100 @@
+# ================================================================
+# TEMPLATE PARA CRIAÇÃO DE NOVOS CURSOS
+# ================================================================
+# Este arquivo contém todos os metadados do seu curso.
+# Copie a pasta _template, renomeie para o slug do seu curso e preencha os campos abaixo.
+#
+# IMPORTANTE: O ID deve ser único e igual ao nome da pasta do curso!
+# ================================================================
+
+# ===== IDENTIFICAÇÃO DO CURSO =====
+id: meu-curso-slug  # Nome único (use kebab-case: minúsculas com hífens)
+title: Título do Curso  # Nome completo que aparece no site
+description: Descrição breve e objetiva do curso em 1-2 frases. Explique o que o aluno vai aprender.
+
+# ===== INFORMAÇÕES GERAIS =====
+duration: 30 min  # Tempo estimado de conclusão (ex: "30 min", "1h 30min", "2 horas")
+level: Iniciante  # Opções: Iniciante, Intermediário, Avançado
+
+# ===== ÁREA DO CONHECIMENTO =====
+# A área define o ícone e cor padrão do curso automaticamente
+# Áreas disponíveis (veja /src/lib/config/areas.ts para lista completa):
+# - Tecnologia: Desenvolvimento, DevOps, Infraestrutura, Cloud, Dados, IA, Segurança, QA, Arquitetura
+# - Design & Produto: Design, UX, Produto
+# - Marketing & Vendas: Marketing, Growth, Vendas, Comunidade
+# - Gestão: Gestão, Liderança, Agilidade, Inovação
+# - Carreira: Carreira, Soft Skills, Empreendedorismo, Finanças
+# - Educação: Educação, Idiomas
+area: Desenvolvimento
+
+# ===== IMAGEM DE CAPA (OPCIONAL) =====
+# Você pode adicionar uma imagem de capa personalizada de 3 formas:
+# 
+# OPÇÃO 1 - Auto-detecção (RECOMENDADO):
+# Adicione um arquivo chamado cover.png na pasta do curso.
+# O sistema detecta automaticamente: /content/courses/seu-curso/cover.png
+#
+# OPÇÃO 2 - URL externa:
+# cover: "https://exemplo.com/imagem.png"
+#
+# OPÇÃO 3 - Caminho customizado:
+# cover: "/images/courses/meu-curso-slug/capa.png"
+#
+# Especificações recomendadas:
+# - Formato: PNG, JPG ou WebP
+# - Dimensões: 400x300px (proporção 4:3)
+# - Tamanho máximo: 500KB
+# - Cores: Use as cores da área ou paleta do site
+#
+# Se não especificar, o sistema usa o ícone e cor da área automaticamente.
+
+# ===== TAGS =====
+# Liste palavras-chave relacionadas ao conteúdo (máximo 5 tags)
+tags:
+  - Tag1
+  - Tag2
+  - Tag3
+
+# ===== INSTRUTOR =====
+# O ID deve corresponder a um instrutor cadastrado em /content/instructors/instructors.yml
+instructor:
+  id: id-do-instrutor  # Ex: comunidade-aprendi, walter-ribeiro, etc.
+
+# ===== STATUS DE PUBLICAÇÃO =====
+published: false  # true = visível no site | false = oculto (modo rascunho)
+featured: false   # true = aparece em destaque na home | false = apenas na listagem
+
+# ===== EXEMPLOS DE PREENCHIMENTO =====
+#
+# Curso de DevOps:
+# id: kubernetes-basico
+# title: Kubernetes para Iniciantes
+# description: Aprenda os conceitos fundamentais de orquestração de containers com Kubernetes.
+# duration: 1h 30min
+# level: Intermediário
+# area: DevOps
+# tags:
+#   - Kubernetes
+#   - Containers
+#   - Orquestração
+# instructor:
+#   id: walter-ribeiro
+# published: true
+# featured: true
+#
+# Curso de Desenvolvimento:
+# id: react-hooks
+# title: React Hooks na Prática
+# description: Domine os hooks do React e construa aplicações modernas e performáticas.
+# duration: 45 min
+# level: Intermediário
+# area: Desenvolvimento
+# tags:
+#   - React
+#   - JavaScript
+#   - Frontend
+# instructor:
+#   id: comunidade-aprendi
+# published: true
+# featured: false
+

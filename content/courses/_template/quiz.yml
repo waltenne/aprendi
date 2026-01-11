@@ -1,0 +1,171 @@
+# ================================================================
+# TEMPLATE DE QUIZ PARA CURSOS
+# ================================================================
+# Este arquivo define as perguntas do quiz que aparece ao final do curso.
+# O aluno só pode fazer o quiz após completar 80% do conteúdo.
+# ================================================================
+
+quiz:
+  # ===== IDENTIFICAÇÃO =====
+  course_id: meu-curso-slug  # DEVE ser IDÊNTICO ao ID do meta.yml
+  title: Quiz do Curso  # Título que aparece na página do quiz
+  description: Teste seus conhecimentos sobre o conteúdo aprendido  # (Opcional) Descrição breve
+
+  # ===== CONFIGURAÇÕES DO QUIZ =====
+  time_limit: 600  # Tempo limite em SEGUNDOS (600 = 10 minutos)
+  # Recomendações de tempo:
+  # - 3-5 perguntas: 180-300s (3-5 min)
+  # - 6-10 perguntas: 600-900s (10-15 min)
+  # - 11-15 perguntas: 900-1200s (15-20 min)
+  # - 16+ perguntas: 1200-1800s (20-30 min)
+  
+  passing_score: 70  # Nota mínima para aprovação (0-100)
+  # Recomendações:
+  # - 60%: Cursos introdutórios
+  # - 70%: Padrão recomendado
+  # - 80%: Cursos avançados ou certificações
+
+  # ===== PERGUNTAS =====
+  questions:
+    # ------------------------------------------------
+    # PERGUNTA 1: Múltipla escolha (resposta única)
+    # ------------------------------------------------
+    - id: q1  # ID único da pergunta (ex: q1, q2, q3...)
+      type: multiple_choice_single  # Tipo: uma resposta correta
+      question: Qual é a definição correta de Docker?
+      options:
+        - "Um sistema operacional baseado em Linux"
+        - "Uma plataforma para criar e executar containers"  # ← Correta
+        - "Um gerenciador de banco de dados"
+        - "Uma linguagem de programação"
+      correct_answer: 1  # Índice da resposta correta (0-based: 0=primeira, 1=segunda, etc.)
+      explanation: Docker é uma plataforma que permite criar, distribuir e executar aplicações em containers isolados.
+      hint: Pense em isolamento e portabilidade de aplicações  # (Opcional) Dica antes de responder
+      points: 10  # Pontuação desta pergunta
+
+    # ------------------------------------------------
+    # PERGUNTA 2: Verdadeiro ou Falso
+    # ------------------------------------------------
+    - id: q2
+      type: true_false  # Tipo: verdadeiro/falso
+      question: Containers compartilham o kernel do sistema operacional host
+      options:
+        - "Verdadeiro"  # ← Correta
+        - "Falso"
+      correct_answer: 0  # 0 = Verdadeiro | 1 = Falso
+      explanation: Sim! Containers compartilham o kernel do SO host, diferente de VMs que têm seu próprio kernel.
+      points: 10
+
+    # ------------------------------------------------
+    # PERGUNTA 3: Múltipla escolha com dica
+    # ------------------------------------------------
+    - id: q3
+      type: multiple_choice_single
+      question: Qual comando é usado para criar uma nova imagem Docker a partir de um Dockerfile?
+      options:
+        - "docker create"
+        - "docker make"
+        - "docker build"  # ← Correta
+        - "docker new"
+      correct_answer: 2
+      explanation: O comando 'docker build' lê um Dockerfile e cria uma nova imagem baseada nas instruções contidas nele.
+      hint: Pense no termo usado em construção/compilação
+      points: 10
+
+    # ------------------------------------------------
+    # PERGUNTA 4: Sem dica
+    # ------------------------------------------------
+    - id: q4
+      type: multiple_choice_single
+      question: Qual arquivo define as instruções para construir uma imagem Docker?
+      options:
+        - "docker-config.yml"
+        - "Dockerfile"  # ← Correta
+        - "image.json"
+        - "container.xml"
+      correct_answer: 1
+      explanation: O Dockerfile é um arquivo de texto que contém todos os comandos necessários para montar uma imagem Docker.
+      points: 10
+
+    # ------------------------------------------------
+    # PERGUNTA 5: Verdadeiro/Falso sem dica
+    # ------------------------------------------------
+    - id: q5
+      type: true_false
+      question: É possível executar múltiplos containers a partir da mesma imagem Docker
+      options:
+        - "Verdadeiro"  # ← Correta
+        - "Falso"
+      correct_answer: 0
+      explanation: Sim! Uma imagem é um template imutável, e você pode criar quantos containers quiser a partir dela.
+      points: 10
+
+# ================================================================
+# TIPOS DE PERGUNTA DISPONÍVEIS
+# ================================================================
+# 
+# 1. multiple_choice_single
+#    - Uma resposta correta dentre várias opções
+#    - Mínimo 2 opções, recomendado 4 opções
+#    - Use correct_answer com o índice (0-based) da opção correta
+#
+# 2. true_false
+#    - Apenas duas opções: Verdadeiro/Falso
+#    - correct_answer: 0 = Verdadeiro | 1 = Falso
+#    - Sempre use as opções "Verdadeiro" e "Falso" nesta ordem
+#
+# FUTURO (não implementado ainda):
+# 3. multiple_choice_multiple
+#    - Múltiplas respostas corretas
+#    - correct_answer seria um array: [0, 2, 3]
+#
+# ================================================================
+# BOAS PRÁTICAS
+# ================================================================
+#
+# ✅ FAÇA:
+# - Escreva perguntas claras e objetivas
+# - Crie opções de resposta plausíveis (não óbvias)
+# - Adicione explicações detalhadas para reforçar o aprendizado
+# - Use hints para perguntas mais complexas
+# - Varie os tipos de pergunta (múltipla escolha + verdadeiro/falso)
+# - Distribua pontos uniformemente (ou dê mais pontos para perguntas difíceis)
+# - Teste o quiz você mesmo antes de publicar
+# - Mínimo 5 perguntas, máximo recomendado 15
+#
+# ❌ EVITE:
+# - Perguntas ambíguas ou mal formuladas
+# - Opções de resposta muito óbvias ou ridículas
+# - Perguntas que não cobrem o conteúdo do curso
+# - Usar linguagem muito técnica sem explicação
+# - Muitas perguntas (causa fadiga)
+# - Poucas perguntas (não avalia bem o conhecimento)
+# - Esquecer de testar o quiz
+#
+# ================================================================
+# SISTEMA DE TIMER
+# ================================================================
+#
+# O quiz possui um timer regressivo automático que:
+# - Inicia quando o usuário abre a página do quiz
+# - Conta regressivamente até zero
+# - Muda de cor quando faltam 5 minutos (amarelo)
+# - Fica vermelho e pulsa quando falta 1 minuto
+# - Ao expirar, mostra modal com contador de 5s para reload
+# - Bloqueia todas as interações quando o tempo acaba
+# - Não salva respostas parciais
+#
+# O aluno pode refazer o quiz quantas vezes quiser!
+#
+# ================================================================
+# CERTIFICADO
+# ================================================================
+#
+# Após aprovação no quiz (nota >= passing_score):
+# - Botão "Gerar Certificado" aparece automaticamente
+# - Certificado inclui: nome do aluno, curso, data, instrutor
+# - Download em PNG de alta qualidade
+# - Design profissional com logo da plataforma
+#
+# ================================================================
+
