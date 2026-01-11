@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { SidebarLayout } from '@/components/layout/SidebarLayout';
+import React from 'react';
 import { ThemeProvider } from '@/components/theme-provider';
 import { UmamiAnalytics } from '@/components/analytics';
 import { Toaster } from '@/components/ui/toaster';
@@ -52,10 +53,12 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <SidebarLayout levels={levels} instructors={instructors} areas={areas} tags={tags}>
-            {children}
-            <Toaster />
-          </SidebarLayout>
+          <React.Suspense fallback={<div />}> 
+            <SidebarLayout levels={levels} instructors={instructors} areas={areas} tags={tags}>
+              {children}
+              <Toaster />
+            </SidebarLayout>
+          </React.Suspense>
         </ThemeProvider>
       </body>
     </html>
