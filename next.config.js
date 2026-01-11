@@ -1,23 +1,24 @@
 /** @type {import('next').NextConfig} */
+const isGithubPages = process.env.GITHUB_PAGES === 'true';
+const basePath = isGithubPages ? '/aprendi' : '';
+
 const nextConfig = {
-  // Output estático para GitHub Pages
   output: 'export',
-  
-  // Desabilitar imagens otimizadas para export estático
   images: {
     unoptimized: true,
   },
-  
-  // Trailing slash para compatibilidade com GitHub Pages
   trailingSlash: true,
   
-  // Base path para GitHub Pages
-  // IMPORTANTE: Para waltenne/aprendi, use '/aprendi'
-  basePath: process.env.GITHUB_PAGES === 'true' ? '/aprendi' : '',
-  assetPrefix: process.env.GITHUB_PAGES === 'true' ? '/aprendi/' : '',
+  // BasePath para rotas
+  basePath: basePath,
   
-  // Desabilitar API routes (não suportadas em export estático)
-  // Se você tem API routes, considere usar getStaticProps/getStaticPaths
+  // AssetPrefix para assets estáticos (IMPORTANTE!)
+  assetPrefix: basePath ? `${basePath}/` : '',
+  
+  // Para debugging
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
 };
 
 module.exports = nextConfig;
