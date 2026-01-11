@@ -1,109 +1,44 @@
-#!/usr/bin/env node
-
-/**
- * Script para copiar imagens de cursos e instrutores para a pasta public
- * Necessário para o build estático do Next.js funcionar no GitHub Pages
- */
-
-const fs = require('fs');
+// scripts/copy-images.js
+const fs = require('fs-extra');
 const path = require('path');
 
-const COURSES_DIR = path.join(process.cwd(), 'content', 'courses');
-const INSTRUCTORS_DIR = path.join(process.cwd(), 'content', 'instructors');
-const PUBLIC_DIR = path.join(process.cwd(), 'public');
-
-// Cria diretórios na public se não existirem
-function ensureDir(dir) {
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
-}
-
-// Copia arquivo
-function copyFile(src, dest) {
-  try {
-    fs.copyFileSync(src, dest);
-    console.log(`✓ Copiado: ${path.basename(dest)}`);
-  } catch (error) {
-    console.error(`✗ Erro ao copiar ${src}:`, error.message);
-  }
-}
-
-// Copia imagens dos cursos
-function copyCourseImages() {
-  console.log('\n📦 Copiando imagens dos cursos...');
+async function copyImages() {
+  console.log('🖼️  Copiando imagens...');
   
-  const coursesPublicDir = path.join(PUBLIC_DIR, 'courses');
-  ensureDir(coursesPublicDir);
+  const publicDir = path.join(__dirname, '../public');
+  const outDir = path.join(__dirname, '../out');
   
-  if (!fs.existsSync(COURSES_DIR)) {
-    console.log('⚠️  Diretório de cursos não encontrado');
+  if (!await fs.pathExists(publicDir)) {
+    console.log('⚠️  Pasta public não encontrada, pulando cópia de imagens');
     return;
   }
   
-  const courses = fs.readdirSync(COURSES_DIR, { withFileTypes: true })
-    .filter(dirent => dirent.isDirectory())
-    .map(dirent => dirent.name);
+  // Garantir que o diretório out existe
+  await fs.ensureDir(outDir);
   
-  let count = 0;
+  // Copiar toda a pasta public para out
+  await fs.copy(publicDir, outDir, {
+    overwrite: true,
+    errorOnExist: false
+  });
   
-  for (const courseSlug of courses) {
-    const logoPath = path.join(COURSES_DIR, courseSlug, 'images', 'logo');
-    
-    if (!fs.existsSync(logoPath)) {
-      continue;
-    }
-    
-    // Cria diretório do curso
-    const coursePublicDir = path.join(coursesPublicDir, courseSlug);
-    ensureDir(coursePublicDir);
-    
-    // Copia todas as imagens
-    const images = fs.readdirSync(logoPath);
-    for (const image of images) {
-      const srcPath = path.join(logoPath, image);
-      const destPath = path.join(coursePublicDir, image);
-      copyFile(srcPath, destPath);
-      count++;
-    }
-  }
+  console.log('✅ Imagens copiadas de public/ para out/');
   
-  console.log(`✅ ${count} imagens de cursos copiadas\n`);
+  // Também copiar para subdiretório aprendi (para garantir)
+  const subdir = path.join(outDir, 'aprendi');
+  await fs.ensureDir(subdir);
+  await fs.copy(publicDir, subdir, {
+    overwrite: true
+  });
+  
+  console.log('✅ Imagens também copiadas para out/aprendi/ (backup)');
 }
 
-// Copia avatares dos instrutores
-function copyInstructorAvatars() {
-  console.log('👤 Copiando avatares dos instrutores...');
-  
-  const instructorsPublicDir = path.join(PUBLIC_DIR, 'instructors');
-  ensureDir(instructorsPublicDir);
-  
-  const imagesPath = path.join(INSTRUCTORS_DIR, 'images');
-  
-  if (!fs.existsSync(imagesPath)) {
-    console.log('⚠️  Diretório de avatares não encontrado');
-    return;
-  }
-  
-  const avatars = fs.readdirSync(imagesPath);
-  let count = 0;
-  
-  for (const avatar of avatars) {
-    const srcPath = path.join(imagesPath, avatar);
-    const destPath = path.join(instructorsPublicDir, avatar);
-    
-    // Só copia arquivos (não diretórios)
-    if (fs.statSync(srcPath).isFile()) {
-      copyFile(srcPath, destPath);
-      count++;
-    }
-  }
-  
-  console.log(`✅ ${count} avatares copiados\n`);
+if (require.main === module) {
+  copyImages().catch(error => {
+    console.error('❌ Erro ao copiar imagens:', error);
+    process.exit(1);
+  });
 }
 
-// Executa
-console.log('🚀 Preparando imagens para build estático...');
-copyCourseImages();
-copyInstructorAvatars();
-console.log('✨ Concluído!\n');
+module.exports = { copyImages };

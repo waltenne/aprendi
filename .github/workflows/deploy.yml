@@ -35,8 +35,11 @@ jobs:
       - name: Build with basePath
         env:
           GITHUB_PAGES: 'true'
-          NEXT_PUBLIC_BASE_PATH: '/aprendi'
-        run: npm run build
+          # 🔥 ADICIONE ESTA VARIÁVEL
+          NEXT_PUBLIC_ASSET_PREFIX: '/aprendi/'
+        run: |
+          echo "Building with basePath: /aprendi"
+          run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3  # ⬅️ ATUALIZADO PARA v3
