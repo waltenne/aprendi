@@ -17,6 +17,10 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      # 🔥 VARIÁVEL CRÍTICA AQUI
+      GITHUB_PAGES: 'true'
+      
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,23 +28,23 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 18
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm i
+        run: npm ci
 
       - name: Build (production)
-        env:
-          GITHUB_PAGES: 'true'
-        run: |
-          # export repo name for next.config.js (used only if needed)
-          echo "GITHUB_REPOSITORY_NAME=${GITHUB_REPOSITORY##*/}" >> $GITHUB_ENV
-          npm run build
+        run: npm run build
 
-      - name: Deploy (publish `out/` to gh-pages)
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
         with:
-          publish_dir: ./out
-          publish_branch: gh-pages
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          path: './out'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
