@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fapi\u002Fcourse-image\u002F[courseId]\u002F[filename]","\u002Fapi\u002Finstructor-avatar\u002F[instructorId]","\u002Fcursos\u002F[slug]","\u002Fcursos\u002F[slug]\u002Fcertificado","\u002Fcursos\u002F[slug]\u002Fquiz","\u002Finstrutores\u002F[id]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

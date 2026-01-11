@@ -1,0 +1,2202 @@
+2:I[2972,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","170","static/chunks/170-6bf90522e0c0a634.js","345","static/chunks/345-267ac2c1e02b1490.js","290","static/chunks/app/instrutores/%5Bid%5D/page-9ef2bc3d4f848512.js"],""]
+3:I[5878,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","170","static/chunks/170-6bf90522e0c0a634.js","345","static/chunks/345-267ac2c1e02b1490.js","290","static/chunks/app/instrutores/%5Bid%5D/page-9ef2bc3d4f848512.js"],"Image"]
+4:I[7313,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","170","static/chunks/170-6bf90522e0c0a634.js","345","static/chunks/345-267ac2c1e02b1490.js","290","static/chunks/app/instrutores/%5Bid%5D/page-9ef2bc3d4f848512.js"],"CourseCard"]
+10:I[4707,[],""]
+12:I[6423,[],""]
+13:I[3605,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","1","static/chunks/1-3cb360009fcf4d46.js","12","static/chunks/12-6fe65af5063886dc.js","992","static/chunks/992-e92008d167744a7b.js","185","static/chunks/app/layout-a7397fd7fa732ea5.js"],"UmamiAnalytics"]
+14:I[2513,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","1","static/chunks/1-3cb360009fcf4d46.js","12","static/chunks/12-6fe65af5063886dc.js","992","static/chunks/992-e92008d167744a7b.js","185","static/chunks/app/layout-a7397fd7fa732ea5.js"],"ThemeProvider"]
+15:"$Sreact.suspense"
+16:I[8883,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","1","static/chunks/1-3cb360009fcf4d46.js","12","static/chunks/12-6fe65af5063886dc.js","992","static/chunks/992-e92008d167744a7b.js","185","static/chunks/app/layout-a7397fd7fa732ea5.js"],"SidebarLayout"]
+17:I[376,["601","static/chunks/app/error-5c786af7c63a05d7.js"],"default"]
+18:I[4886,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","1","static/chunks/1-3cb360009fcf4d46.js","12","static/chunks/12-6fe65af5063886dc.js","992","static/chunks/992-e92008d167744a7b.js","185","static/chunks/app/layout-a7397fd7fa732ea5.js"],"Toaster"]
+5:T532f,# Curso de CI/CD: Fundamentos e Prática
+
+> **Automatize seu fluxo de desenvolvimento!** Neste curso você vai aprender CI/CD do zero: desde os conceitos básicos até a implementação de pipelines completas. Ao final, você será capaz de criar, otimizar e gerenciar fluxos de entrega contínua.
+
+## 📚 Introdução
+
+Imagine poder entregar software com mais qualidade, menos bugs e muito mais rapidez. Isso é o que o CI/CD oferece! Neste curso, vamos desmistificar esses conceitos que parecem complexos, mas são essenciais para qualquer desenvolvedor moderno.
+
+**Por que CI/CD é importante?**
+- Reduz em até 70% os bugs em produção
+- Acelera o tempo de entrega em 90%
+- Aumenta a produtividade da equipe em 50%
+- Garante mais estabilidade e confiança
+
+**Para quem é este curso?**
+- Desenvolvedores que querem automatizar seus processos
+- DevOps iniciantes buscando entender fundamentos
+- Tech leads que precisam melhorar fluxos de entrega
+- Qualquer pessoa curiosa sobre automação de software
+
+**Tempo estimado:** 1 hora (mas você pode ir no seu ritmo!)
+
+---
+
+## 🎯 Objetivos de Aprendizagem
+
+Ao final deste curso, você será capaz de:
+
+- [ ] **Explicar** com suas palavras o que é CI, CD e a diferença entre eles
+- [ ] **Identificar** os componentes básicos de uma pipeline
+- [ ] **Comparar** ferramentas populares de CI/CD
+- [ ] **Aplicar** boas práticas de segurança em pipelines
+- [ ] **Otimizar** uma pipeline para ser mais rápida
+- [ ] **Escolher** a ferramenta certa para cada cenário
+- [ ] **Criar** uma pipeline básica do zero
+
+---
+
+## 📖 Seção 1: Entendendo CI/CD - Os Conceitos Fundamentais
+
+### 1.1 O que é CI/CD? (A Analogia da Fábrica)
+
+Pense em uma fábrica de carros:
+
+**Sem CI/CD (antigo):**
+- Cada peça é feita separadamente
+- Só se monta o carro no final do mês
+- Se uma peça tem defeito, todo o carro sai errado
+- Leva semanas para descobrir problemas
+
+**Com CI/CD (moderno):**
+- Peças são testadas logo que ficam prontas
+- O carro é montado peça por peça, diariamente
+- Problemas são encontrados em minutos
+- Carros saem da linha de produção constantemente
+
+<div style="background: #f0f9ff; padding: 1.5rem; border-left: 4px solid #0ea5e9; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>💡 Pense assim:</strong>
+  <p>CI/CD transforma o desenvolvimento de software de uma "produção em lote" para uma "linha de montagem contínua".</p>
+</div>
+
+### 1.2 As Três Letras Mágicas: CI, CD, CD
+
+Vamos descomplicar essas siglas:
+
+**CI = Continuous Integration (Integração Contínua)**
+- **O que é:** Integrar pequenas mudanças de código frequentemente
+- **Como funciona:** Toda vez que você commita código, testes rodam automaticamente
+- **Objetivo:** Encontrar bugs rapidamente
+- **Analogia:** Testar cada peça do carro assim que é feita
+
+**CD = Continuous Delivery (Entrega Contínua)**
+- **O que é:** Ter o código sempre pronto para produção
+- **Como funciona:** Após os testes, o sistema automaticamente prepara tudo para deploy
+- **Objetivo:** Poder fazer deploy a qualquer momento
+- **Analogia:** O carro está montado, com gasolina, e pronto para sair da fábrica
+
+**CD = Continuous Deployment (Implantação Contínua)**
+- **O que é:** Deploy automático para produção
+- **Como funciona:** Se todos os testes passarem, vai direto para produção
+- **Objetivo:** Entregar valor aos usuários o mais rápido possível
+- **Analogia:** O carro sai da fábrica e vai direto para a concessionária
+
+### 1.3 A Evolução Natural
+
+```
+     CI          →          CD (Delivery)         →          CD (Deployment)
+     │                      │                                │
+"Testo meu código"   "Preparo para produção"        "Vai para produção automático"
+     │                      │                                │
+  Descobre bugs          ↓                           Entrega valor
+     rápido         Pode fazer deploy                  constantemente
+                    quando quiser
+```
+
+<div style="background: #fef3c7; padding: 1.5rem; border-left: 4px solid #f59e0b; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>⚠️ Atenção às confusões comuns:</strong>
+  <p>Muitas pessoas usam "CD" para ambos (Delivery e Deployment). A diferença crucial é: <strong>Delivery tem aprovação manual, Deployment é totalmente automático.</strong></p>
+</div>
+
+### 1.4 Por que adotar CI/CD? (Os Benefícios Reais)
+
+**Para desenvolvedores:**
+- Menos tempo debugging ("funciona na minha máquina")
+- Feedback imediato sobre seu código
+- Mais tempo criando, menos tempo configurando
+
+**Para a empresa:**
+- Menos bugs em produção = menos prejuízo
+- Entregas mais rápidas = vantagem competitiva
+- Processos padronizados = menos erros humanos
+
+**Para os usuários:**
+- Recursos novos mais rápido
+- Aplicações mais estáveis
+- Menos tempo de indisponibilidade
+
+---
+
+## 💻 Seção 2: Como Tudo Funciona - A Pipeline
+
+### 2.1 O que é uma Pipeline? (A Receita de Bolo)
+
+Imagine que fazer deploy é como assar um bolo:
+
+**Sem pipeline (manual):**
+1. Misturar ingredientes (escrever código)
+2. Aquecer forno (configurar servidor)
+3. Colocar na forma (fazer build)
+4. Assar (fazer deploy)
+5. Decorar (configurar ambiente)
+6. Servir (liberar para usuários)
+
+**Com pipeline (automático):**
+1. Misturar ingredientes (escrever código)
+2. **MÁGICA:** O resto acontece sozinho!
+   - O forno aquece automaticamente
+   - O bolo vai para o forno sozinho
+   - A decoração é aplicada automaticamente
+   - O bolo é servido automaticamente
+
+### 2.2 Os Estágios da Pipeline (Passo a Passo)
+
+Vamos ver o que acontece quando você commita código:
+
+```
+1. VOCÊ COMMITA CÓDIGO
+      ↓
+2. CI SERVER DETECTA ("Ah, tem código novo!")
+      ↓
+3. BUILD (Compilar/empacotar)
+      ↓
+4. TESTES (Unitários, integração)
+      ↓
+5. ANÁLISE (Qualidade, segurança)
+      ↓
+6. DEPLOY STAGING (Ambiente de teste)
+      ↓
+7. TESTES MANUAIS (Opcional)
+      ↓
+8. DEPLOY PRODUÇÃO 🎉
+```
+
+### 2.3 Exemplo Real: GitHub Actions
+
+Vamos ver um exemplo CONCRETO de pipeline:
+
+```yaml
+# Este arquivo fica em: .github/workflows/ci.yml
+name: Minha Primeira Pipeline
+
+# QUANDO roda? Quando houver push ou pull request
+on: [push, pull_request]
+
+jobs:
+  # JOB 1: Build e Teste
+  build-and-test:
+    runs-on: ubuntu-latest  # Onde roda? Linux
+    
+    steps:
+    # PASSO 1: Pegar o código
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    # PASSO 2: Configurar Node.js
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    # PASSO 3: Instalar dependências
+    - name: Install dependencies
+      run: npm ci  # Similar ao npm install
+    
+    # PASSO 4: Rodar testes
+    - name: Run tests
+      run: npm test  # Executa seus testes
+    
+    # PASSO 5: Build da aplicação
+    - name: Build application
+      run: npm run build  # Cria versão de produção
+```
+
+<div style="background: #dcfce7; padding: 1.5rem; border-left: 4px solid #22c55e; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>✅ Entendeu? Vamos resumir:</strong>
+  <p>Uma pipeline é uma <strong>receita automatizada</strong> que diz ao computador exatamente o que fazer com seu código, passo a passo, sem erro humano.</p>
+</div>
+
+### 2.4 Pipeline vs Script: Qual a Diferença?
+
+**Script tradicional:**
+```bash
+# script.sh
+npm install
+npm test
+npm run build
+# E se falhar? E se precisar rodar em paralelo?
+```
+
+**Pipeline moderna:**
+```yaml
+# Pipeline
+- Se falhar, para e me avisa
+- Se passar, vai para próximo passo
+- Posso rodar coisas em paralelo
+- Tenho logs organizados
+- Consigo reexecutar partes específicas
+```
+
+---
+
+## 🛠️ Seção 3: As Ferramentas - Escolhendo a Certa
+
+### 3.1 O Mercado de Ferramentas
+
+Existem basicamente 3 tipos:
+
+**1. SaaS (Software as a Service) - "Aluguel"**
+- Exemplos: GitHub Actions, GitLab CI, CircleCI
+- **Prós:** Fácil começar, manutenção zero
+- **Contras:** Custo cresce com uso, menos controle
+
+**2. Self-hosted - "Compre sua casa"**
+- Exemplos: Jenkins, GitLab Self-hosted
+- **Prós:** Controle total, customização ilimitada
+- **Contras:** Manutenção complexa, custo inicial
+
+**3. Híbridas - "O melhor dos dois mundos"**
+- Exemplos: Jenkins na nuvem
+- **Prós:** Flexibilidade
+- **Contras:** Complexidade
+
+### 3.2 Comparação Detalhada
+
+Vamos comparar as 5 ferramentas mais populares:
+
+| Ferramenta | Tipo | Melhor Para | Dificuldade | Custo Inicial |
+|------------|------|-------------|-------------|---------------|
+| **Jenkins** | 🏠 Self-hosted | Grandes empresas, muito customização | ⭐⭐⭐⭐ | $0 (tempo) |
+| **GitHub Actions** | ☁️ SaaS | Quem já usa GitHub, projetos pequenos/médios | ⭐⭐ | $0 |
+| **GitLab CI** | ☁️/🏠 Ambos | Times que querem tudo em um lugar | ⭐⭐⭐ | $0 |
+| **CircleCI** | ☁️ SaaS | Velocidade e simplicidade | ⭐⭐ | $$$ |
+| **Azure DevOps** | ☁️ SaaS | Empresas Microsoft | ⭐⭐⭐ | $$$ |
+
+### 3.3 Como Escolher? (Guia Prático)
+
+**Responda estas perguntas:**
+
+1. **Qual seu orçamento?**
+   - $0 → GitHub Actions, GitLab CI (free tier)
+   - $$$ → CircleCI, Azure DevOps
+   - Tempo para manter → Jenkins
+
+2. **Onde está seu código?**
+   - GitHub → GitHub Actions (óbvio!)
+   - GitLab → GitLab CI
+   - Outro → Jenkins, CircleCI
+
+3. **Qual tamanho da equipe?**
+   - 1-5 pessoas → GitHub Actions
+   - 5-20 pessoas → GitLab CI
+   - 20+ pessoas → Jenkins
+
+4. **Precisa de muita customização?**
+   - Não → GitHub Actions
+   - Sim → Jenkins
+
+<div style="background: #f3e8ff; padding: 1.5rem; border-left: 4px solid #8b5cf6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>🎯 Dica do Instrutor:</strong>
+  <p>Comece com <strong>GitHub Actions</strong> se usa GitHub, ou <strong>GitLab CI</strong> se usa GitLab. São as mais fáceis para aprender e já cobrem 90% das necessidades.</p>
+</div>
+
+### 3.4 Jenkins: O Velho Guerreiro
+
+**Por que ainda é popular?**
+- Open source (grátis)
+- 1,800+ plugins (faz TUDO)
+- Muito flexível
+- Comunidade enorme
+
+**Desafios:**
+- Configuração complexa
+- Precisa de manutenção
+- Interface "datada"
+
+```groovy
+// Exemplo Jenkins (mais complexo)
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+            }
+        }
+    }
+}
+```
+
+### 3.5 GitHub Actions: O Novo Fenômeno
+
+**Por que é popular?**
+- Integração nativa com GitHub
+- YAML simples
+- Marketplace de ações
+- Começar em 5 minutos
+
+```yaml
+# Simples, não?
+- name: Run Tests
+  run: npm test
+```
+
+---
+
+## 🔍 Seção 4: Boas Práticas - Fazendo Certo
+
+### 4.1 Pipeline Rápida = Feedback Rápido
+
+**Regra de ouro:** Sua pipeline deve ser mais rápida que seu café!
+
+**Tempos ideais:**
+- Feedback inicial (build + testes básicos): **< 5 minutos**
+- Pipeline completa: **< 15 minutos**
+- Aceitável: **< 30 minutos**
+- Problema: **> 30 minutos**
+
+**Como acelerar:**
+1. **Cache:** Não baixe dependências toda vez
+   ```yaml
+   - name: Cache node modules
+     uses: actions/cache@v3
+     with:
+       path: node_modules
+       key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+   ```
+
+2. **Paralelismo:** Rode coisas juntas
+   ```yaml
+   # Testes unitários e lint rodam juntos
+   unit-tests:
+     # ...
+   
+   lint:
+     # ... (roda ao mesmo tempo!)
+   ```
+
+3. **Testes inteligentes:** Só rode o necessário
+
+### 4.2 Segurança em Primeiro Lugar
+
+**O que NUNCA fazer:**
+```yaml
+# ❌ NUNCA ISSO!
+env:
+  SENHA: "minhasenha123"  # Vaza no repositório!
+```
+
+**O que fazer SEMPRE:**
+```yaml
+# ✅ SEMPRE ISSO!
+env:
+  SENHA: ${{ secrets.MINHA_SENHA }}  # Seguro!
+```
+
+**Secrets gerenciados:**
+- GitHub: Settings → Secrets and variables → Actions
+- GitLab: Settings → CI/CD → Variables
+- Jenkins: Credentials plugin
+
+### 4.3 Trunk-Based Development (TBD)
+
+**O que é?** Trabalhar em branches pequenas e de curta duração.
+
+**Antigo (Git Flow):**
+```
+feature/big-feature (2 semanas)
+    ↓
+develop (merge complexo)
+    ↓
+release (1 semana de teste)
+    ↓
+main/production
+```
+
+**Moderno (TBD):**
+```
+feature/small-change (1 dia)
+    ↓
+main (merge direto, testes rodam)
+    ↓
+production (deploy automático)
+```
+
+**Por que TBD com CI/CD?**
+- Menos conflitos de merge
+- Feedback mais rápido
+- Deploys mais frequentes
+- Menos bugs de integração
+
+### 4.4 Feature Flags: Deploy sem Medo
+
+**Problema:** "E se meu código novo quebrar tudo?"
+
+**Solução:** Feature flags!
+
+```javascript
+// No seu código
+if (featureFlags.NOVA_FUNCIONALIDADE) {
+    // Código novo
+} else {
+    // Código antigo
+}
+```
+
+**Benefícios:**
+- Deploy código sem ativar funcionalidade
+- Ativar para alguns usuários primeiro
+- Desligar rápido se der problema
+- Teste A/B fácil
+
+---
+
+## ⚠️ Seção 5: Problemas Comuns (E Como Resolver)
+
+### 5.1 "Minha Pipeline Demora Muito!"
+
+**Sintomas:**
+- Desenvolvedores não esperam pelo feedback
+- Commit e vai tomar café...
+- Pipeline trava outras mudanças
+
+**Soluções:**
+1. **Identifique o gargalo:**
+   ```yaml
+   # Adicione timers
+   - name: Start timer
+     run: echo "START_TIME=$(date +%s)" >> $GITHUB_ENV
+   
+   # ... seus steps ...
+   
+   - name: End timer
+     run: |
+       END_TIME=$(date +%s)
+       DURATION=$((END_TIME - START_TIME))
+       echo "Levou $DURATION segundos"
+   ```
+
+2. **Estratégias:**
+   - **Cache:** Dependências, imagens Docker
+   - **Paralelismo:** Jobs independentes rodam juntos
+   - **Split:** Pipeline curta para feedback + longa para tudo
+
+### 5.2 "Testes Flaky" (Os que Falham Aleatoriamente)
+
+**O que são:** Testes que às vezes passam, às vezes falham.
+
+**Por que acontece:**
+- Dependência externa (API, banco)
+- Timing issues (muito rápido/lento)
+- Estado compartilhado (um teste afeta outro)
+
+**Soluções:**
+1. **Identifique:** Marque testes flaky
+2. **Isole:** Rode separadamente
+3. **Melhore:** Mock externos, reset estado
+4. **Monitore:** Track falhas intermitentes
+
+```yaml
+# Estratégia: Retry automático
+- name: Run tests with retry
+  run: |
+    for i in {1..3}; do
+      npm test && break || sleep 5
+    done
+```
+
+### 5.3 "Build Breaker" - O Commit que Quebra Tudo
+
+**O que é:** Um commit que faz a pipeline falhar.
+
+**Como lidar:**
+1. **Prioridade #1:** Corrigir imediatamente
+2. **Reverter:** Volte o commit problemático
+3. **Hotfix:** Corrija rápido na main
+4. **Prevenção:** Code review, testes locais
+
+<div style="background: #fee2e2; padding: 1.5rem; border-left: 4px solid #ef4444; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>🚫 Regra sagrada:</strong>
+  <p><strong>NUNCA ignore uma pipeline falhando.</strong> Se está vermelho, pare tudo e corrija. Pipeline verde = confiança.</p>
+</div>
+
+### 5.4 "Funciona na Minha Máquina!"
+
+**Problema clássico:** Código roda local, quebra na pipeline.
+
+**Causas:**
+- Dependências diferentes
+- Variáveis de ambiente
+- Sistema operacional
+- Versões de ferramentas
+
+**Solução:** Containerização (Docker)!
+
+```yaml
+# Use containers consistentes
+jobs:
+  test:
+    container: node:18-alpine  # Mesmo ambiente sempre
+    steps:
+      - run: npm test
+```
+
+---
+
+## 🎨 Seção 6: Estratégias Avançadas de Deploy
+
+### 6.1 Blue-Green Deployment (Azul-Verde)
+
+**Analogia:** Dois teatros idênticos.
+
+**Funcionamento:**
+```
+TEATRO AZUL: Usuários atuais
+TEATRO VERDE: Nova versão (testando)
+
+1. Usuários no AZUL
+2. Deploy nova versão no VERDE
+3. Testa VERDE
+4. Troca tráfego: AZUL → VERDE
+5. AZUL vira backup
+```
+
+**Vantagens:**
+- Zero downtime
+- Rollback instantâneo (volta para AZUL)
+- Teste antes de liberar
+
+### 6.2 Canary Release (Release Canário)
+
+**Analogia:** Canários em minas de carvão.
+
+**Funcionamento:**
+```
+100% usuários → versão antiga
+  ↓
+5% usuários → nova versão (canários)
+  ↓
+Se ok: 25% → 50% → 100%
+Se ruim: volta 0%
+```
+
+**Vantagens:**
+- Risco baixo (só 5% afetados)
+- Feedback real de usuários
+- Rollback fácil
+
+### 6.3 Feature Flags + Canary
+
+**Combo poderosa:**
+1. Deploy código com feature flag OFF
+2. Ativar flag para 5% dos usuários (Canary)
+3. Monitorar métricas
+4. Se ok: ativar para todos
+5. Se ruim: desativar flag
+
+```javascript
+// Exemplo prático
+if (featureFlag.isEnabled('nova-ui', userId)) {
+    renderNovaUI();
+} else {
+    renderUIAntiga();
+}
+```
+
+---
+
+## 📊 Seção 7: Métricas - O Que Medir?
+
+### 7.1 As 4 Métricas do DORA (Google)
+
+**1. Lead Time for Changes**
+- **O que é:** Tempo do commit até produção
+- **Bom:** < 1 dia
+- **Ruim:** > 1 mês
+- **Como medir:** Data do commit → data do deploy
+
+**2. Deployment Frequency**
+- **O que é:** Com que frequência faz deploy
+- **Bom:** Múltiplos por dia
+- **Ruim:** Mensal
+- **Como medir:** Contar deploys por período
+
+**3. Change Failure Rate**
+- **O que é:** % de deploys que causam problemas
+- **Bom:** < 15%
+- **Ruim:** > 45%
+- **Como medir:** (Deploys com problemas / Total deploys) × 100
+
+**4. Mean Time to Recovery (MTTR)**
+- **O que é:** Tempo para recuperar de falha
+- **Bom:** < 1 hora
+- **Ruim:** > 1 semana
+- **Como medir:** Tempo do incidente até resolução
+
+<div style="background: #dbeafe; padding: 1.5rem; border-left: 4px solid #3b82f6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>📈 Dica de métricas:</strong>
+  <p>Comece medindo apenas o <strong>Lead Time</strong>. É a métrica mais fácil e mostra rapidamente se suas melhorias estão funcionando.</p>
+</div>
+
+### 7.2 Métricas de Pipeline
+
+**Tempo de execução:**
+- Build: < 5 min
+- Testes: < 10 min
+- Pipeline completa: < 30 min
+
+**Taxa de sucesso:**
+- Aceitável: > 90%
+- Bom: > 95%
+- Excelente: > 98%
+
+**Custo:**
+- Custo por build
+- Custo por deploy
+- ROI (Retorno sobre investimento)
+
+---
+
+## 🚀 Seção 8: Próximos Passos - Sua Jornada Continua
+
+### 8.1 Primeiros Passos Práticos
+
+**Nível 1: Bebê (Primeira semana)**
+1. Crie conta no GitHub/GitLab
+2. Siga um tutorial de "Hello World" de CI/CD
+3. Automatize testes de um projeto pessoal
+4. Comemore seu primeiro deploy automático! 🎉
+
+**Nível 2: Caminhando (Primeiro mês)**
+1. Adicione cache à sua pipeline
+2. Configure notificações (Slack/Email)
+3. Adicione análise de código (SonarQube)
+4. Implemente deploy automático para staging
+
+**Nível 3: Correndo (Primeiro trimestre)**
+1. Implemente Blue-Green ou Canary
+2. Configure monitoramento da pipeline
+3. Automatize rollback
+4. Documente todo o processo
+
+### 8.2 Projetos para Praticar
+
+**Projeto 1: Pipeline Simples**
+- Objetivo: Testes + Build
+- Ferramenta: GitHub Actions
+- Dificuldade: ⭐☆☆☆☆
+
+**Projeto 2: Pipeline Completa**
+- Objetivo: Testes + Build + Deploy
+- Ferramenta: GitLab CI
+- Dificuldade: ⭐⭐☆☆☆
+
+**Projeto 3: Pipeline Empresarial**
+- Objetivo: Tudo + Segurança + Monitoramento
+- Ferramenta: Jenkins
+- Dificuldade: ⭐⭐⭐⭐☆
+
+### 8.3 Recursos para Aprender Mais
+
+**Livros recomendados:**
+- "Accelerate" - Nicole Forsgren (a Bíblia)
+- "Continuous Delivery" - Jez Humble (clássico)
+- "The DevOps Handbook" - Gene Kim (prático)
+
+**Cursos online:**
+- CI/CD Fundamentals (Coursera)
+- GitHub Actions (YouTube - free)
+- Jenkins Masterclass (Udemy)
+
+**Comunidades:**
+- /r/devops no Reddit
+- DevOps Brasil no Telegram
+- CNCF Slack (canal #ci-cd)
+
+**Blogs para seguir:**
+- Martin Fowler (martinfowler.com)
+- DZone CI/CD
+- DevOps.com
+
+---
+
+## ✅ Conclusão - Você Conseguiu!
+
+### 🎉 Parabéns por chegar até aqui!
+
+Você acabou de aprender um dos tópicos mais importantes do desenvolvimento moderno. Vamos recapitular:
+
+**O que você aprendeu:**
+
+1. **CI/CD não é bicho de 7 cabeças** - É apenas automação inteligente
+2. **CI = Integração Contínua** - Testar código frequentemente
+3. **CD = Entrega Contínua** - Ter código sempre pronto para produção
+4. **CD = Implantação Contínua** - Deploy automático (opcional)
+5. **Pipeline = Receita automatizada** - Passo a passo do código à produção
+6. **Ferramentas variam** - Escolha baseada em seu contexto
+7. **Boas práticas existem** - Segurança, velocidade, métricas
+8. **Problemas têm solução** - Pipeline lenta, testes flaky, etc.
+
+### 🏆 Seu Certificado Espera!
+
+Agora você está pronto para o desafio final: o **quiz de 30 perguntas**.
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; color: white; text-align: center; margin: 2rem 0;">
+  <h3 style="color: white; margin-bottom: 1rem;">🎯 Hora do Quiz!</h3>
+  <p style="margin-bottom: 1rem;"><strong>30 perguntas • 25 minutos • Nota mínima: 70%</strong></p>
+  <p style="margin-bottom: 1.5rem;">Use tudo que aprendeu. As perguntas cobrem exatamente o conteúdo deste curso.</p>
+  
+  <div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 0.5rem; margin: 1rem 0;">
+    <p style="margin: 0;"><strong>Dicas para o quiz:</strong></p>
+    <ul style="text-align: left; margin: 0.5rem 0 0 0; padding-left: 1.5rem;">
+      <li>CI = Integração Contínua</li>
+      <li>Delivery ≠ Deployment (manual vs automático)</li>
+      <li>Pipeline lenta = anti-padrão</li>
+      <li>GitHub Actions = SaaS, Jenkins = Self-hosted</li>
+    </ul>
+  </div>
+  
+  <p><strong>Você vai se surpreender com quanto aprendeu! 💪</strong></p>
+</div>6:T6a4c,<h1>Curso de CI/CD: Fundamentos e Prática</h1>
+<blockquote>
+<p><strong>Automatize seu fluxo de desenvolvimento!</strong> Neste curso você vai aprender CI/CD do zero: desde os conceitos básicos até a implementação de pipelines completas. Ao final, você será capaz de criar, otimizar e gerenciar fluxos de entrega contínua.</p>
+</blockquote>
+<h2>📚 Introdução</h2>
+<p>Imagine poder entregar software com mais qualidade, menos bugs e muito mais rapidez. Isso é o que o CI/CD oferece! Neste curso, vamos desmistificar esses conceitos que parecem complexos, mas são essenciais para qualquer desenvolvedor moderno.</p>
+<p><strong>Por que CI/CD é importante?</strong></p>
+<ul>
+<li>Reduz em até 70% os bugs em produção</li>
+<li>Acelera o tempo de entrega em 90%</li>
+<li>Aumenta a produtividade da equipe em 50%</li>
+<li>Garante mais estabilidade e confiança</li>
+</ul>
+<p><strong>Para quem é este curso?</strong></p>
+<ul>
+<li>Desenvolvedores que querem automatizar seus processos</li>
+<li>DevOps iniciantes buscando entender fundamentos</li>
+<li>Tech leads que precisam melhorar fluxos de entrega</li>
+<li>Qualquer pessoa curiosa sobre automação de software</li>
+</ul>
+<p><strong>Tempo estimado:</strong> 1 hora (mas você pode ir no seu ritmo!)</p>
+<hr>
+<h2>🎯 Objetivos de Aprendizagem</h2>
+<p>Ao final deste curso, você será capaz de:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Explicar</strong> com suas palavras o que é CI, CD e a diferença entre eles</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Identificar</strong> os componentes básicos de uma pipeline</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Comparar</strong> ferramentas populares de CI/CD</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Aplicar</strong> boas práticas de segurança em pipelines</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Otimizar</strong> uma pipeline para ser mais rápida</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Escolher</strong> a ferramenta certa para cada cenário</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Criar</strong> uma pipeline básica do zero</li>
+</ul>
+<hr>
+<h2>📖 Seção 1: Entendendo CI/CD - Os Conceitos Fundamentais</h2>
+<h3>1.1 O que é CI/CD? (A Analogia da Fábrica)</h3>
+<p>Pense em uma fábrica de carros:</p>
+<p><strong>Sem CI/CD (antigo):</strong></p>
+<ul>
+<li>Cada peça é feita separadamente</li>
+<li>Só se monta o carro no final do mês</li>
+<li>Se uma peça tem defeito, todo o carro sai errado</li>
+<li>Leva semanas para descobrir problemas</li>
+</ul>
+<p><strong>Com CI/CD (moderno):</strong></p>
+<ul>
+<li>Peças são testadas logo que ficam prontas</li>
+<li>O carro é montado peça por peça, diariamente</li>
+<li>Problemas são encontrados em minutos</li>
+<li>Carros saem da linha de produção constantemente</li>
+</ul>
+<div style="background: #f0f9ff; padding: 1.5rem; border-left: 4px solid #0ea5e9; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>💡 Pense assim:</strong>
+  <p>CI/CD transforma o desenvolvimento de software de uma "produção em lote" para uma "linha de montagem contínua".</p>
+</div>
+<h3>1.2 As Três Letras Mágicas: CI, CD, CD</h3>
+<p>Vamos descomplicar essas siglas:</p>
+<p><strong>CI = Continuous Integration (Integração Contínua)</strong></p>
+<ul>
+<li><strong>O que é:</strong> Integrar pequenas mudanças de código frequentemente</li>
+<li><strong>Como funciona:</strong> Toda vez que você commita código, testes rodam automaticamente</li>
+<li><strong>Objetivo:</strong> Encontrar bugs rapidamente</li>
+<li><strong>Analogia:</strong> Testar cada peça do carro assim que é feita</li>
+</ul>
+<p><strong>CD = Continuous Delivery (Entrega Contínua)</strong></p>
+<ul>
+<li><strong>O que é:</strong> Ter o código sempre pronto para produção</li>
+<li><strong>Como funciona:</strong> Após os testes, o sistema automaticamente prepara tudo para deploy</li>
+<li><strong>Objetivo:</strong> Poder fazer deploy a qualquer momento</li>
+<li><strong>Analogia:</strong> O carro está montado, com gasolina, e pronto para sair da fábrica</li>
+</ul>
+<p><strong>CD = Continuous Deployment (Implantação Contínua)</strong></p>
+<ul>
+<li><strong>O que é:</strong> Deploy automático para produção</li>
+<li><strong>Como funciona:</strong> Se todos os testes passarem, vai direto para produção</li>
+<li><strong>Objetivo:</strong> Entregar valor aos usuários o mais rápido possível</li>
+<li><strong>Analogia:</strong> O carro sai da fábrica e vai direto para a concessionária</li>
+</ul>
+<h3>1.3 A Evolução Natural</h3>
+<pre><code>     CI          →          CD (Delivery)         →          CD (Deployment)
+     │                      │                                │
+"Testo meu código"   "Preparo para produção"        "Vai para produção automático"
+     │                      │                                │
+  Descobre bugs          ↓                           Entrega valor
+     rápido         Pode fazer deploy                  constantemente
+                    quando quiser
+</code></pre>
+<div style="background: #fef3c7; padding: 1.5rem; border-left: 4px solid #f59e0b; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>⚠️ Atenção às confusões comuns:</strong>
+  <p>Muitas pessoas usam "CD" para ambos (Delivery e Deployment). A diferença crucial é: <strong>Delivery tem aprovação manual, Deployment é totalmente automático.</strong></p>
+</div>
+<h3>1.4 Por que adotar CI/CD? (Os Benefícios Reais)</h3>
+<p><strong>Para desenvolvedores:</strong></p>
+<ul>
+<li>Menos tempo debugging ("funciona na minha máquina")</li>
+<li>Feedback imediato sobre seu código</li>
+<li>Mais tempo criando, menos tempo configurando</li>
+</ul>
+<p><strong>Para a empresa:</strong></p>
+<ul>
+<li>Menos bugs em produção = menos prejuízo</li>
+<li>Entregas mais rápidas = vantagem competitiva</li>
+<li>Processos padronizados = menos erros humanos</li>
+</ul>
+<p><strong>Para os usuários:</strong></p>
+<ul>
+<li>Recursos novos mais rápido</li>
+<li>Aplicações mais estáveis</li>
+<li>Menos tempo de indisponibilidade</li>
+</ul>
+<hr>
+<h2>💻 Seção 2: Como Tudo Funciona - A Pipeline</h2>
+<h3>2.1 O que é uma Pipeline? (A Receita de Bolo)</h3>
+<p>Imagine que fazer deploy é como assar um bolo:</p>
+<p><strong>Sem pipeline (manual):</strong></p>
+<ol>
+<li>Misturar ingredientes (escrever código)</li>
+<li>Aquecer forno (configurar servidor)</li>
+<li>Colocar na forma (fazer build)</li>
+<li>Assar (fazer deploy)</li>
+<li>Decorar (configurar ambiente)</li>
+<li>Servir (liberar para usuários)</li>
+</ol>
+<p><strong>Com pipeline (automático):</strong></p>
+<ol>
+<li>Misturar ingredientes (escrever código)</li>
+<li><strong>MÁGICA:</strong> O resto acontece sozinho!
+<ul>
+<li>O forno aquece automaticamente</li>
+<li>O bolo vai para o forno sozinho</li>
+<li>A decoração é aplicada automaticamente</li>
+<li>O bolo é servido automaticamente</li>
+</ul>
+</li>
+</ol>
+<h3>2.2 Os Estágios da Pipeline (Passo a Passo)</h3>
+<p>Vamos ver o que acontece quando você commita código:</p>
+<pre><code>1. VOCÊ COMMITA CÓDIGO
+      ↓
+2. CI SERVER DETECTA ("Ah, tem código novo!")
+      ↓
+3. BUILD (Compilar/empacotar)
+      ↓
+4. TESTES (Unitários, integração)
+      ↓
+5. ANÁLISE (Qualidade, segurança)
+      ↓
+6. DEPLOY STAGING (Ambiente de teste)
+      ↓
+7. TESTES MANUAIS (Opcional)
+      ↓
+8. DEPLOY PRODUÇÃO 🎉
+</code></pre>
+<h3>2.3 Exemplo Real: GitHub Actions</h3>
+<p>Vamos ver um exemplo CONCRETO de pipeline:</p>
+<pre><code class="language-yaml"># Este arquivo fica em: .github/workflows/ci.yml
+name: Minha Primeira Pipeline
+
+# QUANDO roda? Quando houver push ou pull request
+on: [push, pull_request]
+
+jobs:
+  # JOB 1: Build e Teste
+  build-and-test:
+    runs-on: ubuntu-latest  # Onde roda? Linux
+    
+    steps:
+    # PASSO 1: Pegar o código
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    # PASSO 2: Configurar Node.js
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    # PASSO 3: Instalar dependências
+    - name: Install dependencies
+      run: npm ci  # Similar ao npm install
+    
+    # PASSO 4: Rodar testes
+    - name: Run tests
+      run: npm test  # Executa seus testes
+    
+    # PASSO 5: Build da aplicação
+    - name: Build application
+      run: npm run build  # Cria versão de produção
+</code></pre>
+<div style="background: #dcfce7; padding: 1.5rem; border-left: 4px solid #22c55e; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>✅ Entendeu? Vamos resumir:</strong>
+  <p>Uma pipeline é uma <strong>receita automatizada</strong> que diz ao computador exatamente o que fazer com seu código, passo a passo, sem erro humano.</p>
+</div>
+<h3>2.4 Pipeline vs Script: Qual a Diferença?</h3>
+<p><strong>Script tradicional:</strong></p>
+<pre><code class="language-bash"># script.sh
+npm install
+npm test
+npm run build
+# E se falhar? E se precisar rodar em paralelo?
+</code></pre>
+<p><strong>Pipeline moderna:</strong></p>
+<pre><code class="language-yaml"># Pipeline
+- Se falhar, para e me avisa
+- Se passar, vai para próximo passo
+- Posso rodar coisas em paralelo
+- Tenho logs organizados
+- Consigo reexecutar partes específicas
+</code></pre>
+<hr>
+<h2>🛠️ Seção 3: As Ferramentas - Escolhendo a Certa</h2>
+<h3>3.1 O Mercado de Ferramentas</h3>
+<p>Existem basicamente 3 tipos:</p>
+<p><strong>1. SaaS (Software as a Service) - "Aluguel"</strong></p>
+<ul>
+<li>Exemplos: GitHub Actions, GitLab CI, CircleCI</li>
+<li><strong>Prós:</strong> Fácil começar, manutenção zero</li>
+<li><strong>Contras:</strong> Custo cresce com uso, menos controle</li>
+</ul>
+<p><strong>2. Self-hosted - "Compre sua casa"</strong></p>
+<ul>
+<li>Exemplos: Jenkins, GitLab Self-hosted</li>
+<li><strong>Prós:</strong> Controle total, customização ilimitada</li>
+<li><strong>Contras:</strong> Manutenção complexa, custo inicial</li>
+</ul>
+<p><strong>3. Híbridas - "O melhor dos dois mundos"</strong></p>
+<ul>
+<li>Exemplos: Jenkins na nuvem</li>
+<li><strong>Prós:</strong> Flexibilidade</li>
+<li><strong>Contras:</strong> Complexidade</li>
+</ul>
+<h3>3.2 Comparação Detalhada</h3>
+<p>Vamos comparar as 5 ferramentas mais populares:</p>
+<table>
+<thead>
+<tr>
+<th>Ferramenta</th>
+<th>Tipo</th>
+<th>Melhor Para</th>
+<th>Dificuldade</th>
+<th>Custo Inicial</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Jenkins</strong></td>
+<td>🏠 Self-hosted</td>
+<td>Grandes empresas, muito customização</td>
+<td>⭐⭐⭐⭐</td>
+<td>$0 (tempo)</td>
+</tr>
+<tr>
+<td><strong>GitHub Actions</strong></td>
+<td>☁️ SaaS</td>
+<td>Quem já usa GitHub, projetos pequenos/médios</td>
+<td>⭐⭐</td>
+<td>$0</td>
+</tr>
+<tr>
+<td><strong>GitLab CI</strong></td>
+<td>☁️/🏠 Ambos</td>
+<td>Times que querem tudo em um lugar</td>
+<td>⭐⭐⭐</td>
+<td>$0</td>
+</tr>
+<tr>
+<td><strong>CircleCI</strong></td>
+<td>☁️ SaaS</td>
+<td>Velocidade e simplicidade</td>
+<td>⭐⭐</td>
+<td>$$$</td>
+</tr>
+<tr>
+<td><strong>Azure DevOps</strong></td>
+<td>☁️ SaaS</td>
+<td>Empresas Microsoft</td>
+<td>⭐⭐⭐</td>
+<td>$$$</td>
+</tr>
+</tbody>
+</table>
+<h3>3.3 Como Escolher? (Guia Prático)</h3>
+<p><strong>Responda estas perguntas:</strong></p>
+<ol>
+<li>
+<p><strong>Qual seu orçamento?</strong></p>
+<ul>
+<li>$0 → GitHub Actions, GitLab CI (free tier)</li>
+<li>$$$ → CircleCI, Azure DevOps</li>
+<li>Tempo para manter → Jenkins</li>
+</ul>
+</li>
+<li>
+<p><strong>Onde está seu código?</strong></p>
+<ul>
+<li>GitHub → GitHub Actions (óbvio!)</li>
+<li>GitLab → GitLab CI</li>
+<li>Outro → Jenkins, CircleCI</li>
+</ul>
+</li>
+<li>
+<p><strong>Qual tamanho da equipe?</strong></p>
+<ul>
+<li>1-5 pessoas → GitHub Actions</li>
+<li>5-20 pessoas → GitLab CI</li>
+<li>20+ pessoas → Jenkins</li>
+</ul>
+</li>
+<li>
+<p><strong>Precisa de muita customização?</strong></p>
+<ul>
+<li>Não → GitHub Actions</li>
+<li>Sim → Jenkins</li>
+</ul>
+</li>
+</ol>
+<div style="background: #f3e8ff; padding: 1.5rem; border-left: 4px solid #8b5cf6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>🎯 Dica do Instrutor:</strong>
+  <p>Comece com <strong>GitHub Actions</strong> se usa GitHub, ou <strong>GitLab CI</strong> se usa GitLab. São as mais fáceis para aprender e já cobrem 90% das necessidades.</p>
+</div>
+<h3>3.4 Jenkins: O Velho Guerreiro</h3>
+<p><strong>Por que ainda é popular?</strong></p>
+<ul>
+<li>Open source (grátis)</li>
+<li>1,800+ plugins (faz TUDO)</li>
+<li>Muito flexível</li>
+<li>Comunidade enorme</li>
+</ul>
+<p><strong>Desafios:</strong></p>
+<ul>
+<li>Configuração complexa</li>
+<li>Precisa de manutenção</li>
+<li>Interface "datada"</li>
+</ul>
+<pre><code class="language-groovy">// Exemplo Jenkins (mais complexo)
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+            }
+        }
+    }
+}
+</code></pre>
+<h3>3.5 GitHub Actions: O Novo Fenômeno</h3>
+<p><strong>Por que é popular?</strong></p>
+<ul>
+<li>Integração nativa com GitHub</li>
+<li>YAML simples</li>
+<li>Marketplace de ações</li>
+<li>Começar em 5 minutos</li>
+</ul>
+<pre><code class="language-yaml"># Simples, não?
+- name: Run Tests
+  run: npm test
+</code></pre>
+<hr>
+<h2>🔍 Seção 4: Boas Práticas - Fazendo Certo</h2>
+<h3>4.1 Pipeline Rápida = Feedback Rápido</h3>
+<p><strong>Regra de ouro:</strong> Sua pipeline deve ser mais rápida que seu café!</p>
+<p><strong>Tempos ideais:</strong></p>
+<ul>
+<li>Feedback inicial (build + testes básicos): <strong>&#x3C; 5 minutos</strong></li>
+<li>Pipeline completa: <strong>&#x3C; 15 minutos</strong></li>
+<li>Aceitável: <strong>&#x3C; 30 minutos</strong></li>
+<li>Problema: <strong>> 30 minutos</strong></li>
+</ul>
+<p><strong>Como acelerar:</strong></p>
+<ol>
+<li>
+<p><strong>Cache:</strong> Não baixe dependências toda vez</p>
+<pre><code class="language-yaml">- name: Cache node modules
+  uses: actions/cache@v3
+  with:
+    path: node_modules
+    key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+</code></pre>
+</li>
+<li>
+<p><strong>Paralelismo:</strong> Rode coisas juntas</p>
+<pre><code class="language-yaml"># Testes unitários e lint rodam juntos
+unit-tests:
+  # ...
+
+lint:
+  # ... (roda ao mesmo tempo!)
+</code></pre>
+</li>
+<li>
+<p><strong>Testes inteligentes:</strong> Só rode o necessário</p>
+</li>
+</ol>
+<h3>4.2 Segurança em Primeiro Lugar</h3>
+<p><strong>O que NUNCA fazer:</strong></p>
+<pre><code class="language-yaml"># ❌ NUNCA ISSO!
+env:
+  SENHA: "minhasenha123"  # Vaza no repositório!
+</code></pre>
+<p><strong>O que fazer SEMPRE:</strong></p>
+<pre><code class="language-yaml"># ✅ SEMPRE ISSO!
+env:
+  SENHA: ${{ secrets.MINHA_SENHA }}  # Seguro!
+</code></pre>
+<p><strong>Secrets gerenciados:</strong></p>
+<ul>
+<li>GitHub: Settings → Secrets and variables → Actions</li>
+<li>GitLab: Settings → CI/CD → Variables</li>
+<li>Jenkins: Credentials plugin</li>
+</ul>
+<h3>4.3 Trunk-Based Development (TBD)</h3>
+<p><strong>O que é?</strong> Trabalhar em branches pequenas e de curta duração.</p>
+<p><strong>Antigo (Git Flow):</strong></p>
+<pre><code>feature/big-feature (2 semanas)
+    ↓
+develop (merge complexo)
+    ↓
+release (1 semana de teste)
+    ↓
+main/production
+</code></pre>
+<p><strong>Moderno (TBD):</strong></p>
+<pre><code>feature/small-change (1 dia)
+    ↓
+main (merge direto, testes rodam)
+    ↓
+production (deploy automático)
+</code></pre>
+<p><strong>Por que TBD com CI/CD?</strong></p>
+<ul>
+<li>Menos conflitos de merge</li>
+<li>Feedback mais rápido</li>
+<li>Deploys mais frequentes</li>
+<li>Menos bugs de integração</li>
+</ul>
+<h3>4.4 Feature Flags: Deploy sem Medo</h3>
+<p><strong>Problema:</strong> "E se meu código novo quebrar tudo?"</p>
+<p><strong>Solução:</strong> Feature flags!</p>
+<pre><code class="language-javascript">// No seu código
+if (featureFlags.NOVA_FUNCIONALIDADE) {
+    // Código novo
+} else {
+    // Código antigo
+}
+</code></pre>
+<p><strong>Benefícios:</strong></p>
+<ul>
+<li>Deploy código sem ativar funcionalidade</li>
+<li>Ativar para alguns usuários primeiro</li>
+<li>Desligar rápido se der problema</li>
+<li>Teste A/B fácil</li>
+</ul>
+<hr>
+<h2>⚠️ Seção 5: Problemas Comuns (E Como Resolver)</h2>
+<h3>5.1 "Minha Pipeline Demora Muito!"</h3>
+<p><strong>Sintomas:</strong></p>
+<ul>
+<li>Desenvolvedores não esperam pelo feedback</li>
+<li>Commit e vai tomar café...</li>
+<li>Pipeline trava outras mudanças</li>
+</ul>
+<p><strong>Soluções:</strong></p>
+<ol>
+<li>
+<p><strong>Identifique o gargalo:</strong></p>
+<pre><code class="language-yaml"># Adicione timers
+- name: Start timer
+  run: echo "START_TIME=$(date +%s)" >> $GITHUB_ENV
+
+# ... seus steps ...
+
+- name: End timer
+  run: |
+    END_TIME=$(date +%s)
+    DURATION=$((END_TIME - START_TIME))
+    echo "Levou $DURATION segundos"
+</code></pre>
+</li>
+<li>
+<p><strong>Estratégias:</strong></p>
+<ul>
+<li><strong>Cache:</strong> Dependências, imagens Docker</li>
+<li><strong>Paralelismo:</strong> Jobs independentes rodam juntos</li>
+<li><strong>Split:</strong> Pipeline curta para feedback + longa para tudo</li>
+</ul>
+</li>
+</ol>
+<h3>5.2 "Testes Flaky" (Os que Falham Aleatoriamente)</h3>
+<p><strong>O que são:</strong> Testes que às vezes passam, às vezes falham.</p>
+<p><strong>Por que acontece:</strong></p>
+<ul>
+<li>Dependência externa (API, banco)</li>
+<li>Timing issues (muito rápido/lento)</li>
+<li>Estado compartilhado (um teste afeta outro)</li>
+</ul>
+<p><strong>Soluções:</strong></p>
+<ol>
+<li><strong>Identifique:</strong> Marque testes flaky</li>
+<li><strong>Isole:</strong> Rode separadamente</li>
+<li><strong>Melhore:</strong> Mock externos, reset estado</li>
+<li><strong>Monitore:</strong> Track falhas intermitentes</li>
+</ol>
+<pre><code class="language-yaml"># Estratégia: Retry automático
+- name: Run tests with retry
+  run: |
+    for i in {1..3}; do
+      npm test &#x26;&#x26; break || sleep 5
+    done
+</code></pre>
+<h3>5.3 "Build Breaker" - O Commit que Quebra Tudo</h3>
+<p><strong>O que é:</strong> Um commit que faz a pipeline falhar.</p>
+<p><strong>Como lidar:</strong></p>
+<ol>
+<li><strong>Prioridade #1:</strong> Corrigir imediatamente</li>
+<li><strong>Reverter:</strong> Volte o commit problemático</li>
+<li><strong>Hotfix:</strong> Corrija rápido na main</li>
+<li><strong>Prevenção:</strong> Code review, testes locais</li>
+</ol>
+<div style="background: #fee2e2; padding: 1.5rem; border-left: 4px solid #ef4444; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>🚫 Regra sagrada:</strong>
+  <p><strong>NUNCA ignore uma pipeline falhando.</strong> Se está vermelho, pare tudo e corrija. Pipeline verde = confiança.</p>
+</div>
+<h3>5.4 "Funciona na Minha Máquina!"</h3>
+<p><strong>Problema clássico:</strong> Código roda local, quebra na pipeline.</p>
+<p><strong>Causas:</strong></p>
+<ul>
+<li>Dependências diferentes</li>
+<li>Variáveis de ambiente</li>
+<li>Sistema operacional</li>
+<li>Versões de ferramentas</li>
+</ul>
+<p><strong>Solução:</strong> Containerização (Docker)!</p>
+<pre><code class="language-yaml"># Use containers consistentes
+jobs:
+  test:
+    container: node:18-alpine  # Mesmo ambiente sempre
+    steps:
+      - run: npm test
+</code></pre>
+<hr>
+<h2>🎨 Seção 6: Estratégias Avançadas de Deploy</h2>
+<h3>6.1 Blue-Green Deployment (Azul-Verde)</h3>
+<p><strong>Analogia:</strong> Dois teatros idênticos.</p>
+<p><strong>Funcionamento:</strong></p>
+<pre><code>TEATRO AZUL: Usuários atuais
+TEATRO VERDE: Nova versão (testando)
+
+1. Usuários no AZUL
+2. Deploy nova versão no VERDE
+3. Testa VERDE
+4. Troca tráfego: AZUL → VERDE
+5. AZUL vira backup
+</code></pre>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Zero downtime</li>
+<li>Rollback instantâneo (volta para AZUL)</li>
+<li>Teste antes de liberar</li>
+</ul>
+<h3>6.2 Canary Release (Release Canário)</h3>
+<p><strong>Analogia:</strong> Canários em minas de carvão.</p>
+<p><strong>Funcionamento:</strong></p>
+<pre><code>100% usuários → versão antiga
+  ↓
+5% usuários → nova versão (canários)
+  ↓
+Se ok: 25% → 50% → 100%
+Se ruim: volta 0%
+</code></pre>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Risco baixo (só 5% afetados)</li>
+<li>Feedback real de usuários</li>
+<li>Rollback fácil</li>
+</ul>
+<h3>6.3 Feature Flags + Canary</h3>
+<p><strong>Combo poderosa:</strong></p>
+<ol>
+<li>Deploy código com feature flag OFF</li>
+<li>Ativar flag para 5% dos usuários (Canary)</li>
+<li>Monitorar métricas</li>
+<li>Se ok: ativar para todos</li>
+<li>Se ruim: desativar flag</li>
+</ol>
+<pre><code class="language-javascript">// Exemplo prático
+if (featureFlag.isEnabled('nova-ui', userId)) {
+    renderNovaUI();
+} else {
+    renderUIAntiga();
+}
+</code></pre>
+<hr>
+<h2>📊 Seção 7: Métricas - O Que Medir?</h2>
+<h3>7.1 As 4 Métricas do DORA (Google)</h3>
+<p><strong>1. Lead Time for Changes</strong></p>
+<ul>
+<li><strong>O que é:</strong> Tempo do commit até produção</li>
+<li><strong>Bom:</strong> &#x3C; 1 dia</li>
+<li><strong>Ruim:</strong> > 1 mês</li>
+<li><strong>Como medir:</strong> Data do commit → data do deploy</li>
+</ul>
+<p><strong>2. Deployment Frequency</strong></p>
+<ul>
+<li><strong>O que é:</strong> Com que frequência faz deploy</li>
+<li><strong>Bom:</strong> Múltiplos por dia</li>
+<li><strong>Ruim:</strong> Mensal</li>
+<li><strong>Como medir:</strong> Contar deploys por período</li>
+</ul>
+<p><strong>3. Change Failure Rate</strong></p>
+<ul>
+<li><strong>O que é:</strong> % de deploys que causam problemas</li>
+<li><strong>Bom:</strong> &#x3C; 15%</li>
+<li><strong>Ruim:</strong> > 45%</li>
+<li><strong>Como medir:</strong> (Deploys com problemas / Total deploys) × 100</li>
+</ul>
+<p><strong>4. Mean Time to Recovery (MTTR)</strong></p>
+<ul>
+<li><strong>O que é:</strong> Tempo para recuperar de falha</li>
+<li><strong>Bom:</strong> &#x3C; 1 hora</li>
+<li><strong>Ruim:</strong> > 1 semana</li>
+<li><strong>Como medir:</strong> Tempo do incidente até resolução</li>
+</ul>
+<div style="background: #dbeafe; padding: 1.5rem; border-left: 4px solid #3b82f6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>📈 Dica de métricas:</strong>
+  <p>Comece medindo apenas o <strong>Lead Time</strong>. É a métrica mais fácil e mostra rapidamente se suas melhorias estão funcionando.</p>
+</div>
+<h3>7.2 Métricas de Pipeline</h3>
+<p><strong>Tempo de execução:</strong></p>
+<ul>
+<li>Build: &#x3C; 5 min</li>
+<li>Testes: &#x3C; 10 min</li>
+<li>Pipeline completa: &#x3C; 30 min</li>
+</ul>
+<p><strong>Taxa de sucesso:</strong></p>
+<ul>
+<li>Aceitável: > 90%</li>
+<li>Bom: > 95%</li>
+<li>Excelente: > 98%</li>
+</ul>
+<p><strong>Custo:</strong></p>
+<ul>
+<li>Custo por build</li>
+<li>Custo por deploy</li>
+<li>ROI (Retorno sobre investimento)</li>
+</ul>
+<hr>
+<h2>🚀 Seção 8: Próximos Passos - Sua Jornada Continua</h2>
+<h3>8.1 Primeiros Passos Práticos</h3>
+<p><strong>Nível 1: Bebê (Primeira semana)</strong></p>
+<ol>
+<li>Crie conta no GitHub/GitLab</li>
+<li>Siga um tutorial de "Hello World" de CI/CD</li>
+<li>Automatize testes de um projeto pessoal</li>
+<li>Comemore seu primeiro deploy automático! 🎉</li>
+</ol>
+<p><strong>Nível 2: Caminhando (Primeiro mês)</strong></p>
+<ol>
+<li>Adicione cache à sua pipeline</li>
+<li>Configure notificações (Slack/Email)</li>
+<li>Adicione análise de código (SonarQube)</li>
+<li>Implemente deploy automático para staging</li>
+</ol>
+<p><strong>Nível 3: Correndo (Primeiro trimestre)</strong></p>
+<ol>
+<li>Implemente Blue-Green ou Canary</li>
+<li>Configure monitoramento da pipeline</li>
+<li>Automatize rollback</li>
+<li>Documente todo o processo</li>
+</ol>
+<h3>8.2 Projetos para Praticar</h3>
+<p><strong>Projeto 1: Pipeline Simples</strong></p>
+<ul>
+<li>Objetivo: Testes + Build</li>
+<li>Ferramenta: GitHub Actions</li>
+<li>Dificuldade: ⭐☆☆☆☆</li>
+</ul>
+<p><strong>Projeto 2: Pipeline Completa</strong></p>
+<ul>
+<li>Objetivo: Testes + Build + Deploy</li>
+<li>Ferramenta: GitLab CI</li>
+<li>Dificuldade: ⭐⭐☆☆☆</li>
+</ul>
+<p><strong>Projeto 3: Pipeline Empresarial</strong></p>
+<ul>
+<li>Objetivo: Tudo + Segurança + Monitoramento</li>
+<li>Ferramenta: Jenkins</li>
+<li>Dificuldade: ⭐⭐⭐⭐☆</li>
+</ul>
+<h3>8.3 Recursos para Aprender Mais</h3>
+<p><strong>Livros recomendados:</strong></p>
+<ul>
+<li>"Accelerate" - Nicole Forsgren (a Bíblia)</li>
+<li>"Continuous Delivery" - Jez Humble (clássico)</li>
+<li>"The DevOps Handbook" - Gene Kim (prático)</li>
+</ul>
+<p><strong>Cursos online:</strong></p>
+<ul>
+<li>CI/CD Fundamentals (Coursera)</li>
+<li>GitHub Actions (YouTube - free)</li>
+<li>Jenkins Masterclass (Udemy)</li>
+</ul>
+<p><strong>Comunidades:</strong></p>
+<ul>
+<li>/r/devops no Reddit</li>
+<li>DevOps Brasil no Telegram</li>
+<li>CNCF Slack (canal #ci-cd)</li>
+</ul>
+<p><strong>Blogs para seguir:</strong></p>
+<ul>
+<li>Martin Fowler (martinfowler.com)</li>
+<li>DZone CI/CD</li>
+<li>DevOps.com</li>
+</ul>
+<hr>
+<h2>✅ Conclusão - Você Conseguiu!</h2>
+<h3>🎉 Parabéns por chegar até aqui!</h3>
+<p>Você acabou de aprender um dos tópicos mais importantes do desenvolvimento moderno. Vamos recapitular:</p>
+<p><strong>O que você aprendeu:</strong></p>
+<ol>
+<li><strong>CI/CD não é bicho de 7 cabeças</strong> - É apenas automação inteligente</li>
+<li><strong>CI = Integração Contínua</strong> - Testar código frequentemente</li>
+<li><strong>CD = Entrega Contínua</strong> - Ter código sempre pronto para produção</li>
+<li><strong>CD = Implantação Contínua</strong> - Deploy automático (opcional)</li>
+<li><strong>Pipeline = Receita automatizada</strong> - Passo a passo do código à produção</li>
+<li><strong>Ferramentas variam</strong> - Escolha baseada em seu contexto</li>
+<li><strong>Boas práticas existem</strong> - Segurança, velocidade, métricas</li>
+<li><strong>Problemas têm solução</strong> - Pipeline lenta, testes flaky, etc.</li>
+</ol>
+<h3>🏆 Seu Certificado Espera!</h3>
+<p>Agora você está pronto para o desafio final: o <strong>quiz de 30 perguntas</strong>.</p>
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; color: white; text-align: center; margin: 2rem 0;">
+  <h3 style="color: white; margin-bottom: 1rem;">🎯 Hora do Quiz!</h3>
+  <p style="margin-bottom: 1rem;"><strong>30 perguntas • 25 minutos • Nota mínima: 70%</strong></p>
+  <p style="margin-bottom: 1.5rem;">Use tudo que aprendeu. As perguntas cobrem exatamente o conteúdo deste curso.</p>
+  <div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 0.5rem; margin: 1rem 0;">
+    <p style="margin: 0;"><strong>Dicas para o quiz:</strong></p>
+    <ul style="text-align: left; margin: 0.5rem 0 0 0; padding-left: 1.5rem;">
+      <li>CI = Integração Contínua</li>
+      <li>Delivery ≠ Deployment (manual vs automático)</li>
+      <li>Pipeline lenta = anti-padrão</li>
+      <li>GitHub Actions = SaaS, Jenkins = Self-hosted</li>
+    </ul>
+  </div>
+  <p><strong>Você vai se surpreender com quanto aprendeu! 💪</strong></p>
+</div>
+7:Tcb5,### 1.1 O que é CI/CD? (A Analogia da Fábrica)
+
+Pense em uma fábrica de carros:
+
+**Sem CI/CD (antigo):**
+- Cada peça é feita separadamente
+- Só se monta o carro no final do mês
+- Se uma peça tem defeito, todo o carro sai errado
+- Leva semanas para descobrir problemas
+
+**Com CI/CD (moderno):**
+- Peças são testadas logo que ficam prontas
+- O carro é montado peça por peça, diariamente
+- Problemas são encontrados em minutos
+- Carros saem da linha de produção constantemente
+
+<div style="background: #f0f9ff; padding: 1.5rem; border-left: 4px solid #0ea5e9; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>💡 Pense assim:</strong>
+  <p>CI/CD transforma o desenvolvimento de software de uma "produção em lote" para uma "linha de montagem contínua".</p>
+</div>
+
+### 1.2 As Três Letras Mágicas: CI, CD, CD
+
+Vamos descomplicar essas siglas:
+
+**CI = Continuous Integration (Integração Contínua)**
+- **O que é:** Integrar pequenas mudanças de código frequentemente
+- **Como funciona:** Toda vez que você commita código, testes rodam automaticamente
+- **Objetivo:** Encontrar bugs rapidamente
+- **Analogia:** Testar cada peça do carro assim que é feita
+
+**CD = Continuous Delivery (Entrega Contínua)**
+- **O que é:** Ter o código sempre pronto para produção
+- **Como funciona:** Após os testes, o sistema automaticamente prepara tudo para deploy
+- **Objetivo:** Poder fazer deploy a qualquer momento
+- **Analogia:** O carro está montado, com gasolina, e pronto para sair da fábrica
+
+**CD = Continuous Deployment (Implantação Contínua)**
+- **O que é:** Deploy automático para produção
+- **Como funciona:** Se todos os testes passarem, vai direto para produção
+- **Objetivo:** Entregar valor aos usuários o mais rápido possível
+- **Analogia:** O carro sai da fábrica e vai direto para a concessionária
+
+### 1.3 A Evolução Natural
+
+```
+     CI          →          CD (Delivery)         →          CD (Deployment)
+     │                      │                                │
+"Testo meu código"   "Preparo para produção"        "Vai para produção automático"
+     │                      │                                │
+  Descobre bugs          ↓                           Entrega valor
+     rápido         Pode fazer deploy                  constantemente
+                    quando quiser
+```
+
+<div style="background: #fef3c7; padding: 1.5rem; border-left: 4px solid #f59e0b; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>⚠️ Atenção às confusões comuns:</strong>
+  <p>Muitas pessoas usam "CD" para ambos (Delivery e Deployment). A diferença crucial é: <strong>Delivery tem aprovação manual, Deployment é totalmente automático.</strong></p>
+</div>
+
+### 1.4 Por que adotar CI/CD? (Os Benefícios Reais)
+
+**Para desenvolvedores:**
+- Menos tempo debugging ("funciona na minha máquina")
+- Feedback imediato sobre seu código
+- Mais tempo criando, menos tempo configurando
+
+**Para a empresa:**
+- Menos bugs em produção = menos prejuízo
+- Entregas mais rápidas = vantagem competitiva
+- Processos padronizados = menos erros humanos
+
+**Para os usuários:**
+- Recursos novos mais rápido
+- Aplicações mais estáveis
+- Menos tempo de indisponibilidade
+
+---8:Tab3,### 2.1 O que é uma Pipeline? (A Receita de Bolo)
+
+Imagine que fazer deploy é como assar um bolo:
+
+**Sem pipeline (manual):**
+1. Misturar ingredientes (escrever código)
+2. Aquecer forno (configurar servidor)
+3. Colocar na forma (fazer build)
+4. Assar (fazer deploy)
+5. Decorar (configurar ambiente)
+6. Servir (liberar para usuários)
+
+**Com pipeline (automático):**
+1. Misturar ingredientes (escrever código)
+2. **MÁGICA:** O resto acontece sozinho!
+   - O forno aquece automaticamente
+   - O bolo vai para o forno sozinho
+   - A decoração é aplicada automaticamente
+   - O bolo é servido automaticamente
+
+### 2.2 Os Estágios da Pipeline (Passo a Passo)
+
+Vamos ver o que acontece quando você commita código:
+
+```
+1. VOCÊ COMMITA CÓDIGO
+      ↓
+2. CI SERVER DETECTA ("Ah, tem código novo!")
+      ↓
+3. BUILD (Compilar/empacotar)
+      ↓
+4. TESTES (Unitários, integração)
+      ↓
+5. ANÁLISE (Qualidade, segurança)
+      ↓
+6. DEPLOY STAGING (Ambiente de teste)
+      ↓
+7. TESTES MANUAIS (Opcional)
+      ↓
+8. DEPLOY PRODUÇÃO 🎉
+```
+
+### 2.3 Exemplo Real: GitHub Actions
+
+Vamos ver um exemplo CONCRETO de pipeline:
+
+```yaml
+# Este arquivo fica em: .github/workflows/ci.yml
+name: Minha Primeira Pipeline
+
+# QUANDO roda? Quando houver push ou pull request
+on: [push, pull_request]
+
+jobs:
+  # JOB 1: Build e Teste
+  build-and-test:
+    runs-on: ubuntu-latest  # Onde roda? Linux
+    
+    steps:
+    # PASSO 1: Pegar o código
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    # PASSO 2: Configurar Node.js
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    # PASSO 3: Instalar dependências
+    - name: Install dependencies
+      run: npm ci  # Similar ao npm install
+    
+    # PASSO 4: Rodar testes
+    - name: Run tests
+      run: npm test  # Executa seus testes
+    
+    # PASSO 5: Build da aplicação
+    - name: Build application
+      run: npm run build  # Cria versão de produção
+```
+
+<div style="background: #dcfce7; padding: 1.5rem; border-left: 4px solid #22c55e; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>✅ Entendeu? Vamos resumir:</strong>
+  <p>Uma pipeline é uma <strong>receita automatizada</strong> que diz ao computador exatamente o que fazer com seu código, passo a passo, sem erro humano.</p>
+</div>
+
+### 2.4 Pipeline vs Script: Qual a Diferença?
+
+**Script tradicional:**
+```bash
+# script.sh
+npm install
+npm test
+npm run build
+# E se falhar? E se precisar rodar em paralelo?
+```
+
+**Pipeline moderna:**
+```yaml
+# Pipeline
+- Se falhar, para e me avisa
+- Se passar, vai para próximo passo
+- Posso rodar coisas em paralelo
+- Tenho logs organizados
+- Consigo reexecutar partes específicas
+```
+
+---9:Tb80,### 3.1 O Mercado de Ferramentas
+
+Existem basicamente 3 tipos:
+
+**1. SaaS (Software as a Service) - "Aluguel"**
+- Exemplos: GitHub Actions, GitLab CI, CircleCI
+- **Prós:** Fácil começar, manutenção zero
+- **Contras:** Custo cresce com uso, menos controle
+
+**2. Self-hosted - "Compre sua casa"**
+- Exemplos: Jenkins, GitLab Self-hosted
+- **Prós:** Controle total, customização ilimitada
+- **Contras:** Manutenção complexa, custo inicial
+
+**3. Híbridas - "O melhor dos dois mundos"**
+- Exemplos: Jenkins na nuvem
+- **Prós:** Flexibilidade
+- **Contras:** Complexidade
+
+### 3.2 Comparação Detalhada
+
+Vamos comparar as 5 ferramentas mais populares:
+
+| Ferramenta | Tipo | Melhor Para | Dificuldade | Custo Inicial |
+|------------|------|-------------|-------------|---------------|
+| **Jenkins** | 🏠 Self-hosted | Grandes empresas, muito customização | ⭐⭐⭐⭐ | $0 (tempo) |
+| **GitHub Actions** | ☁️ SaaS | Quem já usa GitHub, projetos pequenos/médios | ⭐⭐ | $0 |
+| **GitLab CI** | ☁️/🏠 Ambos | Times que querem tudo em um lugar | ⭐⭐⭐ | $0 |
+| **CircleCI** | ☁️ SaaS | Velocidade e simplicidade | ⭐⭐ | $$$ |
+| **Azure DevOps** | ☁️ SaaS | Empresas Microsoft | ⭐⭐⭐ | $$$ |
+
+### 3.3 Como Escolher? (Guia Prático)
+
+**Responda estas perguntas:**
+
+1. **Qual seu orçamento?**
+   - $0 → GitHub Actions, GitLab CI (free tier)
+   - $$$ → CircleCI, Azure DevOps
+   - Tempo para manter → Jenkins
+
+2. **Onde está seu código?**
+   - GitHub → GitHub Actions (óbvio!)
+   - GitLab → GitLab CI
+   - Outro → Jenkins, CircleCI
+
+3. **Qual tamanho da equipe?**
+   - 1-5 pessoas → GitHub Actions
+   - 5-20 pessoas → GitLab CI
+   - 20+ pessoas → Jenkins
+
+4. **Precisa de muita customização?**
+   - Não → GitHub Actions
+   - Sim → Jenkins
+
+<div style="background: #f3e8ff; padding: 1.5rem; border-left: 4px solid #8b5cf6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>🎯 Dica do Instrutor:</strong>
+  <p>Comece com <strong>GitHub Actions</strong> se usa GitHub, ou <strong>GitLab CI</strong> se usa GitLab. São as mais fáceis para aprender e já cobrem 90% das necessidades.</p>
+</div>
+
+### 3.4 Jenkins: O Velho Guerreiro
+
+**Por que ainda é popular?**
+- Open source (grátis)
+- 1,800+ plugins (faz TUDO)
+- Muito flexível
+- Comunidade enorme
+
+**Desafios:**
+- Configuração complexa
+- Precisa de manutenção
+- Interface "datada"
+
+```groovy
+// Exemplo Jenkins (mais complexo)
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+            }
+        }
+    }
+}
+```
+
+### 3.5 GitHub Actions: O Novo Fenômeno
+
+**Por que é popular?**
+- Integração nativa com GitHub
+- YAML simples
+- Marketplace de ações
+- Começar em 5 minutos
+
+```yaml
+# Simples, não?
+- name: Run Tests
+  run: npm test
+```
+
+---a:T856,### 4.1 Pipeline Rápida = Feedback Rápido
+
+**Regra de ouro:** Sua pipeline deve ser mais rápida que seu café!
+
+**Tempos ideais:**
+- Feedback inicial (build + testes básicos): **< 5 minutos**
+- Pipeline completa: **< 15 minutos**
+- Aceitável: **< 30 minutos**
+- Problema: **> 30 minutos**
+
+**Como acelerar:**
+1. **Cache:** Não baixe dependências toda vez
+   ```yaml
+   - name: Cache node modules
+     uses: actions/cache@v3
+     with:
+       path: node_modules
+       key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+   ```
+
+2. **Paralelismo:** Rode coisas juntas
+   ```yaml
+   # Testes unitários e lint rodam juntos
+   unit-tests:
+     # ...
+   
+   lint:
+     # ... (roda ao mesmo tempo!)
+   ```
+
+3. **Testes inteligentes:** Só rode o necessário
+
+### 4.2 Segurança em Primeiro Lugar
+
+**O que NUNCA fazer:**
+```yaml
+# ❌ NUNCA ISSO!
+env:
+  SENHA: "minhasenha123"  # Vaza no repositório!
+```
+
+**O que fazer SEMPRE:**
+```yaml
+# ✅ SEMPRE ISSO!
+env:
+  SENHA: ${{ secrets.MINHA_SENHA }}  # Seguro!
+```
+
+**Secrets gerenciados:**
+- GitHub: Settings → Secrets and variables → Actions
+- GitLab: Settings → CI/CD → Variables
+- Jenkins: Credentials plugin
+
+### 4.3 Trunk-Based Development (TBD)
+
+**O que é?** Trabalhar em branches pequenas e de curta duração.
+
+**Antigo (Git Flow):**
+```
+feature/big-feature (2 semanas)
+    ↓
+develop (merge complexo)
+    ↓
+release (1 semana de teste)
+    ↓
+main/production
+```
+
+**Moderno (TBD):**
+```
+feature/small-change (1 dia)
+    ↓
+main (merge direto, testes rodam)
+    ↓
+production (deploy automático)
+```
+
+**Por que TBD com CI/CD?**
+- Menos conflitos de merge
+- Feedback mais rápido
+- Deploys mais frequentes
+- Menos bugs de integração
+
+### 4.4 Feature Flags: Deploy sem Medo
+
+**Problema:** "E se meu código novo quebrar tudo?"
+
+**Solução:** Feature flags!
+
+```javascript
+// No seu código
+if (featureFlags.NOVA_FUNCIONALIDADE) {
+    // Código novo
+} else {
+    // Código antigo
+}
+```
+
+**Benefícios:**
+- Deploy código sem ativar funcionalidade
+- Ativar para alguns usuários primeiro
+- Desligar rápido se der problema
+- Teste A/B fácil
+
+---b:T8f2,### 5.1 "Minha Pipeline Demora Muito!"
+
+**Sintomas:**
+- Desenvolvedores não esperam pelo feedback
+- Commit e vai tomar café...
+- Pipeline trava outras mudanças
+
+**Soluções:**
+1. **Identifique o gargalo:**
+   ```yaml
+   # Adicione timers
+   - name: Start timer
+     run: echo "START_TIME=$(date +%s)" >> $GITHUB_ENV
+   
+   # ... seus steps ...
+   
+   - name: End timer
+     run: |
+       END_TIME=$(date +%s)
+       DURATION=$((END_TIME - START_TIME))
+       echo "Levou $DURATION segundos"
+   ```
+
+2. **Estratégias:**
+   - **Cache:** Dependências, imagens Docker
+   - **Paralelismo:** Jobs independentes rodam juntos
+   - **Split:** Pipeline curta para feedback + longa para tudo
+
+### 5.2 "Testes Flaky" (Os que Falham Aleatoriamente)
+
+**O que são:** Testes que às vezes passam, às vezes falham.
+
+**Por que acontece:**
+- Dependência externa (API, banco)
+- Timing issues (muito rápido/lento)
+- Estado compartilhado (um teste afeta outro)
+
+**Soluções:**
+1. **Identifique:** Marque testes flaky
+2. **Isole:** Rode separadamente
+3. **Melhore:** Mock externos, reset estado
+4. **Monitore:** Track falhas intermitentes
+
+```yaml
+# Estratégia: Retry automático
+- name: Run tests with retry
+  run: |
+    for i in {1..3}; do
+      npm test && break || sleep 5
+    done
+```
+
+### 5.3 "Build Breaker" - O Commit que Quebra Tudo
+
+**O que é:** Um commit que faz a pipeline falhar.
+
+**Como lidar:**
+1. **Prioridade #1:** Corrigir imediatamente
+2. **Reverter:** Volte o commit problemático
+3. **Hotfix:** Corrija rápido na main
+4. **Prevenção:** Code review, testes locais
+
+<div style="background: #fee2e2; padding: 1.5rem; border-left: 4px solid #ef4444; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>🚫 Regra sagrada:</strong>
+  <p><strong>NUNCA ignore uma pipeline falhando.</strong> Se está vermelho, pare tudo e corrija. Pipeline verde = confiança.</p>
+</div>
+
+### 5.4 "Funciona na Minha Máquina!"
+
+**Problema clássico:** Código roda local, quebra na pipeline.
+
+**Causas:**
+- Dependências diferentes
+- Variáveis de ambiente
+- Sistema operacional
+- Versões de ferramentas
+
+**Solução:** Containerização (Docker)!
+
+```yaml
+# Use containers consistentes
+jobs:
+  test:
+    container: node:18-alpine  # Mesmo ambiente sempre
+    steps:
+      - run: npm test
+```
+
+---c:T453,### 6.1 Blue-Green Deployment (Azul-Verde)
+
+**Analogia:** Dois teatros idênticos.
+
+**Funcionamento:**
+```
+TEATRO AZUL: Usuários atuais
+TEATRO VERDE: Nova versão (testando)
+
+1. Usuários no AZUL
+2. Deploy nova versão no VERDE
+3. Testa VERDE
+4. Troca tráfego: AZUL → VERDE
+5. AZUL vira backup
+```
+
+**Vantagens:**
+- Zero downtime
+- Rollback instantâneo (volta para AZUL)
+- Teste antes de liberar
+
+### 6.2 Canary Release (Release Canário)
+
+**Analogia:** Canários em minas de carvão.
+
+**Funcionamento:**
+```
+100% usuários → versão antiga
+  ↓
+5% usuários → nova versão (canários)
+  ↓
+Se ok: 25% → 50% → 100%
+Se ruim: volta 0%
+```
+
+**Vantagens:**
+- Risco baixo (só 5% afetados)
+- Feedback real de usuários
+- Rollback fácil
+
+### 6.3 Feature Flags + Canary
+
+**Combo poderosa:**
+1. Deploy código com feature flag OFF
+2. Ativar flag para 5% dos usuários (Canary)
+3. Monitorar métricas
+4. Se ok: ativar para todos
+5. Se ruim: desativar flag
+
+```javascript
+// Exemplo prático
+if (featureFlag.isEnabled('nova-ui', userId)) {
+    renderNovaUI();
+} else {
+    renderUIAntiga();
+}
+```
+
+---d:T542,### 7.1 As 4 Métricas do DORA (Google)
+
+**1. Lead Time for Changes**
+- **O que é:** Tempo do commit até produção
+- **Bom:** < 1 dia
+- **Ruim:** > 1 mês
+- **Como medir:** Data do commit → data do deploy
+
+**2. Deployment Frequency**
+- **O que é:** Com que frequência faz deploy
+- **Bom:** Múltiplos por dia
+- **Ruim:** Mensal
+- **Como medir:** Contar deploys por período
+
+**3. Change Failure Rate**
+- **O que é:** % de deploys que causam problemas
+- **Bom:** < 15%
+- **Ruim:** > 45%
+- **Como medir:** (Deploys com problemas / Total deploys) × 100
+
+**4. Mean Time to Recovery (MTTR)**
+- **O que é:** Tempo para recuperar de falha
+- **Bom:** < 1 hora
+- **Ruim:** > 1 semana
+- **Como medir:** Tempo do incidente até resolução
+
+<div style="background: #dbeafe; padding: 1.5rem; border-left: 4px solid #3b82f6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>📈 Dica de métricas:</strong>
+  <p>Comece medindo apenas o <strong>Lead Time</strong>. É a métrica mais fácil e mostra rapidamente se suas melhorias estão funcionando.</p>
+</div>
+
+### 7.2 Métricas de Pipeline
+
+**Tempo de execução:**
+- Build: < 5 min
+- Testes: < 10 min
+- Pipeline completa: < 30 min
+
+**Taxa de sucesso:**
+- Aceitável: > 90%
+- Bom: > 95%
+- Excelente: > 98%
+
+**Custo:**
+- Custo por build
+- Custo por deploy
+- ROI (Retorno sobre investimento)
+
+---e:T605,### 8.1 Primeiros Passos Práticos
+
+**Nível 1: Bebê (Primeira semana)**
+1. Crie conta no GitHub/GitLab
+2. Siga um tutorial de "Hello World" de CI/CD
+3. Automatize testes de um projeto pessoal
+4. Comemore seu primeiro deploy automático! 🎉
+
+**Nível 2: Caminhando (Primeiro mês)**
+1. Adicione cache à sua pipeline
+2. Configure notificações (Slack/Email)
+3. Adicione análise de código (SonarQube)
+4. Implemente deploy automático para staging
+
+**Nível 3: Correndo (Primeiro trimestre)**
+1. Implemente Blue-Green ou Canary
+2. Configure monitoramento da pipeline
+3. Automatize rollback
+4. Documente todo o processo
+
+### 8.2 Projetos para Praticar
+
+**Projeto 1: Pipeline Simples**
+- Objetivo: Testes + Build
+- Ferramenta: GitHub Actions
+- Dificuldade: ⭐☆☆☆☆
+
+**Projeto 2: Pipeline Completa**
+- Objetivo: Testes + Build + Deploy
+- Ferramenta: GitLab CI
+- Dificuldade: ⭐⭐☆☆☆
+
+**Projeto 3: Pipeline Empresarial**
+- Objetivo: Tudo + Segurança + Monitoramento
+- Ferramenta: Jenkins
+- Dificuldade: ⭐⭐⭐⭐☆
+
+### 8.3 Recursos para Aprender Mais
+
+**Livros recomendados:**
+- "Accelerate" - Nicole Forsgren (a Bíblia)
+- "Continuous Delivery" - Jez Humble (clássico)
+- "The DevOps Handbook" - Gene Kim (prático)
+
+**Cursos online:**
+- CI/CD Fundamentals (Coursera)
+- GitHub Actions (YouTube - free)
+- Jenkins Masterclass (Udemy)
+
+**Comunidades:**
+- /r/devops no Reddit
+- DevOps Brasil no Telegram
+- CNCF Slack (canal #ci-cd)
+
+**Blogs para seguir:**
+- Martin Fowler (martinfowler.com)
+- DZone CI/CD
+- DevOps.com
+
+---f:T754,### 🎉 Parabéns por chegar até aqui!
+
+Você acabou de aprender um dos tópicos mais importantes do desenvolvimento moderno. Vamos recapitular:
+
+**O que você aprendeu:**
+
+1. **CI/CD não é bicho de 7 cabeças** - É apenas automação inteligente
+2. **CI = Integração Contínua** - Testar código frequentemente
+3. **CD = Entrega Contínua** - Ter código sempre pronto para produção
+4. **CD = Implantação Contínua** - Deploy automático (opcional)
+5. **Pipeline = Receita automatizada** - Passo a passo do código à produção
+6. **Ferramentas variam** - Escolha baseada em seu contexto
+7. **Boas práticas existem** - Segurança, velocidade, métricas
+8. **Problemas têm solução** - Pipeline lenta, testes flaky, etc.
+
+### 🏆 Seu Certificado Espera!
+
+Agora você está pronto para o desafio final: o **quiz de 30 perguntas**.
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; color: white; text-align: center; margin: 2rem 0;">
+  <h3 style="color: white; margin-bottom: 1rem;">🎯 Hora do Quiz!</h3>
+  <p style="margin-bottom: 1rem;"><strong>30 perguntas • 25 minutos • Nota mínima: 70%</strong></p>
+  <p style="margin-bottom: 1.5rem;">Use tudo que aprendeu. As perguntas cobrem exatamente o conteúdo deste curso.</p>
+  
+  <div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 0.5rem; margin: 1rem 0;">
+    <p style="margin: 0;"><strong>Dicas para o quiz:</strong></p>
+    <ul style="text-align: left; margin: 0.5rem 0 0 0; padding-left: 1.5rem;">
+      <li>CI = Integração Contínua</li>
+      <li>Delivery ≠ Deployment (manual vs automático)</li>
+      <li>Pipeline lenta = anti-padrão</li>
+      <li>GitHub Actions = SaaS, Jenkins = Self-hosted</li>
+    </ul>
+  </div>
+  
+  <p><strong>Você vai se surpreender com quanto aprendeu! 💪</strong></p>
+</div>11:["id","waltenne","d"]
+0:["yzYEF-k3GnNnochTD_wU_",[[["",{"children":["instrutores",{"children":[["id","waltenne","d"],{"children":["__PAGE__?{\"id\":\"waltenne\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["instrutores",{"children":[["id","waltenne","d"],{"children":["__PAGE__",{},[["$L1",[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\",\"item\":\"https://aprendi.vercel.app\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Instrutores\",\"item\":\"https://aprendi.vercel.app/instrutores\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Waltenne Carvalho\",\"item\":\"https://aprendi.vercel.app/instrutores/waltenne\"}]}"}}],["$","div",null,{"className":"container mx-auto px-4 py-12","children":[["$","$L2",null,{"href":"/instrutores","className":"inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-8","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left h-4 w-4 mr-1","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"Voltar aos instrutores"]}],["$","div",null,{"className":"rounded-lg border bg-card text-card-foreground shadow-sm mb-12","children":["$","div",null,{"className":"p-8","children":["$","div",null,{"className":"flex flex-col md:flex-row gap-8 items-center md:items-start","children":[["$","div",null,{"className":"relative h-32 w-32 rounded-2xl overflow-hidden flex-shrink-0 bg-gradient-to-br from-primary/20 to-purple-500/20","children":["$","$L3",null,{"src":"https://avatars.githubusercontent.com/u/38992117?v=4","alt":"Waltenne Carvalho","fill":true,"className":"object-cover","unoptimized":false}]}],["$","div",null,{"className":"flex-1 text-center md:text-left","children":[["$","h1",null,{"className":"text-3xl font-bold mb-2","children":"Waltenne Carvalho"}],["$","div",null,{"className":"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 mb-4","children":"Instrutor"}],["$","p",null,{"className":"text-muted-foreground max-w-2xl mb-6","children":"DevOps Engineer com experiência em CI/CD, automação. Especialista em Jenkins, Gitlab e práticas de DevOps."}],["$","div",null,{"className":"flex gap-3 justify-center md:justify-start","children":[["$","a","github",{"href":"https://github.com/waltenne","target":"_blank","rel":"noopener noreferrer","className":"p-2 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors","aria-label":"github","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github h-5 w-5","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}]}],["$","a","linkedin",{"href":"https://linkedin.com/in/waltenne","target":"_blank","rel":"noopener noreferrer","className":"p-2 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors","aria-label":"linkedin","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-linkedin h-5 w-5","children":[["$","path","c2jq9f",{"d":"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"}],["$","rect","mk3on5",{"width":"4","height":"12","x":"2","y":"9"}],["$","circle","bt5ra8",{"cx":"4","cy":"4","r":"2"}],"$undefined"]}]}]]}]]}]]}]}]}],["$","section",null,{"children":[["$","h2",null,{"className":"text-2xl font-bold mb-6","children":["Cursos de ","Waltenne Carvalho"]}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6","children":[["$","$L4","cicd",{"course":{"id":"cicd","title":"CI/CD: Fundamentos e Prática","description":"Aprenda os conceitos essenciais de Integração e Entrega Contínua, com exemplos práticos e pipelines reais.","duration":"1h","level":"Intermediário","area":"DevOps","icon":"🚀","color":"#3B82F6","cover":"/courses/cicd/cover.png?v=Nzk4OS0x","tags":["CI/CD","DevOps","Automação","Pipeline","Jenkins","GitHub Actions","Integração Contínua"],"instructor":{"id":"waltenne"},"published":true,"featured":false,"content":"$5","htmlContent":"$6","sections":[{"id":"introducao","title":"Introdução","level":2,"content":"# Curso de CI/CD: Fundamentos e Prática\n\n> **Automatize seu fluxo de desenvolvimento!** Neste curso você vai aprender CI/CD do zero: desde os conceitos básicos até a implementação de pipelines completas. Ao final, você será capaz de criar, otimizar e gerenciar fluxos de entrega contínua."},{"id":"introducao","title":"📚 Introdução","level":2,"content":"Imagine poder entregar software com mais qualidade, menos bugs e muito mais rapidez. Isso é o que o CI/CD oferece! Neste curso, vamos desmistificar esses conceitos que parecem complexos, mas são essenciais para qualquer desenvolvedor moderno.\n\n**Por que CI/CD é importante?**\n- Reduz em até 70% os bugs em produção\n- Acelera o tempo de entrega em 90%\n- Aumenta a produtividade da equipe em 50%\n- Garante mais estabilidade e confiança\n\n**Para quem é este curso?**\n- Desenvolvedores que querem automatizar seus processos\n- DevOps iniciantes buscando entender fundamentos\n- Tech leads que precisam melhorar fluxos de entrega\n- Qualquer pessoa curiosa sobre automação de software\n\n**Tempo estimado:** 1 hora (mas você pode ir no seu ritmo!)\n\n---"},{"id":"objetivos-de-aprendizagem","title":"🎯 Objetivos de Aprendizagem","level":2,"content":"Ao final deste curso, você será capaz de:\n\n- [ ] **Explicar** com suas palavras o que é CI, CD e a diferença entre eles\n- [ ] **Identificar** os componentes básicos de uma pipeline\n- [ ] **Comparar** ferramentas populares de CI/CD\n- [ ] **Aplicar** boas práticas de segurança em pipelines\n- [ ] **Otimizar** uma pipeline para ser mais rápida\n- [ ] **Escolher** a ferramenta certa para cada cenário\n- [ ] **Criar** uma pipeline básica do zero\n\n---"},{"id":"secao-1-entendendo-ci-cd-os-conceitos-fundamentais","title":"📖 Seção 1: Entendendo CI/CD - Os Conceitos Fundamentais","level":2,"content":"$7"},{"id":"secao-2-como-tudo-funciona-a-pipeline","title":"💻 Seção 2: Como Tudo Funciona - A Pipeline","level":2,"content":"$8"},{"id":"secao-3-as-ferramentas-escolhendo-a-certa","title":"🛠️ Seção 3: As Ferramentas - Escolhendo a Certa","level":2,"content":"$9"},{"id":"secao-4-boas-praticas-fazendo-certo","title":"🔍 Seção 4: Boas Práticas - Fazendo Certo","level":2,"content":"$a"},{"id":"secao-5-problemas-comuns-e-como-resolver","title":"⚠️ Seção 5: Problemas Comuns (E Como Resolver)","level":2,"content":"$b"},{"id":"secao-6-estrategias-avancadas-de-deploy","title":"🎨 Seção 6: Estratégias Avançadas de Deploy","level":2,"content":"$c"},{"id":"secao-7-metricas-o-que-medir","title":"📊 Seção 7: Métricas - O Que Medir?","level":2,"content":"$d"},{"id":"secao-8-proximos-passos-sua-jornada-continua","title":"🚀 Seção 8: Próximos Passos - Sua Jornada Continua","level":2,"content":"$e"},{"id":"conclusao-voce-conseguiu","title":"✅ Conclusão - Você Conseguiu!","level":2,"content":"$f"}],"readingTime":"16 min","instructorData":{"id":"waltenne","name":"Waltenne Carvalho","avatar":"https://avatars.githubusercontent.com/u/38992117?v=4","bio":"DevOps Engineer com experiência em CI/CD, automação. Especialista em Jenkins, Gitlab e práticas de DevOps.","role":"Instrutor","social":{"github":"https://github.com/waltenne","linkedin":"https://linkedin.com/in/waltenne"}}}}]]}]]}]]}]],null],null],null]},[null,["$","$L10",null,{"parallelRouterKey":"children","segmentPath":["children","instrutores","children","$11","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L12",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L10",null,{"parallelRouterKey":"children","segmentPath":["children","instrutores","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L12",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/undefined/_next/static/css/f1ab10af7341b8ee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"pt-BR","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","$L13",null,{}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"EducationalOrganization\",\"name\":\"Aprendi\",\"url\":\"https://aprendi.vercel.app\",\"logo\":\"https://aprendi.vercel.app/logo.png\",\"description\":\"Aprendi - Cursos gratuitos, quizzes interativos e certificados simbólicos. Conhecimento acessível para todos.\",\"sameAs\":[]}"}}]]}],["$","body",null,{"className":"__variable_7b5f59 font-sans antialiased","children":["$","$L14",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$15",null,{"fallback":["$","div",null,{}],"children":["$","$L16",null,{"levels":["Iniciante","Intermediário"],"instructors":[{"id":"waltenne","name":"Waltenne Carvalho"},{"id":"comunidade-aprendi","name":"Comunidade Aprendi"}],"areas":["DevOps"],"tags":["Automação","CI/CD","Containers","DevOps","Docker","GitHub Actions","Integração Contínua","Jenkins","Pipeline"],"children":[["$","$L10",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$17","errorStyles":[],"errorScripts":[],"template":["$","$L12",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"container mx-auto px-4 py-24 text-center","children":[["$","h1",null,{"className":"text-9xl font-bold text-muted-foreground/30","children":"404"}],["$","h2",null,{"className":"text-2xl font-bold mt-4 mb-2","children":"Página não encontrada"}],["$","p",null,{"className":"text-muted-foreground mb-8 max-w-md mx-auto","children":"A página que você está procurando não existe ou foi movida."}],["$","div",null,{"className":"flex gap-4 justify-center","children":[["$","$L2",null,{"href":"/","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-home h-4 w-4 mr-2","children":[["$","path","y5dka4",{"d":"m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}],["$","polyline","e2us08",{"points":"9 22 9 12 15 12 15 22"}],"$undefined"]}],"Início"],"className":"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2"}],["$","$L2",null,{"href":"/cursos","children":"Explorar Cursos","className":"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"}]]}]]}],"notFoundStyles":[]}],["$","$L18",null,{}]]}]}]}]}]]}]],null],null],["$L19",null]]]]
+19:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#ffffff"}],["$","meta","2",{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#0a0a0f"}],["$","meta","3",{"charSet":"utf-8"}],["$","title","4",{"children":"Waltenne Carvalho | Aprendi"}],["$","meta","5",{"name":"description","content":"DevOps Engineer com experiência em CI/CD, automação. Especialista em Jenkins, Gitlab e práticas de DevOps."}],["$","meta","6",{"name":"author","content":"Aprendi"}],["$","meta","7",{"name":"keywords","content":"cursos gratuitos,educação online,quiz,certificado,aprendizado,programação,tecnologia"}],["$","meta","8",{"name":"creator","content":"Aprendi"}],["$","meta","9",{"name":"publisher","content":"Aprendi"}],["$","meta","10",{"name":"robots","content":"index, follow"}],["$","meta","11",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","12",{"rel":"canonical","href":"https://aprendi.vercel.app/instrutores/waltenne/"}],["$","meta","13",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","14",{"property":"og:title","content":"Waltenne Carvalho - Instrutor"}],["$","meta","15",{"property":"og:description","content":"DevOps Engineer com experiência em CI/CD, automação. Especialista em Jenkins, Gitlab e práticas de DevOps."}],["$","meta","16",{"property":"og:url","content":"https://aprendi.vercel.app/instrutores/waltenne/"}],["$","meta","17",{"property":"og:site_name","content":"Aprendi"}],["$","meta","18",{"property":"og:locale","content":"pt_BR"}],["$","meta","19",{"property":"og:image","content":"https://avatars.githubusercontent.com/u/38992117?v=4"}],["$","meta","20",{"property":"og:image:alt","content":"Waltenne Carvalho"}],["$","meta","21",{"property":"og:type","content":"profile"}],["$","meta","22",{"name":"twitter:card","content":"summary"}],["$","meta","23",{"name":"twitter:title","content":"Waltenne Carvalho - Instrutor"}],["$","meta","24",{"name":"twitter:description","content":"DevOps Engineer com experiência em CI/CD, automação. Especialista em Jenkins, Gitlab e práticas de DevOps."}],["$","meta","25",{"name":"twitter:image","content":"https://avatars.githubusercontent.com/u/38992117?v=4"}],["$","meta","26",{"name":"twitter:image:alt","content":"Waltenne Carvalho"}],["$","link","27",{"rel":"icon","href":"/favicon.ico","sizes":"any"}],["$","link","28",{"rel":"icon","href":"/images/logo.png","type":"image/png"}],["$","link","29",{"rel":"apple-touch-icon","href":"/images/logo.png"}],["$","meta","30",{"name":"next-size-adjust"}]]
+1:null

@@ -1,0 +1,3537 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+5:I[3605,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","1","static/chunks/1-3cb360009fcf4d46.js","12","static/chunks/12-6fe65af5063886dc.js","992","static/chunks/992-e92008d167744a7b.js","185","static/chunks/app/layout-a7397fd7fa732ea5.js"],"UmamiAnalytics"]
+6:I[2513,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","1","static/chunks/1-3cb360009fcf4d46.js","12","static/chunks/12-6fe65af5063886dc.js","992","static/chunks/992-e92008d167744a7b.js","185","static/chunks/app/layout-a7397fd7fa732ea5.js"],"ThemeProvider"]
+7:"$Sreact.suspense"
+8:I[8883,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","1","static/chunks/1-3cb360009fcf4d46.js","12","static/chunks/12-6fe65af5063886dc.js","992","static/chunks/992-e92008d167744a7b.js","185","static/chunks/app/layout-a7397fd7fa732ea5.js"],"SidebarLayout"]
+9:I[376,["601","static/chunks/app/error-5c786af7c63a05d7.js"],"default"]
+a:I[2972,["972","static/chunks/972-a21c671ddfad791b.js","160","static/chunks/app/not-found-b221cedcb4c797f1.js"],""]
+b:I[4886,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","1","static/chunks/1-3cb360009fcf4d46.js","12","static/chunks/12-6fe65af5063886dc.js","992","static/chunks/992-e92008d167744a7b.js","185","static/chunks/app/layout-a7397fd7fa732ea5.js"],"Toaster"]
+0:["yzYEF-k3GnNnochTD_wU_",[[["",{"children":["favoritos",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["favoritos",{"children":["__PAGE__",{},[["$L1","$L2",null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","favoritos","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/undefined/_next/static/css/f1ab10af7341b8ee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"pt-BR","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","$L5",null,{}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"EducationalOrganization\",\"name\":\"Aprendi\",\"url\":\"https://aprendi.vercel.app\",\"logo\":\"https://aprendi.vercel.app/logo.png\",\"description\":\"Aprendi - Cursos gratuitos, quizzes interativos e certificados simbólicos. Conhecimento acessível para todos.\",\"sameAs\":[]}"}}]]}],["$","body",null,{"className":"__variable_7b5f59 font-sans antialiased","children":["$","$L6",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$7",null,{"fallback":["$","div",null,{}],"children":["$","$L8",null,{"levels":["Iniciante","Intermediário"],"instructors":[{"id":"waltenne","name":"Waltenne Carvalho"},{"id":"comunidade-aprendi","name":"Comunidade Aprendi"}],"areas":["DevOps"],"tags":["Automação","CI/CD","Containers","DevOps","Docker","GitHub Actions","Integração Contínua","Jenkins","Pipeline"],"children":[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$9","errorStyles":[],"errorScripts":[],"template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"container mx-auto px-4 py-24 text-center","children":[["$","h1",null,{"className":"text-9xl font-bold text-muted-foreground/30","children":"404"}],["$","h2",null,{"className":"text-2xl font-bold mt-4 mb-2","children":"Página não encontrada"}],["$","p",null,{"className":"text-muted-foreground mb-8 max-w-md mx-auto","children":"A página que você está procurando não existe ou foi movida."}],["$","div",null,{"className":"flex gap-4 justify-center","children":[["$","$La",null,{"href":"/","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-home h-4 w-4 mr-2","children":[["$","path","y5dka4",{"d":"m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}],["$","polyline","e2us08",{"points":"9 22 9 12 15 12 15 22"}],"$undefined"]}],"Início"],"className":"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2"}],["$","$La",null,{"href":"/cursos","children":"Explorar Cursos","className":"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"}]]}]]}],"notFoundStyles":[]}],["$","$Lb",null,{}]]}]}]}]}]]}]],null],null],["$Lc",null]]]]
+d:I[5357,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","417","static/chunks/app/favoritos/page-ca10046035b7132e.js"],"FavoritosPageClient"]
+e:T532f,# Curso de CI/CD: Fundamentos e Prática
+
+> **Automatize seu fluxo de desenvolvimento!** Neste curso você vai aprender CI/CD do zero: desde os conceitos básicos até a implementação de pipelines completas. Ao final, você será capaz de criar, otimizar e gerenciar fluxos de entrega contínua.
+
+## 📚 Introdução
+
+Imagine poder entregar software com mais qualidade, menos bugs e muito mais rapidez. Isso é o que o CI/CD oferece! Neste curso, vamos desmistificar esses conceitos que parecem complexos, mas são essenciais para qualquer desenvolvedor moderno.
+
+**Por que CI/CD é importante?**
+- Reduz em até 70% os bugs em produção
+- Acelera o tempo de entrega em 90%
+- Aumenta a produtividade da equipe em 50%
+- Garante mais estabilidade e confiança
+
+**Para quem é este curso?**
+- Desenvolvedores que querem automatizar seus processos
+- DevOps iniciantes buscando entender fundamentos
+- Tech leads que precisam melhorar fluxos de entrega
+- Qualquer pessoa curiosa sobre automação de software
+
+**Tempo estimado:** 1 hora (mas você pode ir no seu ritmo!)
+
+---
+
+## 🎯 Objetivos de Aprendizagem
+
+Ao final deste curso, você será capaz de:
+
+- [ ] **Explicar** com suas palavras o que é CI, CD e a diferença entre eles
+- [ ] **Identificar** os componentes básicos de uma pipeline
+- [ ] **Comparar** ferramentas populares de CI/CD
+- [ ] **Aplicar** boas práticas de segurança em pipelines
+- [ ] **Otimizar** uma pipeline para ser mais rápida
+- [ ] **Escolher** a ferramenta certa para cada cenário
+- [ ] **Criar** uma pipeline básica do zero
+
+---
+
+## 📖 Seção 1: Entendendo CI/CD - Os Conceitos Fundamentais
+
+### 1.1 O que é CI/CD? (A Analogia da Fábrica)
+
+Pense em uma fábrica de carros:
+
+**Sem CI/CD (antigo):**
+- Cada peça é feita separadamente
+- Só se monta o carro no final do mês
+- Se uma peça tem defeito, todo o carro sai errado
+- Leva semanas para descobrir problemas
+
+**Com CI/CD (moderno):**
+- Peças são testadas logo que ficam prontas
+- O carro é montado peça por peça, diariamente
+- Problemas são encontrados em minutos
+- Carros saem da linha de produção constantemente
+
+<div style="background: #f0f9ff; padding: 1.5rem; border-left: 4px solid #0ea5e9; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>💡 Pense assim:</strong>
+  <p>CI/CD transforma o desenvolvimento de software de uma "produção em lote" para uma "linha de montagem contínua".</p>
+</div>
+
+### 1.2 As Três Letras Mágicas: CI, CD, CD
+
+Vamos descomplicar essas siglas:
+
+**CI = Continuous Integration (Integração Contínua)**
+- **O que é:** Integrar pequenas mudanças de código frequentemente
+- **Como funciona:** Toda vez que você commita código, testes rodam automaticamente
+- **Objetivo:** Encontrar bugs rapidamente
+- **Analogia:** Testar cada peça do carro assim que é feita
+
+**CD = Continuous Delivery (Entrega Contínua)**
+- **O que é:** Ter o código sempre pronto para produção
+- **Como funciona:** Após os testes, o sistema automaticamente prepara tudo para deploy
+- **Objetivo:** Poder fazer deploy a qualquer momento
+- **Analogia:** O carro está montado, com gasolina, e pronto para sair da fábrica
+
+**CD = Continuous Deployment (Implantação Contínua)**
+- **O que é:** Deploy automático para produção
+- **Como funciona:** Se todos os testes passarem, vai direto para produção
+- **Objetivo:** Entregar valor aos usuários o mais rápido possível
+- **Analogia:** O carro sai da fábrica e vai direto para a concessionária
+
+### 1.3 A Evolução Natural
+
+```
+     CI          →          CD (Delivery)         →          CD (Deployment)
+     │                      │                                │
+"Testo meu código"   "Preparo para produção"        "Vai para produção automático"
+     │                      │                                │
+  Descobre bugs          ↓                           Entrega valor
+     rápido         Pode fazer deploy                  constantemente
+                    quando quiser
+```
+
+<div style="background: #fef3c7; padding: 1.5rem; border-left: 4px solid #f59e0b; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>⚠️ Atenção às confusões comuns:</strong>
+  <p>Muitas pessoas usam "CD" para ambos (Delivery e Deployment). A diferença crucial é: <strong>Delivery tem aprovação manual, Deployment é totalmente automático.</strong></p>
+</div>
+
+### 1.4 Por que adotar CI/CD? (Os Benefícios Reais)
+
+**Para desenvolvedores:**
+- Menos tempo debugging ("funciona na minha máquina")
+- Feedback imediato sobre seu código
+- Mais tempo criando, menos tempo configurando
+
+**Para a empresa:**
+- Menos bugs em produção = menos prejuízo
+- Entregas mais rápidas = vantagem competitiva
+- Processos padronizados = menos erros humanos
+
+**Para os usuários:**
+- Recursos novos mais rápido
+- Aplicações mais estáveis
+- Menos tempo de indisponibilidade
+
+---
+
+## 💻 Seção 2: Como Tudo Funciona - A Pipeline
+
+### 2.1 O que é uma Pipeline? (A Receita de Bolo)
+
+Imagine que fazer deploy é como assar um bolo:
+
+**Sem pipeline (manual):**
+1. Misturar ingredientes (escrever código)
+2. Aquecer forno (configurar servidor)
+3. Colocar na forma (fazer build)
+4. Assar (fazer deploy)
+5. Decorar (configurar ambiente)
+6. Servir (liberar para usuários)
+
+**Com pipeline (automático):**
+1. Misturar ingredientes (escrever código)
+2. **MÁGICA:** O resto acontece sozinho!
+   - O forno aquece automaticamente
+   - O bolo vai para o forno sozinho
+   - A decoração é aplicada automaticamente
+   - O bolo é servido automaticamente
+
+### 2.2 Os Estágios da Pipeline (Passo a Passo)
+
+Vamos ver o que acontece quando você commita código:
+
+```
+1. VOCÊ COMMITA CÓDIGO
+      ↓
+2. CI SERVER DETECTA ("Ah, tem código novo!")
+      ↓
+3. BUILD (Compilar/empacotar)
+      ↓
+4. TESTES (Unitários, integração)
+      ↓
+5. ANÁLISE (Qualidade, segurança)
+      ↓
+6. DEPLOY STAGING (Ambiente de teste)
+      ↓
+7. TESTES MANUAIS (Opcional)
+      ↓
+8. DEPLOY PRODUÇÃO 🎉
+```
+
+### 2.3 Exemplo Real: GitHub Actions
+
+Vamos ver um exemplo CONCRETO de pipeline:
+
+```yaml
+# Este arquivo fica em: .github/workflows/ci.yml
+name: Minha Primeira Pipeline
+
+# QUANDO roda? Quando houver push ou pull request
+on: [push, pull_request]
+
+jobs:
+  # JOB 1: Build e Teste
+  build-and-test:
+    runs-on: ubuntu-latest  # Onde roda? Linux
+    
+    steps:
+    # PASSO 1: Pegar o código
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    # PASSO 2: Configurar Node.js
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    # PASSO 3: Instalar dependências
+    - name: Install dependencies
+      run: npm ci  # Similar ao npm install
+    
+    # PASSO 4: Rodar testes
+    - name: Run tests
+      run: npm test  # Executa seus testes
+    
+    # PASSO 5: Build da aplicação
+    - name: Build application
+      run: npm run build  # Cria versão de produção
+```
+
+<div style="background: #dcfce7; padding: 1.5rem; border-left: 4px solid #22c55e; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>✅ Entendeu? Vamos resumir:</strong>
+  <p>Uma pipeline é uma <strong>receita automatizada</strong> que diz ao computador exatamente o que fazer com seu código, passo a passo, sem erro humano.</p>
+</div>
+
+### 2.4 Pipeline vs Script: Qual a Diferença?
+
+**Script tradicional:**
+```bash
+# script.sh
+npm install
+npm test
+npm run build
+# E se falhar? E se precisar rodar em paralelo?
+```
+
+**Pipeline moderna:**
+```yaml
+# Pipeline
+- Se falhar, para e me avisa
+- Se passar, vai para próximo passo
+- Posso rodar coisas em paralelo
+- Tenho logs organizados
+- Consigo reexecutar partes específicas
+```
+
+---
+
+## 🛠️ Seção 3: As Ferramentas - Escolhendo a Certa
+
+### 3.1 O Mercado de Ferramentas
+
+Existem basicamente 3 tipos:
+
+**1. SaaS (Software as a Service) - "Aluguel"**
+- Exemplos: GitHub Actions, GitLab CI, CircleCI
+- **Prós:** Fácil começar, manutenção zero
+- **Contras:** Custo cresce com uso, menos controle
+
+**2. Self-hosted - "Compre sua casa"**
+- Exemplos: Jenkins, GitLab Self-hosted
+- **Prós:** Controle total, customização ilimitada
+- **Contras:** Manutenção complexa, custo inicial
+
+**3. Híbridas - "O melhor dos dois mundos"**
+- Exemplos: Jenkins na nuvem
+- **Prós:** Flexibilidade
+- **Contras:** Complexidade
+
+### 3.2 Comparação Detalhada
+
+Vamos comparar as 5 ferramentas mais populares:
+
+| Ferramenta | Tipo | Melhor Para | Dificuldade | Custo Inicial |
+|------------|------|-------------|-------------|---------------|
+| **Jenkins** | 🏠 Self-hosted | Grandes empresas, muito customização | ⭐⭐⭐⭐ | $0 (tempo) |
+| **GitHub Actions** | ☁️ SaaS | Quem já usa GitHub, projetos pequenos/médios | ⭐⭐ | $0 |
+| **GitLab CI** | ☁️/🏠 Ambos | Times que querem tudo em um lugar | ⭐⭐⭐ | $0 |
+| **CircleCI** | ☁️ SaaS | Velocidade e simplicidade | ⭐⭐ | $$$ |
+| **Azure DevOps** | ☁️ SaaS | Empresas Microsoft | ⭐⭐⭐ | $$$ |
+
+### 3.3 Como Escolher? (Guia Prático)
+
+**Responda estas perguntas:**
+
+1. **Qual seu orçamento?**
+   - $0 → GitHub Actions, GitLab CI (free tier)
+   - $$$ → CircleCI, Azure DevOps
+   - Tempo para manter → Jenkins
+
+2. **Onde está seu código?**
+   - GitHub → GitHub Actions (óbvio!)
+   - GitLab → GitLab CI
+   - Outro → Jenkins, CircleCI
+
+3. **Qual tamanho da equipe?**
+   - 1-5 pessoas → GitHub Actions
+   - 5-20 pessoas → GitLab CI
+   - 20+ pessoas → Jenkins
+
+4. **Precisa de muita customização?**
+   - Não → GitHub Actions
+   - Sim → Jenkins
+
+<div style="background: #f3e8ff; padding: 1.5rem; border-left: 4px solid #8b5cf6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>🎯 Dica do Instrutor:</strong>
+  <p>Comece com <strong>GitHub Actions</strong> se usa GitHub, ou <strong>GitLab CI</strong> se usa GitLab. São as mais fáceis para aprender e já cobrem 90% das necessidades.</p>
+</div>
+
+### 3.4 Jenkins: O Velho Guerreiro
+
+**Por que ainda é popular?**
+- Open source (grátis)
+- 1,800+ plugins (faz TUDO)
+- Muito flexível
+- Comunidade enorme
+
+**Desafios:**
+- Configuração complexa
+- Precisa de manutenção
+- Interface "datada"
+
+```groovy
+// Exemplo Jenkins (mais complexo)
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+            }
+        }
+    }
+}
+```
+
+### 3.5 GitHub Actions: O Novo Fenômeno
+
+**Por que é popular?**
+- Integração nativa com GitHub
+- YAML simples
+- Marketplace de ações
+- Começar em 5 minutos
+
+```yaml
+# Simples, não?
+- name: Run Tests
+  run: npm test
+```
+
+---
+
+## 🔍 Seção 4: Boas Práticas - Fazendo Certo
+
+### 4.1 Pipeline Rápida = Feedback Rápido
+
+**Regra de ouro:** Sua pipeline deve ser mais rápida que seu café!
+
+**Tempos ideais:**
+- Feedback inicial (build + testes básicos): **< 5 minutos**
+- Pipeline completa: **< 15 minutos**
+- Aceitável: **< 30 minutos**
+- Problema: **> 30 minutos**
+
+**Como acelerar:**
+1. **Cache:** Não baixe dependências toda vez
+   ```yaml
+   - name: Cache node modules
+     uses: actions/cache@v3
+     with:
+       path: node_modules
+       key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+   ```
+
+2. **Paralelismo:** Rode coisas juntas
+   ```yaml
+   # Testes unitários e lint rodam juntos
+   unit-tests:
+     # ...
+   
+   lint:
+     # ... (roda ao mesmo tempo!)
+   ```
+
+3. **Testes inteligentes:** Só rode o necessário
+
+### 4.2 Segurança em Primeiro Lugar
+
+**O que NUNCA fazer:**
+```yaml
+# ❌ NUNCA ISSO!
+env:
+  SENHA: "minhasenha123"  # Vaza no repositório!
+```
+
+**O que fazer SEMPRE:**
+```yaml
+# ✅ SEMPRE ISSO!
+env:
+  SENHA: ${{ secrets.MINHA_SENHA }}  # Seguro!
+```
+
+**Secrets gerenciados:**
+- GitHub: Settings → Secrets and variables → Actions
+- GitLab: Settings → CI/CD → Variables
+- Jenkins: Credentials plugin
+
+### 4.3 Trunk-Based Development (TBD)
+
+**O que é?** Trabalhar em branches pequenas e de curta duração.
+
+**Antigo (Git Flow):**
+```
+feature/big-feature (2 semanas)
+    ↓
+develop (merge complexo)
+    ↓
+release (1 semana de teste)
+    ↓
+main/production
+```
+
+**Moderno (TBD):**
+```
+feature/small-change (1 dia)
+    ↓
+main (merge direto, testes rodam)
+    ↓
+production (deploy automático)
+```
+
+**Por que TBD com CI/CD?**
+- Menos conflitos de merge
+- Feedback mais rápido
+- Deploys mais frequentes
+- Menos bugs de integração
+
+### 4.4 Feature Flags: Deploy sem Medo
+
+**Problema:** "E se meu código novo quebrar tudo?"
+
+**Solução:** Feature flags!
+
+```javascript
+// No seu código
+if (featureFlags.NOVA_FUNCIONALIDADE) {
+    // Código novo
+} else {
+    // Código antigo
+}
+```
+
+**Benefícios:**
+- Deploy código sem ativar funcionalidade
+- Ativar para alguns usuários primeiro
+- Desligar rápido se der problema
+- Teste A/B fácil
+
+---
+
+## ⚠️ Seção 5: Problemas Comuns (E Como Resolver)
+
+### 5.1 "Minha Pipeline Demora Muito!"
+
+**Sintomas:**
+- Desenvolvedores não esperam pelo feedback
+- Commit e vai tomar café...
+- Pipeline trava outras mudanças
+
+**Soluções:**
+1. **Identifique o gargalo:**
+   ```yaml
+   # Adicione timers
+   - name: Start timer
+     run: echo "START_TIME=$(date +%s)" >> $GITHUB_ENV
+   
+   # ... seus steps ...
+   
+   - name: End timer
+     run: |
+       END_TIME=$(date +%s)
+       DURATION=$((END_TIME - START_TIME))
+       echo "Levou $DURATION segundos"
+   ```
+
+2. **Estratégias:**
+   - **Cache:** Dependências, imagens Docker
+   - **Paralelismo:** Jobs independentes rodam juntos
+   - **Split:** Pipeline curta para feedback + longa para tudo
+
+### 5.2 "Testes Flaky" (Os que Falham Aleatoriamente)
+
+**O que são:** Testes que às vezes passam, às vezes falham.
+
+**Por que acontece:**
+- Dependência externa (API, banco)
+- Timing issues (muito rápido/lento)
+- Estado compartilhado (um teste afeta outro)
+
+**Soluções:**
+1. **Identifique:** Marque testes flaky
+2. **Isole:** Rode separadamente
+3. **Melhore:** Mock externos, reset estado
+4. **Monitore:** Track falhas intermitentes
+
+```yaml
+# Estratégia: Retry automático
+- name: Run tests with retry
+  run: |
+    for i in {1..3}; do
+      npm test && break || sleep 5
+    done
+```
+
+### 5.3 "Build Breaker" - O Commit que Quebra Tudo
+
+**O que é:** Um commit que faz a pipeline falhar.
+
+**Como lidar:**
+1. **Prioridade #1:** Corrigir imediatamente
+2. **Reverter:** Volte o commit problemático
+3. **Hotfix:** Corrija rápido na main
+4. **Prevenção:** Code review, testes locais
+
+<div style="background: #fee2e2; padding: 1.5rem; border-left: 4px solid #ef4444; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>🚫 Regra sagrada:</strong>
+  <p><strong>NUNCA ignore uma pipeline falhando.</strong> Se está vermelho, pare tudo e corrija. Pipeline verde = confiança.</p>
+</div>
+
+### 5.4 "Funciona na Minha Máquina!"
+
+**Problema clássico:** Código roda local, quebra na pipeline.
+
+**Causas:**
+- Dependências diferentes
+- Variáveis de ambiente
+- Sistema operacional
+- Versões de ferramentas
+
+**Solução:** Containerização (Docker)!
+
+```yaml
+# Use containers consistentes
+jobs:
+  test:
+    container: node:18-alpine  # Mesmo ambiente sempre
+    steps:
+      - run: npm test
+```
+
+---
+
+## 🎨 Seção 6: Estratégias Avançadas de Deploy
+
+### 6.1 Blue-Green Deployment (Azul-Verde)
+
+**Analogia:** Dois teatros idênticos.
+
+**Funcionamento:**
+```
+TEATRO AZUL: Usuários atuais
+TEATRO VERDE: Nova versão (testando)
+
+1. Usuários no AZUL
+2. Deploy nova versão no VERDE
+3. Testa VERDE
+4. Troca tráfego: AZUL → VERDE
+5. AZUL vira backup
+```
+
+**Vantagens:**
+- Zero downtime
+- Rollback instantâneo (volta para AZUL)
+- Teste antes de liberar
+
+### 6.2 Canary Release (Release Canário)
+
+**Analogia:** Canários em minas de carvão.
+
+**Funcionamento:**
+```
+100% usuários → versão antiga
+  ↓
+5% usuários → nova versão (canários)
+  ↓
+Se ok: 25% → 50% → 100%
+Se ruim: volta 0%
+```
+
+**Vantagens:**
+- Risco baixo (só 5% afetados)
+- Feedback real de usuários
+- Rollback fácil
+
+### 6.3 Feature Flags + Canary
+
+**Combo poderosa:**
+1. Deploy código com feature flag OFF
+2. Ativar flag para 5% dos usuários (Canary)
+3. Monitorar métricas
+4. Se ok: ativar para todos
+5. Se ruim: desativar flag
+
+```javascript
+// Exemplo prático
+if (featureFlag.isEnabled('nova-ui', userId)) {
+    renderNovaUI();
+} else {
+    renderUIAntiga();
+}
+```
+
+---
+
+## 📊 Seção 7: Métricas - O Que Medir?
+
+### 7.1 As 4 Métricas do DORA (Google)
+
+**1. Lead Time for Changes**
+- **O que é:** Tempo do commit até produção
+- **Bom:** < 1 dia
+- **Ruim:** > 1 mês
+- **Como medir:** Data do commit → data do deploy
+
+**2. Deployment Frequency**
+- **O que é:** Com que frequência faz deploy
+- **Bom:** Múltiplos por dia
+- **Ruim:** Mensal
+- **Como medir:** Contar deploys por período
+
+**3. Change Failure Rate**
+- **O que é:** % de deploys que causam problemas
+- **Bom:** < 15%
+- **Ruim:** > 45%
+- **Como medir:** (Deploys com problemas / Total deploys) × 100
+
+**4. Mean Time to Recovery (MTTR)**
+- **O que é:** Tempo para recuperar de falha
+- **Bom:** < 1 hora
+- **Ruim:** > 1 semana
+- **Como medir:** Tempo do incidente até resolução
+
+<div style="background: #dbeafe; padding: 1.5rem; border-left: 4px solid #3b82f6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>📈 Dica de métricas:</strong>
+  <p>Comece medindo apenas o <strong>Lead Time</strong>. É a métrica mais fácil e mostra rapidamente se suas melhorias estão funcionando.</p>
+</div>
+
+### 7.2 Métricas de Pipeline
+
+**Tempo de execução:**
+- Build: < 5 min
+- Testes: < 10 min
+- Pipeline completa: < 30 min
+
+**Taxa de sucesso:**
+- Aceitável: > 90%
+- Bom: > 95%
+- Excelente: > 98%
+
+**Custo:**
+- Custo por build
+- Custo por deploy
+- ROI (Retorno sobre investimento)
+
+---
+
+## 🚀 Seção 8: Próximos Passos - Sua Jornada Continua
+
+### 8.1 Primeiros Passos Práticos
+
+**Nível 1: Bebê (Primeira semana)**
+1. Crie conta no GitHub/GitLab
+2. Siga um tutorial de "Hello World" de CI/CD
+3. Automatize testes de um projeto pessoal
+4. Comemore seu primeiro deploy automático! 🎉
+
+**Nível 2: Caminhando (Primeiro mês)**
+1. Adicione cache à sua pipeline
+2. Configure notificações (Slack/Email)
+3. Adicione análise de código (SonarQube)
+4. Implemente deploy automático para staging
+
+**Nível 3: Correndo (Primeiro trimestre)**
+1. Implemente Blue-Green ou Canary
+2. Configure monitoramento da pipeline
+3. Automatize rollback
+4. Documente todo o processo
+
+### 8.2 Projetos para Praticar
+
+**Projeto 1: Pipeline Simples**
+- Objetivo: Testes + Build
+- Ferramenta: GitHub Actions
+- Dificuldade: ⭐☆☆☆☆
+
+**Projeto 2: Pipeline Completa**
+- Objetivo: Testes + Build + Deploy
+- Ferramenta: GitLab CI
+- Dificuldade: ⭐⭐☆☆☆
+
+**Projeto 3: Pipeline Empresarial**
+- Objetivo: Tudo + Segurança + Monitoramento
+- Ferramenta: Jenkins
+- Dificuldade: ⭐⭐⭐⭐☆
+
+### 8.3 Recursos para Aprender Mais
+
+**Livros recomendados:**
+- "Accelerate" - Nicole Forsgren (a Bíblia)
+- "Continuous Delivery" - Jez Humble (clássico)
+- "The DevOps Handbook" - Gene Kim (prático)
+
+**Cursos online:**
+- CI/CD Fundamentals (Coursera)
+- GitHub Actions (YouTube - free)
+- Jenkins Masterclass (Udemy)
+
+**Comunidades:**
+- /r/devops no Reddit
+- DevOps Brasil no Telegram
+- CNCF Slack (canal #ci-cd)
+
+**Blogs para seguir:**
+- Martin Fowler (martinfowler.com)
+- DZone CI/CD
+- DevOps.com
+
+---
+
+## ✅ Conclusão - Você Conseguiu!
+
+### 🎉 Parabéns por chegar até aqui!
+
+Você acabou de aprender um dos tópicos mais importantes do desenvolvimento moderno. Vamos recapitular:
+
+**O que você aprendeu:**
+
+1. **CI/CD não é bicho de 7 cabeças** - É apenas automação inteligente
+2. **CI = Integração Contínua** - Testar código frequentemente
+3. **CD = Entrega Contínua** - Ter código sempre pronto para produção
+4. **CD = Implantação Contínua** - Deploy automático (opcional)
+5. **Pipeline = Receita automatizada** - Passo a passo do código à produção
+6. **Ferramentas variam** - Escolha baseada em seu contexto
+7. **Boas práticas existem** - Segurança, velocidade, métricas
+8. **Problemas têm solução** - Pipeline lenta, testes flaky, etc.
+
+### 🏆 Seu Certificado Espera!
+
+Agora você está pronto para o desafio final: o **quiz de 30 perguntas**.
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; color: white; text-align: center; margin: 2rem 0;">
+  <h3 style="color: white; margin-bottom: 1rem;">🎯 Hora do Quiz!</h3>
+  <p style="margin-bottom: 1rem;"><strong>30 perguntas • 25 minutos • Nota mínima: 70%</strong></p>
+  <p style="margin-bottom: 1.5rem;">Use tudo que aprendeu. As perguntas cobrem exatamente o conteúdo deste curso.</p>
+  
+  <div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 0.5rem; margin: 1rem 0;">
+    <p style="margin: 0;"><strong>Dicas para o quiz:</strong></p>
+    <ul style="text-align: left; margin: 0.5rem 0 0 0; padding-left: 1.5rem;">
+      <li>CI = Integração Contínua</li>
+      <li>Delivery ≠ Deployment (manual vs automático)</li>
+      <li>Pipeline lenta = anti-padrão</li>
+      <li>GitHub Actions = SaaS, Jenkins = Self-hosted</li>
+    </ul>
+  </div>
+  
+  <p><strong>Você vai se surpreender com quanto aprendeu! 💪</strong></p>
+</div>f:T6a4c,<h1>Curso de CI/CD: Fundamentos e Prática</h1>
+<blockquote>
+<p><strong>Automatize seu fluxo de desenvolvimento!</strong> Neste curso você vai aprender CI/CD do zero: desde os conceitos básicos até a implementação de pipelines completas. Ao final, você será capaz de criar, otimizar e gerenciar fluxos de entrega contínua.</p>
+</blockquote>
+<h2>📚 Introdução</h2>
+<p>Imagine poder entregar software com mais qualidade, menos bugs e muito mais rapidez. Isso é o que o CI/CD oferece! Neste curso, vamos desmistificar esses conceitos que parecem complexos, mas são essenciais para qualquer desenvolvedor moderno.</p>
+<p><strong>Por que CI/CD é importante?</strong></p>
+<ul>
+<li>Reduz em até 70% os bugs em produção</li>
+<li>Acelera o tempo de entrega em 90%</li>
+<li>Aumenta a produtividade da equipe em 50%</li>
+<li>Garante mais estabilidade e confiança</li>
+</ul>
+<p><strong>Para quem é este curso?</strong></p>
+<ul>
+<li>Desenvolvedores que querem automatizar seus processos</li>
+<li>DevOps iniciantes buscando entender fundamentos</li>
+<li>Tech leads que precisam melhorar fluxos de entrega</li>
+<li>Qualquer pessoa curiosa sobre automação de software</li>
+</ul>
+<p><strong>Tempo estimado:</strong> 1 hora (mas você pode ir no seu ritmo!)</p>
+<hr>
+<h2>🎯 Objetivos de Aprendizagem</h2>
+<p>Ao final deste curso, você será capaz de:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Explicar</strong> com suas palavras o que é CI, CD e a diferença entre eles</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Identificar</strong> os componentes básicos de uma pipeline</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Comparar</strong> ferramentas populares de CI/CD</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Aplicar</strong> boas práticas de segurança em pipelines</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Otimizar</strong> uma pipeline para ser mais rápida</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Escolher</strong> a ferramenta certa para cada cenário</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Criar</strong> uma pipeline básica do zero</li>
+</ul>
+<hr>
+<h2>📖 Seção 1: Entendendo CI/CD - Os Conceitos Fundamentais</h2>
+<h3>1.1 O que é CI/CD? (A Analogia da Fábrica)</h3>
+<p>Pense em uma fábrica de carros:</p>
+<p><strong>Sem CI/CD (antigo):</strong></p>
+<ul>
+<li>Cada peça é feita separadamente</li>
+<li>Só se monta o carro no final do mês</li>
+<li>Se uma peça tem defeito, todo o carro sai errado</li>
+<li>Leva semanas para descobrir problemas</li>
+</ul>
+<p><strong>Com CI/CD (moderno):</strong></p>
+<ul>
+<li>Peças são testadas logo que ficam prontas</li>
+<li>O carro é montado peça por peça, diariamente</li>
+<li>Problemas são encontrados em minutos</li>
+<li>Carros saem da linha de produção constantemente</li>
+</ul>
+<div style="background: #f0f9ff; padding: 1.5rem; border-left: 4px solid #0ea5e9; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>💡 Pense assim:</strong>
+  <p>CI/CD transforma o desenvolvimento de software de uma "produção em lote" para uma "linha de montagem contínua".</p>
+</div>
+<h3>1.2 As Três Letras Mágicas: CI, CD, CD</h3>
+<p>Vamos descomplicar essas siglas:</p>
+<p><strong>CI = Continuous Integration (Integração Contínua)</strong></p>
+<ul>
+<li><strong>O que é:</strong> Integrar pequenas mudanças de código frequentemente</li>
+<li><strong>Como funciona:</strong> Toda vez que você commita código, testes rodam automaticamente</li>
+<li><strong>Objetivo:</strong> Encontrar bugs rapidamente</li>
+<li><strong>Analogia:</strong> Testar cada peça do carro assim que é feita</li>
+</ul>
+<p><strong>CD = Continuous Delivery (Entrega Contínua)</strong></p>
+<ul>
+<li><strong>O que é:</strong> Ter o código sempre pronto para produção</li>
+<li><strong>Como funciona:</strong> Após os testes, o sistema automaticamente prepara tudo para deploy</li>
+<li><strong>Objetivo:</strong> Poder fazer deploy a qualquer momento</li>
+<li><strong>Analogia:</strong> O carro está montado, com gasolina, e pronto para sair da fábrica</li>
+</ul>
+<p><strong>CD = Continuous Deployment (Implantação Contínua)</strong></p>
+<ul>
+<li><strong>O que é:</strong> Deploy automático para produção</li>
+<li><strong>Como funciona:</strong> Se todos os testes passarem, vai direto para produção</li>
+<li><strong>Objetivo:</strong> Entregar valor aos usuários o mais rápido possível</li>
+<li><strong>Analogia:</strong> O carro sai da fábrica e vai direto para a concessionária</li>
+</ul>
+<h3>1.3 A Evolução Natural</h3>
+<pre><code>     CI          →          CD (Delivery)         →          CD (Deployment)
+     │                      │                                │
+"Testo meu código"   "Preparo para produção"        "Vai para produção automático"
+     │                      │                                │
+  Descobre bugs          ↓                           Entrega valor
+     rápido         Pode fazer deploy                  constantemente
+                    quando quiser
+</code></pre>
+<div style="background: #fef3c7; padding: 1.5rem; border-left: 4px solid #f59e0b; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>⚠️ Atenção às confusões comuns:</strong>
+  <p>Muitas pessoas usam "CD" para ambos (Delivery e Deployment). A diferença crucial é: <strong>Delivery tem aprovação manual, Deployment é totalmente automático.</strong></p>
+</div>
+<h3>1.4 Por que adotar CI/CD? (Os Benefícios Reais)</h3>
+<p><strong>Para desenvolvedores:</strong></p>
+<ul>
+<li>Menos tempo debugging ("funciona na minha máquina")</li>
+<li>Feedback imediato sobre seu código</li>
+<li>Mais tempo criando, menos tempo configurando</li>
+</ul>
+<p><strong>Para a empresa:</strong></p>
+<ul>
+<li>Menos bugs em produção = menos prejuízo</li>
+<li>Entregas mais rápidas = vantagem competitiva</li>
+<li>Processos padronizados = menos erros humanos</li>
+</ul>
+<p><strong>Para os usuários:</strong></p>
+<ul>
+<li>Recursos novos mais rápido</li>
+<li>Aplicações mais estáveis</li>
+<li>Menos tempo de indisponibilidade</li>
+</ul>
+<hr>
+<h2>💻 Seção 2: Como Tudo Funciona - A Pipeline</h2>
+<h3>2.1 O que é uma Pipeline? (A Receita de Bolo)</h3>
+<p>Imagine que fazer deploy é como assar um bolo:</p>
+<p><strong>Sem pipeline (manual):</strong></p>
+<ol>
+<li>Misturar ingredientes (escrever código)</li>
+<li>Aquecer forno (configurar servidor)</li>
+<li>Colocar na forma (fazer build)</li>
+<li>Assar (fazer deploy)</li>
+<li>Decorar (configurar ambiente)</li>
+<li>Servir (liberar para usuários)</li>
+</ol>
+<p><strong>Com pipeline (automático):</strong></p>
+<ol>
+<li>Misturar ingredientes (escrever código)</li>
+<li><strong>MÁGICA:</strong> O resto acontece sozinho!
+<ul>
+<li>O forno aquece automaticamente</li>
+<li>O bolo vai para o forno sozinho</li>
+<li>A decoração é aplicada automaticamente</li>
+<li>O bolo é servido automaticamente</li>
+</ul>
+</li>
+</ol>
+<h3>2.2 Os Estágios da Pipeline (Passo a Passo)</h3>
+<p>Vamos ver o que acontece quando você commita código:</p>
+<pre><code>1. VOCÊ COMMITA CÓDIGO
+      ↓
+2. CI SERVER DETECTA ("Ah, tem código novo!")
+      ↓
+3. BUILD (Compilar/empacotar)
+      ↓
+4. TESTES (Unitários, integração)
+      ↓
+5. ANÁLISE (Qualidade, segurança)
+      ↓
+6. DEPLOY STAGING (Ambiente de teste)
+      ↓
+7. TESTES MANUAIS (Opcional)
+      ↓
+8. DEPLOY PRODUÇÃO 🎉
+</code></pre>
+<h3>2.3 Exemplo Real: GitHub Actions</h3>
+<p>Vamos ver um exemplo CONCRETO de pipeline:</p>
+<pre><code class="language-yaml"># Este arquivo fica em: .github/workflows/ci.yml
+name: Minha Primeira Pipeline
+
+# QUANDO roda? Quando houver push ou pull request
+on: [push, pull_request]
+
+jobs:
+  # JOB 1: Build e Teste
+  build-and-test:
+    runs-on: ubuntu-latest  # Onde roda? Linux
+    
+    steps:
+    # PASSO 1: Pegar o código
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    # PASSO 2: Configurar Node.js
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    # PASSO 3: Instalar dependências
+    - name: Install dependencies
+      run: npm ci  # Similar ao npm install
+    
+    # PASSO 4: Rodar testes
+    - name: Run tests
+      run: npm test  # Executa seus testes
+    
+    # PASSO 5: Build da aplicação
+    - name: Build application
+      run: npm run build  # Cria versão de produção
+</code></pre>
+<div style="background: #dcfce7; padding: 1.5rem; border-left: 4px solid #22c55e; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>✅ Entendeu? Vamos resumir:</strong>
+  <p>Uma pipeline é uma <strong>receita automatizada</strong> que diz ao computador exatamente o que fazer com seu código, passo a passo, sem erro humano.</p>
+</div>
+<h3>2.4 Pipeline vs Script: Qual a Diferença?</h3>
+<p><strong>Script tradicional:</strong></p>
+<pre><code class="language-bash"># script.sh
+npm install
+npm test
+npm run build
+# E se falhar? E se precisar rodar em paralelo?
+</code></pre>
+<p><strong>Pipeline moderna:</strong></p>
+<pre><code class="language-yaml"># Pipeline
+- Se falhar, para e me avisa
+- Se passar, vai para próximo passo
+- Posso rodar coisas em paralelo
+- Tenho logs organizados
+- Consigo reexecutar partes específicas
+</code></pre>
+<hr>
+<h2>🛠️ Seção 3: As Ferramentas - Escolhendo a Certa</h2>
+<h3>3.1 O Mercado de Ferramentas</h3>
+<p>Existem basicamente 3 tipos:</p>
+<p><strong>1. SaaS (Software as a Service) - "Aluguel"</strong></p>
+<ul>
+<li>Exemplos: GitHub Actions, GitLab CI, CircleCI</li>
+<li><strong>Prós:</strong> Fácil começar, manutenção zero</li>
+<li><strong>Contras:</strong> Custo cresce com uso, menos controle</li>
+</ul>
+<p><strong>2. Self-hosted - "Compre sua casa"</strong></p>
+<ul>
+<li>Exemplos: Jenkins, GitLab Self-hosted</li>
+<li><strong>Prós:</strong> Controle total, customização ilimitada</li>
+<li><strong>Contras:</strong> Manutenção complexa, custo inicial</li>
+</ul>
+<p><strong>3. Híbridas - "O melhor dos dois mundos"</strong></p>
+<ul>
+<li>Exemplos: Jenkins na nuvem</li>
+<li><strong>Prós:</strong> Flexibilidade</li>
+<li><strong>Contras:</strong> Complexidade</li>
+</ul>
+<h3>3.2 Comparação Detalhada</h3>
+<p>Vamos comparar as 5 ferramentas mais populares:</p>
+<table>
+<thead>
+<tr>
+<th>Ferramenta</th>
+<th>Tipo</th>
+<th>Melhor Para</th>
+<th>Dificuldade</th>
+<th>Custo Inicial</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Jenkins</strong></td>
+<td>🏠 Self-hosted</td>
+<td>Grandes empresas, muito customização</td>
+<td>⭐⭐⭐⭐</td>
+<td>$0 (tempo)</td>
+</tr>
+<tr>
+<td><strong>GitHub Actions</strong></td>
+<td>☁️ SaaS</td>
+<td>Quem já usa GitHub, projetos pequenos/médios</td>
+<td>⭐⭐</td>
+<td>$0</td>
+</tr>
+<tr>
+<td><strong>GitLab CI</strong></td>
+<td>☁️/🏠 Ambos</td>
+<td>Times que querem tudo em um lugar</td>
+<td>⭐⭐⭐</td>
+<td>$0</td>
+</tr>
+<tr>
+<td><strong>CircleCI</strong></td>
+<td>☁️ SaaS</td>
+<td>Velocidade e simplicidade</td>
+<td>⭐⭐</td>
+<td>$$$</td>
+</tr>
+<tr>
+<td><strong>Azure DevOps</strong></td>
+<td>☁️ SaaS</td>
+<td>Empresas Microsoft</td>
+<td>⭐⭐⭐</td>
+<td>$$$</td>
+</tr>
+</tbody>
+</table>
+<h3>3.3 Como Escolher? (Guia Prático)</h3>
+<p><strong>Responda estas perguntas:</strong></p>
+<ol>
+<li>
+<p><strong>Qual seu orçamento?</strong></p>
+<ul>
+<li>$0 → GitHub Actions, GitLab CI (free tier)</li>
+<li>$$$ → CircleCI, Azure DevOps</li>
+<li>Tempo para manter → Jenkins</li>
+</ul>
+</li>
+<li>
+<p><strong>Onde está seu código?</strong></p>
+<ul>
+<li>GitHub → GitHub Actions (óbvio!)</li>
+<li>GitLab → GitLab CI</li>
+<li>Outro → Jenkins, CircleCI</li>
+</ul>
+</li>
+<li>
+<p><strong>Qual tamanho da equipe?</strong></p>
+<ul>
+<li>1-5 pessoas → GitHub Actions</li>
+<li>5-20 pessoas → GitLab CI</li>
+<li>20+ pessoas → Jenkins</li>
+</ul>
+</li>
+<li>
+<p><strong>Precisa de muita customização?</strong></p>
+<ul>
+<li>Não → GitHub Actions</li>
+<li>Sim → Jenkins</li>
+</ul>
+</li>
+</ol>
+<div style="background: #f3e8ff; padding: 1.5rem; border-left: 4px solid #8b5cf6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>🎯 Dica do Instrutor:</strong>
+  <p>Comece com <strong>GitHub Actions</strong> se usa GitHub, ou <strong>GitLab CI</strong> se usa GitLab. São as mais fáceis para aprender e já cobrem 90% das necessidades.</p>
+</div>
+<h3>3.4 Jenkins: O Velho Guerreiro</h3>
+<p><strong>Por que ainda é popular?</strong></p>
+<ul>
+<li>Open source (grátis)</li>
+<li>1,800+ plugins (faz TUDO)</li>
+<li>Muito flexível</li>
+<li>Comunidade enorme</li>
+</ul>
+<p><strong>Desafios:</strong></p>
+<ul>
+<li>Configuração complexa</li>
+<li>Precisa de manutenção</li>
+<li>Interface "datada"</li>
+</ul>
+<pre><code class="language-groovy">// Exemplo Jenkins (mais complexo)
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+            }
+        }
+    }
+}
+</code></pre>
+<h3>3.5 GitHub Actions: O Novo Fenômeno</h3>
+<p><strong>Por que é popular?</strong></p>
+<ul>
+<li>Integração nativa com GitHub</li>
+<li>YAML simples</li>
+<li>Marketplace de ações</li>
+<li>Começar em 5 minutos</li>
+</ul>
+<pre><code class="language-yaml"># Simples, não?
+- name: Run Tests
+  run: npm test
+</code></pre>
+<hr>
+<h2>🔍 Seção 4: Boas Práticas - Fazendo Certo</h2>
+<h3>4.1 Pipeline Rápida = Feedback Rápido</h3>
+<p><strong>Regra de ouro:</strong> Sua pipeline deve ser mais rápida que seu café!</p>
+<p><strong>Tempos ideais:</strong></p>
+<ul>
+<li>Feedback inicial (build + testes básicos): <strong>&#x3C; 5 minutos</strong></li>
+<li>Pipeline completa: <strong>&#x3C; 15 minutos</strong></li>
+<li>Aceitável: <strong>&#x3C; 30 minutos</strong></li>
+<li>Problema: <strong>> 30 minutos</strong></li>
+</ul>
+<p><strong>Como acelerar:</strong></p>
+<ol>
+<li>
+<p><strong>Cache:</strong> Não baixe dependências toda vez</p>
+<pre><code class="language-yaml">- name: Cache node modules
+  uses: actions/cache@v3
+  with:
+    path: node_modules
+    key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+</code></pre>
+</li>
+<li>
+<p><strong>Paralelismo:</strong> Rode coisas juntas</p>
+<pre><code class="language-yaml"># Testes unitários e lint rodam juntos
+unit-tests:
+  # ...
+
+lint:
+  # ... (roda ao mesmo tempo!)
+</code></pre>
+</li>
+<li>
+<p><strong>Testes inteligentes:</strong> Só rode o necessário</p>
+</li>
+</ol>
+<h3>4.2 Segurança em Primeiro Lugar</h3>
+<p><strong>O que NUNCA fazer:</strong></p>
+<pre><code class="language-yaml"># ❌ NUNCA ISSO!
+env:
+  SENHA: "minhasenha123"  # Vaza no repositório!
+</code></pre>
+<p><strong>O que fazer SEMPRE:</strong></p>
+<pre><code class="language-yaml"># ✅ SEMPRE ISSO!
+env:
+  SENHA: ${{ secrets.MINHA_SENHA }}  # Seguro!
+</code></pre>
+<p><strong>Secrets gerenciados:</strong></p>
+<ul>
+<li>GitHub: Settings → Secrets and variables → Actions</li>
+<li>GitLab: Settings → CI/CD → Variables</li>
+<li>Jenkins: Credentials plugin</li>
+</ul>
+<h3>4.3 Trunk-Based Development (TBD)</h3>
+<p><strong>O que é?</strong> Trabalhar em branches pequenas e de curta duração.</p>
+<p><strong>Antigo (Git Flow):</strong></p>
+<pre><code>feature/big-feature (2 semanas)
+    ↓
+develop (merge complexo)
+    ↓
+release (1 semana de teste)
+    ↓
+main/production
+</code></pre>
+<p><strong>Moderno (TBD):</strong></p>
+<pre><code>feature/small-change (1 dia)
+    ↓
+main (merge direto, testes rodam)
+    ↓
+production (deploy automático)
+</code></pre>
+<p><strong>Por que TBD com CI/CD?</strong></p>
+<ul>
+<li>Menos conflitos de merge</li>
+<li>Feedback mais rápido</li>
+<li>Deploys mais frequentes</li>
+<li>Menos bugs de integração</li>
+</ul>
+<h3>4.4 Feature Flags: Deploy sem Medo</h3>
+<p><strong>Problema:</strong> "E se meu código novo quebrar tudo?"</p>
+<p><strong>Solução:</strong> Feature flags!</p>
+<pre><code class="language-javascript">// No seu código
+if (featureFlags.NOVA_FUNCIONALIDADE) {
+    // Código novo
+} else {
+    // Código antigo
+}
+</code></pre>
+<p><strong>Benefícios:</strong></p>
+<ul>
+<li>Deploy código sem ativar funcionalidade</li>
+<li>Ativar para alguns usuários primeiro</li>
+<li>Desligar rápido se der problema</li>
+<li>Teste A/B fácil</li>
+</ul>
+<hr>
+<h2>⚠️ Seção 5: Problemas Comuns (E Como Resolver)</h2>
+<h3>5.1 "Minha Pipeline Demora Muito!"</h3>
+<p><strong>Sintomas:</strong></p>
+<ul>
+<li>Desenvolvedores não esperam pelo feedback</li>
+<li>Commit e vai tomar café...</li>
+<li>Pipeline trava outras mudanças</li>
+</ul>
+<p><strong>Soluções:</strong></p>
+<ol>
+<li>
+<p><strong>Identifique o gargalo:</strong></p>
+<pre><code class="language-yaml"># Adicione timers
+- name: Start timer
+  run: echo "START_TIME=$(date +%s)" >> $GITHUB_ENV
+
+# ... seus steps ...
+
+- name: End timer
+  run: |
+    END_TIME=$(date +%s)
+    DURATION=$((END_TIME - START_TIME))
+    echo "Levou $DURATION segundos"
+</code></pre>
+</li>
+<li>
+<p><strong>Estratégias:</strong></p>
+<ul>
+<li><strong>Cache:</strong> Dependências, imagens Docker</li>
+<li><strong>Paralelismo:</strong> Jobs independentes rodam juntos</li>
+<li><strong>Split:</strong> Pipeline curta para feedback + longa para tudo</li>
+</ul>
+</li>
+</ol>
+<h3>5.2 "Testes Flaky" (Os que Falham Aleatoriamente)</h3>
+<p><strong>O que são:</strong> Testes que às vezes passam, às vezes falham.</p>
+<p><strong>Por que acontece:</strong></p>
+<ul>
+<li>Dependência externa (API, banco)</li>
+<li>Timing issues (muito rápido/lento)</li>
+<li>Estado compartilhado (um teste afeta outro)</li>
+</ul>
+<p><strong>Soluções:</strong></p>
+<ol>
+<li><strong>Identifique:</strong> Marque testes flaky</li>
+<li><strong>Isole:</strong> Rode separadamente</li>
+<li><strong>Melhore:</strong> Mock externos, reset estado</li>
+<li><strong>Monitore:</strong> Track falhas intermitentes</li>
+</ol>
+<pre><code class="language-yaml"># Estratégia: Retry automático
+- name: Run tests with retry
+  run: |
+    for i in {1..3}; do
+      npm test &#x26;&#x26; break || sleep 5
+    done
+</code></pre>
+<h3>5.3 "Build Breaker" - O Commit que Quebra Tudo</h3>
+<p><strong>O que é:</strong> Um commit que faz a pipeline falhar.</p>
+<p><strong>Como lidar:</strong></p>
+<ol>
+<li><strong>Prioridade #1:</strong> Corrigir imediatamente</li>
+<li><strong>Reverter:</strong> Volte o commit problemático</li>
+<li><strong>Hotfix:</strong> Corrija rápido na main</li>
+<li><strong>Prevenção:</strong> Code review, testes locais</li>
+</ol>
+<div style="background: #fee2e2; padding: 1.5rem; border-left: 4px solid #ef4444; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>🚫 Regra sagrada:</strong>
+  <p><strong>NUNCA ignore uma pipeline falhando.</strong> Se está vermelho, pare tudo e corrija. Pipeline verde = confiança.</p>
+</div>
+<h3>5.4 "Funciona na Minha Máquina!"</h3>
+<p><strong>Problema clássico:</strong> Código roda local, quebra na pipeline.</p>
+<p><strong>Causas:</strong></p>
+<ul>
+<li>Dependências diferentes</li>
+<li>Variáveis de ambiente</li>
+<li>Sistema operacional</li>
+<li>Versões de ferramentas</li>
+</ul>
+<p><strong>Solução:</strong> Containerização (Docker)!</p>
+<pre><code class="language-yaml"># Use containers consistentes
+jobs:
+  test:
+    container: node:18-alpine  # Mesmo ambiente sempre
+    steps:
+      - run: npm test
+</code></pre>
+<hr>
+<h2>🎨 Seção 6: Estratégias Avançadas de Deploy</h2>
+<h3>6.1 Blue-Green Deployment (Azul-Verde)</h3>
+<p><strong>Analogia:</strong> Dois teatros idênticos.</p>
+<p><strong>Funcionamento:</strong></p>
+<pre><code>TEATRO AZUL: Usuários atuais
+TEATRO VERDE: Nova versão (testando)
+
+1. Usuários no AZUL
+2. Deploy nova versão no VERDE
+3. Testa VERDE
+4. Troca tráfego: AZUL → VERDE
+5. AZUL vira backup
+</code></pre>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Zero downtime</li>
+<li>Rollback instantâneo (volta para AZUL)</li>
+<li>Teste antes de liberar</li>
+</ul>
+<h3>6.2 Canary Release (Release Canário)</h3>
+<p><strong>Analogia:</strong> Canários em minas de carvão.</p>
+<p><strong>Funcionamento:</strong></p>
+<pre><code>100% usuários → versão antiga
+  ↓
+5% usuários → nova versão (canários)
+  ↓
+Se ok: 25% → 50% → 100%
+Se ruim: volta 0%
+</code></pre>
+<p><strong>Vantagens:</strong></p>
+<ul>
+<li>Risco baixo (só 5% afetados)</li>
+<li>Feedback real de usuários</li>
+<li>Rollback fácil</li>
+</ul>
+<h3>6.3 Feature Flags + Canary</h3>
+<p><strong>Combo poderosa:</strong></p>
+<ol>
+<li>Deploy código com feature flag OFF</li>
+<li>Ativar flag para 5% dos usuários (Canary)</li>
+<li>Monitorar métricas</li>
+<li>Se ok: ativar para todos</li>
+<li>Se ruim: desativar flag</li>
+</ol>
+<pre><code class="language-javascript">// Exemplo prático
+if (featureFlag.isEnabled('nova-ui', userId)) {
+    renderNovaUI();
+} else {
+    renderUIAntiga();
+}
+</code></pre>
+<hr>
+<h2>📊 Seção 7: Métricas - O Que Medir?</h2>
+<h3>7.1 As 4 Métricas do DORA (Google)</h3>
+<p><strong>1. Lead Time for Changes</strong></p>
+<ul>
+<li><strong>O que é:</strong> Tempo do commit até produção</li>
+<li><strong>Bom:</strong> &#x3C; 1 dia</li>
+<li><strong>Ruim:</strong> > 1 mês</li>
+<li><strong>Como medir:</strong> Data do commit → data do deploy</li>
+</ul>
+<p><strong>2. Deployment Frequency</strong></p>
+<ul>
+<li><strong>O que é:</strong> Com que frequência faz deploy</li>
+<li><strong>Bom:</strong> Múltiplos por dia</li>
+<li><strong>Ruim:</strong> Mensal</li>
+<li><strong>Como medir:</strong> Contar deploys por período</li>
+</ul>
+<p><strong>3. Change Failure Rate</strong></p>
+<ul>
+<li><strong>O que é:</strong> % de deploys que causam problemas</li>
+<li><strong>Bom:</strong> &#x3C; 15%</li>
+<li><strong>Ruim:</strong> > 45%</li>
+<li><strong>Como medir:</strong> (Deploys com problemas / Total deploys) × 100</li>
+</ul>
+<p><strong>4. Mean Time to Recovery (MTTR)</strong></p>
+<ul>
+<li><strong>O que é:</strong> Tempo para recuperar de falha</li>
+<li><strong>Bom:</strong> &#x3C; 1 hora</li>
+<li><strong>Ruim:</strong> > 1 semana</li>
+<li><strong>Como medir:</strong> Tempo do incidente até resolução</li>
+</ul>
+<div style="background: #dbeafe; padding: 1.5rem; border-left: 4px solid #3b82f6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>📈 Dica de métricas:</strong>
+  <p>Comece medindo apenas o <strong>Lead Time</strong>. É a métrica mais fácil e mostra rapidamente se suas melhorias estão funcionando.</p>
+</div>
+<h3>7.2 Métricas de Pipeline</h3>
+<p><strong>Tempo de execução:</strong></p>
+<ul>
+<li>Build: &#x3C; 5 min</li>
+<li>Testes: &#x3C; 10 min</li>
+<li>Pipeline completa: &#x3C; 30 min</li>
+</ul>
+<p><strong>Taxa de sucesso:</strong></p>
+<ul>
+<li>Aceitável: > 90%</li>
+<li>Bom: > 95%</li>
+<li>Excelente: > 98%</li>
+</ul>
+<p><strong>Custo:</strong></p>
+<ul>
+<li>Custo por build</li>
+<li>Custo por deploy</li>
+<li>ROI (Retorno sobre investimento)</li>
+</ul>
+<hr>
+<h2>🚀 Seção 8: Próximos Passos - Sua Jornada Continua</h2>
+<h3>8.1 Primeiros Passos Práticos</h3>
+<p><strong>Nível 1: Bebê (Primeira semana)</strong></p>
+<ol>
+<li>Crie conta no GitHub/GitLab</li>
+<li>Siga um tutorial de "Hello World" de CI/CD</li>
+<li>Automatize testes de um projeto pessoal</li>
+<li>Comemore seu primeiro deploy automático! 🎉</li>
+</ol>
+<p><strong>Nível 2: Caminhando (Primeiro mês)</strong></p>
+<ol>
+<li>Adicione cache à sua pipeline</li>
+<li>Configure notificações (Slack/Email)</li>
+<li>Adicione análise de código (SonarQube)</li>
+<li>Implemente deploy automático para staging</li>
+</ol>
+<p><strong>Nível 3: Correndo (Primeiro trimestre)</strong></p>
+<ol>
+<li>Implemente Blue-Green ou Canary</li>
+<li>Configure monitoramento da pipeline</li>
+<li>Automatize rollback</li>
+<li>Documente todo o processo</li>
+</ol>
+<h3>8.2 Projetos para Praticar</h3>
+<p><strong>Projeto 1: Pipeline Simples</strong></p>
+<ul>
+<li>Objetivo: Testes + Build</li>
+<li>Ferramenta: GitHub Actions</li>
+<li>Dificuldade: ⭐☆☆☆☆</li>
+</ul>
+<p><strong>Projeto 2: Pipeline Completa</strong></p>
+<ul>
+<li>Objetivo: Testes + Build + Deploy</li>
+<li>Ferramenta: GitLab CI</li>
+<li>Dificuldade: ⭐⭐☆☆☆</li>
+</ul>
+<p><strong>Projeto 3: Pipeline Empresarial</strong></p>
+<ul>
+<li>Objetivo: Tudo + Segurança + Monitoramento</li>
+<li>Ferramenta: Jenkins</li>
+<li>Dificuldade: ⭐⭐⭐⭐☆</li>
+</ul>
+<h3>8.3 Recursos para Aprender Mais</h3>
+<p><strong>Livros recomendados:</strong></p>
+<ul>
+<li>"Accelerate" - Nicole Forsgren (a Bíblia)</li>
+<li>"Continuous Delivery" - Jez Humble (clássico)</li>
+<li>"The DevOps Handbook" - Gene Kim (prático)</li>
+</ul>
+<p><strong>Cursos online:</strong></p>
+<ul>
+<li>CI/CD Fundamentals (Coursera)</li>
+<li>GitHub Actions (YouTube - free)</li>
+<li>Jenkins Masterclass (Udemy)</li>
+</ul>
+<p><strong>Comunidades:</strong></p>
+<ul>
+<li>/r/devops no Reddit</li>
+<li>DevOps Brasil no Telegram</li>
+<li>CNCF Slack (canal #ci-cd)</li>
+</ul>
+<p><strong>Blogs para seguir:</strong></p>
+<ul>
+<li>Martin Fowler (martinfowler.com)</li>
+<li>DZone CI/CD</li>
+<li>DevOps.com</li>
+</ul>
+<hr>
+<h2>✅ Conclusão - Você Conseguiu!</h2>
+<h3>🎉 Parabéns por chegar até aqui!</h3>
+<p>Você acabou de aprender um dos tópicos mais importantes do desenvolvimento moderno. Vamos recapitular:</p>
+<p><strong>O que você aprendeu:</strong></p>
+<ol>
+<li><strong>CI/CD não é bicho de 7 cabeças</strong> - É apenas automação inteligente</li>
+<li><strong>CI = Integração Contínua</strong> - Testar código frequentemente</li>
+<li><strong>CD = Entrega Contínua</strong> - Ter código sempre pronto para produção</li>
+<li><strong>CD = Implantação Contínua</strong> - Deploy automático (opcional)</li>
+<li><strong>Pipeline = Receita automatizada</strong> - Passo a passo do código à produção</li>
+<li><strong>Ferramentas variam</strong> - Escolha baseada em seu contexto</li>
+<li><strong>Boas práticas existem</strong> - Segurança, velocidade, métricas</li>
+<li><strong>Problemas têm solução</strong> - Pipeline lenta, testes flaky, etc.</li>
+</ol>
+<h3>🏆 Seu Certificado Espera!</h3>
+<p>Agora você está pronto para o desafio final: o <strong>quiz de 30 perguntas</strong>.</p>
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; color: white; text-align: center; margin: 2rem 0;">
+  <h3 style="color: white; margin-bottom: 1rem;">🎯 Hora do Quiz!</h3>
+  <p style="margin-bottom: 1rem;"><strong>30 perguntas • 25 minutos • Nota mínima: 70%</strong></p>
+  <p style="margin-bottom: 1.5rem;">Use tudo que aprendeu. As perguntas cobrem exatamente o conteúdo deste curso.</p>
+  <div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 0.5rem; margin: 1rem 0;">
+    <p style="margin: 0;"><strong>Dicas para o quiz:</strong></p>
+    <ul style="text-align: left; margin: 0.5rem 0 0 0; padding-left: 1.5rem;">
+      <li>CI = Integração Contínua</li>
+      <li>Delivery ≠ Deployment (manual vs automático)</li>
+      <li>Pipeline lenta = anti-padrão</li>
+      <li>GitHub Actions = SaaS, Jenkins = Self-hosted</li>
+    </ul>
+  </div>
+  <p><strong>Você vai se surpreender com quanto aprendeu! 💪</strong></p>
+</div>
+10:Tcb5,### 1.1 O que é CI/CD? (A Analogia da Fábrica)
+
+Pense em uma fábrica de carros:
+
+**Sem CI/CD (antigo):**
+- Cada peça é feita separadamente
+- Só se monta o carro no final do mês
+- Se uma peça tem defeito, todo o carro sai errado
+- Leva semanas para descobrir problemas
+
+**Com CI/CD (moderno):**
+- Peças são testadas logo que ficam prontas
+- O carro é montado peça por peça, diariamente
+- Problemas são encontrados em minutos
+- Carros saem da linha de produção constantemente
+
+<div style="background: #f0f9ff; padding: 1.5rem; border-left: 4px solid #0ea5e9; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>💡 Pense assim:</strong>
+  <p>CI/CD transforma o desenvolvimento de software de uma "produção em lote" para uma "linha de montagem contínua".</p>
+</div>
+
+### 1.2 As Três Letras Mágicas: CI, CD, CD
+
+Vamos descomplicar essas siglas:
+
+**CI = Continuous Integration (Integração Contínua)**
+- **O que é:** Integrar pequenas mudanças de código frequentemente
+- **Como funciona:** Toda vez que você commita código, testes rodam automaticamente
+- **Objetivo:** Encontrar bugs rapidamente
+- **Analogia:** Testar cada peça do carro assim que é feita
+
+**CD = Continuous Delivery (Entrega Contínua)**
+- **O que é:** Ter o código sempre pronto para produção
+- **Como funciona:** Após os testes, o sistema automaticamente prepara tudo para deploy
+- **Objetivo:** Poder fazer deploy a qualquer momento
+- **Analogia:** O carro está montado, com gasolina, e pronto para sair da fábrica
+
+**CD = Continuous Deployment (Implantação Contínua)**
+- **O que é:** Deploy automático para produção
+- **Como funciona:** Se todos os testes passarem, vai direto para produção
+- **Objetivo:** Entregar valor aos usuários o mais rápido possível
+- **Analogia:** O carro sai da fábrica e vai direto para a concessionária
+
+### 1.3 A Evolução Natural
+
+```
+     CI          →          CD (Delivery)         →          CD (Deployment)
+     │                      │                                │
+"Testo meu código"   "Preparo para produção"        "Vai para produção automático"
+     │                      │                                │
+  Descobre bugs          ↓                           Entrega valor
+     rápido         Pode fazer deploy                  constantemente
+                    quando quiser
+```
+
+<div style="background: #fef3c7; padding: 1.5rem; border-left: 4px solid #f59e0b; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>⚠️ Atenção às confusões comuns:</strong>
+  <p>Muitas pessoas usam "CD" para ambos (Delivery e Deployment). A diferença crucial é: <strong>Delivery tem aprovação manual, Deployment é totalmente automático.</strong></p>
+</div>
+
+### 1.4 Por que adotar CI/CD? (Os Benefícios Reais)
+
+**Para desenvolvedores:**
+- Menos tempo debugging ("funciona na minha máquina")
+- Feedback imediato sobre seu código
+- Mais tempo criando, menos tempo configurando
+
+**Para a empresa:**
+- Menos bugs em produção = menos prejuízo
+- Entregas mais rápidas = vantagem competitiva
+- Processos padronizados = menos erros humanos
+
+**Para os usuários:**
+- Recursos novos mais rápido
+- Aplicações mais estáveis
+- Menos tempo de indisponibilidade
+
+---11:Tab3,### 2.1 O que é uma Pipeline? (A Receita de Bolo)
+
+Imagine que fazer deploy é como assar um bolo:
+
+**Sem pipeline (manual):**
+1. Misturar ingredientes (escrever código)
+2. Aquecer forno (configurar servidor)
+3. Colocar na forma (fazer build)
+4. Assar (fazer deploy)
+5. Decorar (configurar ambiente)
+6. Servir (liberar para usuários)
+
+**Com pipeline (automático):**
+1. Misturar ingredientes (escrever código)
+2. **MÁGICA:** O resto acontece sozinho!
+   - O forno aquece automaticamente
+   - O bolo vai para o forno sozinho
+   - A decoração é aplicada automaticamente
+   - O bolo é servido automaticamente
+
+### 2.2 Os Estágios da Pipeline (Passo a Passo)
+
+Vamos ver o que acontece quando você commita código:
+
+```
+1. VOCÊ COMMITA CÓDIGO
+      ↓
+2. CI SERVER DETECTA ("Ah, tem código novo!")
+      ↓
+3. BUILD (Compilar/empacotar)
+      ↓
+4. TESTES (Unitários, integração)
+      ↓
+5. ANÁLISE (Qualidade, segurança)
+      ↓
+6. DEPLOY STAGING (Ambiente de teste)
+      ↓
+7. TESTES MANUAIS (Opcional)
+      ↓
+8. DEPLOY PRODUÇÃO 🎉
+```
+
+### 2.3 Exemplo Real: GitHub Actions
+
+Vamos ver um exemplo CONCRETO de pipeline:
+
+```yaml
+# Este arquivo fica em: .github/workflows/ci.yml
+name: Minha Primeira Pipeline
+
+# QUANDO roda? Quando houver push ou pull request
+on: [push, pull_request]
+
+jobs:
+  # JOB 1: Build e Teste
+  build-and-test:
+    runs-on: ubuntu-latest  # Onde roda? Linux
+    
+    steps:
+    # PASSO 1: Pegar o código
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    # PASSO 2: Configurar Node.js
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    # PASSO 3: Instalar dependências
+    - name: Install dependencies
+      run: npm ci  # Similar ao npm install
+    
+    # PASSO 4: Rodar testes
+    - name: Run tests
+      run: npm test  # Executa seus testes
+    
+    # PASSO 5: Build da aplicação
+    - name: Build application
+      run: npm run build  # Cria versão de produção
+```
+
+<div style="background: #dcfce7; padding: 1.5rem; border-left: 4px solid #22c55e; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>✅ Entendeu? Vamos resumir:</strong>
+  <p>Uma pipeline é uma <strong>receita automatizada</strong> que diz ao computador exatamente o que fazer com seu código, passo a passo, sem erro humano.</p>
+</div>
+
+### 2.4 Pipeline vs Script: Qual a Diferença?
+
+**Script tradicional:**
+```bash
+# script.sh
+npm install
+npm test
+npm run build
+# E se falhar? E se precisar rodar em paralelo?
+```
+
+**Pipeline moderna:**
+```yaml
+# Pipeline
+- Se falhar, para e me avisa
+- Se passar, vai para próximo passo
+- Posso rodar coisas em paralelo
+- Tenho logs organizados
+- Consigo reexecutar partes específicas
+```
+
+---12:Tb80,### 3.1 O Mercado de Ferramentas
+
+Existem basicamente 3 tipos:
+
+**1. SaaS (Software as a Service) - "Aluguel"**
+- Exemplos: GitHub Actions, GitLab CI, CircleCI
+- **Prós:** Fácil começar, manutenção zero
+- **Contras:** Custo cresce com uso, menos controle
+
+**2. Self-hosted - "Compre sua casa"**
+- Exemplos: Jenkins, GitLab Self-hosted
+- **Prós:** Controle total, customização ilimitada
+- **Contras:** Manutenção complexa, custo inicial
+
+**3. Híbridas - "O melhor dos dois mundos"**
+- Exemplos: Jenkins na nuvem
+- **Prós:** Flexibilidade
+- **Contras:** Complexidade
+
+### 3.2 Comparação Detalhada
+
+Vamos comparar as 5 ferramentas mais populares:
+
+| Ferramenta | Tipo | Melhor Para | Dificuldade | Custo Inicial |
+|------------|------|-------------|-------------|---------------|
+| **Jenkins** | 🏠 Self-hosted | Grandes empresas, muito customização | ⭐⭐⭐⭐ | $0 (tempo) |
+| **GitHub Actions** | ☁️ SaaS | Quem já usa GitHub, projetos pequenos/médios | ⭐⭐ | $0 |
+| **GitLab CI** | ☁️/🏠 Ambos | Times que querem tudo em um lugar | ⭐⭐⭐ | $0 |
+| **CircleCI** | ☁️ SaaS | Velocidade e simplicidade | ⭐⭐ | $$$ |
+| **Azure DevOps** | ☁️ SaaS | Empresas Microsoft | ⭐⭐⭐ | $$$ |
+
+### 3.3 Como Escolher? (Guia Prático)
+
+**Responda estas perguntas:**
+
+1. **Qual seu orçamento?**
+   - $0 → GitHub Actions, GitLab CI (free tier)
+   - $$$ → CircleCI, Azure DevOps
+   - Tempo para manter → Jenkins
+
+2. **Onde está seu código?**
+   - GitHub → GitHub Actions (óbvio!)
+   - GitLab → GitLab CI
+   - Outro → Jenkins, CircleCI
+
+3. **Qual tamanho da equipe?**
+   - 1-5 pessoas → GitHub Actions
+   - 5-20 pessoas → GitLab CI
+   - 20+ pessoas → Jenkins
+
+4. **Precisa de muita customização?**
+   - Não → GitHub Actions
+   - Sim → Jenkins
+
+<div style="background: #f3e8ff; padding: 1.5rem; border-left: 4px solid #8b5cf6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>🎯 Dica do Instrutor:</strong>
+  <p>Comece com <strong>GitHub Actions</strong> se usa GitHub, ou <strong>GitLab CI</strong> se usa GitLab. São as mais fáceis para aprender e já cobrem 90% das necessidades.</p>
+</div>
+
+### 3.4 Jenkins: O Velho Guerreiro
+
+**Por que ainda é popular?**
+- Open source (grátis)
+- 1,800+ plugins (faz TUDO)
+- Muito flexível
+- Comunidade enorme
+
+**Desafios:**
+- Configuração complexa
+- Precisa de manutenção
+- Interface "datada"
+
+```groovy
+// Exemplo Jenkins (mais complexo)
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+            }
+        }
+    }
+}
+```
+
+### 3.5 GitHub Actions: O Novo Fenômeno
+
+**Por que é popular?**
+- Integração nativa com GitHub
+- YAML simples
+- Marketplace de ações
+- Começar em 5 minutos
+
+```yaml
+# Simples, não?
+- name: Run Tests
+  run: npm test
+```
+
+---13:T856,### 4.1 Pipeline Rápida = Feedback Rápido
+
+**Regra de ouro:** Sua pipeline deve ser mais rápida que seu café!
+
+**Tempos ideais:**
+- Feedback inicial (build + testes básicos): **< 5 minutos**
+- Pipeline completa: **< 15 minutos**
+- Aceitável: **< 30 minutos**
+- Problema: **> 30 minutos**
+
+**Como acelerar:**
+1. **Cache:** Não baixe dependências toda vez
+   ```yaml
+   - name: Cache node modules
+     uses: actions/cache@v3
+     with:
+       path: node_modules
+       key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+   ```
+
+2. **Paralelismo:** Rode coisas juntas
+   ```yaml
+   # Testes unitários e lint rodam juntos
+   unit-tests:
+     # ...
+   
+   lint:
+     # ... (roda ao mesmo tempo!)
+   ```
+
+3. **Testes inteligentes:** Só rode o necessário
+
+### 4.2 Segurança em Primeiro Lugar
+
+**O que NUNCA fazer:**
+```yaml
+# ❌ NUNCA ISSO!
+env:
+  SENHA: "minhasenha123"  # Vaza no repositório!
+```
+
+**O que fazer SEMPRE:**
+```yaml
+# ✅ SEMPRE ISSO!
+env:
+  SENHA: ${{ secrets.MINHA_SENHA }}  # Seguro!
+```
+
+**Secrets gerenciados:**
+- GitHub: Settings → Secrets and variables → Actions
+- GitLab: Settings → CI/CD → Variables
+- Jenkins: Credentials plugin
+
+### 4.3 Trunk-Based Development (TBD)
+
+**O que é?** Trabalhar em branches pequenas e de curta duração.
+
+**Antigo (Git Flow):**
+```
+feature/big-feature (2 semanas)
+    ↓
+develop (merge complexo)
+    ↓
+release (1 semana de teste)
+    ↓
+main/production
+```
+
+**Moderno (TBD):**
+```
+feature/small-change (1 dia)
+    ↓
+main (merge direto, testes rodam)
+    ↓
+production (deploy automático)
+```
+
+**Por que TBD com CI/CD?**
+- Menos conflitos de merge
+- Feedback mais rápido
+- Deploys mais frequentes
+- Menos bugs de integração
+
+### 4.4 Feature Flags: Deploy sem Medo
+
+**Problema:** "E se meu código novo quebrar tudo?"
+
+**Solução:** Feature flags!
+
+```javascript
+// No seu código
+if (featureFlags.NOVA_FUNCIONALIDADE) {
+    // Código novo
+} else {
+    // Código antigo
+}
+```
+
+**Benefícios:**
+- Deploy código sem ativar funcionalidade
+- Ativar para alguns usuários primeiro
+- Desligar rápido se der problema
+- Teste A/B fácil
+
+---14:T8f2,### 5.1 "Minha Pipeline Demora Muito!"
+
+**Sintomas:**
+- Desenvolvedores não esperam pelo feedback
+- Commit e vai tomar café...
+- Pipeline trava outras mudanças
+
+**Soluções:**
+1. **Identifique o gargalo:**
+   ```yaml
+   # Adicione timers
+   - name: Start timer
+     run: echo "START_TIME=$(date +%s)" >> $GITHUB_ENV
+   
+   # ... seus steps ...
+   
+   - name: End timer
+     run: |
+       END_TIME=$(date +%s)
+       DURATION=$((END_TIME - START_TIME))
+       echo "Levou $DURATION segundos"
+   ```
+
+2. **Estratégias:**
+   - **Cache:** Dependências, imagens Docker
+   - **Paralelismo:** Jobs independentes rodam juntos
+   - **Split:** Pipeline curta para feedback + longa para tudo
+
+### 5.2 "Testes Flaky" (Os que Falham Aleatoriamente)
+
+**O que são:** Testes que às vezes passam, às vezes falham.
+
+**Por que acontece:**
+- Dependência externa (API, banco)
+- Timing issues (muito rápido/lento)
+- Estado compartilhado (um teste afeta outro)
+
+**Soluções:**
+1. **Identifique:** Marque testes flaky
+2. **Isole:** Rode separadamente
+3. **Melhore:** Mock externos, reset estado
+4. **Monitore:** Track falhas intermitentes
+
+```yaml
+# Estratégia: Retry automático
+- name: Run tests with retry
+  run: |
+    for i in {1..3}; do
+      npm test && break || sleep 5
+    done
+```
+
+### 5.3 "Build Breaker" - O Commit que Quebra Tudo
+
+**O que é:** Um commit que faz a pipeline falhar.
+
+**Como lidar:**
+1. **Prioridade #1:** Corrigir imediatamente
+2. **Reverter:** Volte o commit problemático
+3. **Hotfix:** Corrija rápido na main
+4. **Prevenção:** Code review, testes locais
+
+<div style="background: #fee2e2; padding: 1.5rem; border-left: 4px solid #ef4444; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>🚫 Regra sagrada:</strong>
+  <p><strong>NUNCA ignore uma pipeline falhando.</strong> Se está vermelho, pare tudo e corrija. Pipeline verde = confiança.</p>
+</div>
+
+### 5.4 "Funciona na Minha Máquina!"
+
+**Problema clássico:** Código roda local, quebra na pipeline.
+
+**Causas:**
+- Dependências diferentes
+- Variáveis de ambiente
+- Sistema operacional
+- Versões de ferramentas
+
+**Solução:** Containerização (Docker)!
+
+```yaml
+# Use containers consistentes
+jobs:
+  test:
+    container: node:18-alpine  # Mesmo ambiente sempre
+    steps:
+      - run: npm test
+```
+
+---15:T453,### 6.1 Blue-Green Deployment (Azul-Verde)
+
+**Analogia:** Dois teatros idênticos.
+
+**Funcionamento:**
+```
+TEATRO AZUL: Usuários atuais
+TEATRO VERDE: Nova versão (testando)
+
+1. Usuários no AZUL
+2. Deploy nova versão no VERDE
+3. Testa VERDE
+4. Troca tráfego: AZUL → VERDE
+5. AZUL vira backup
+```
+
+**Vantagens:**
+- Zero downtime
+- Rollback instantâneo (volta para AZUL)
+- Teste antes de liberar
+
+### 6.2 Canary Release (Release Canário)
+
+**Analogia:** Canários em minas de carvão.
+
+**Funcionamento:**
+```
+100% usuários → versão antiga
+  ↓
+5% usuários → nova versão (canários)
+  ↓
+Se ok: 25% → 50% → 100%
+Se ruim: volta 0%
+```
+
+**Vantagens:**
+- Risco baixo (só 5% afetados)
+- Feedback real de usuários
+- Rollback fácil
+
+### 6.3 Feature Flags + Canary
+
+**Combo poderosa:**
+1. Deploy código com feature flag OFF
+2. Ativar flag para 5% dos usuários (Canary)
+3. Monitorar métricas
+4. Se ok: ativar para todos
+5. Se ruim: desativar flag
+
+```javascript
+// Exemplo prático
+if (featureFlag.isEnabled('nova-ui', userId)) {
+    renderNovaUI();
+} else {
+    renderUIAntiga();
+}
+```
+
+---16:T542,### 7.1 As 4 Métricas do DORA (Google)
+
+**1. Lead Time for Changes**
+- **O que é:** Tempo do commit até produção
+- **Bom:** < 1 dia
+- **Ruim:** > 1 mês
+- **Como medir:** Data do commit → data do deploy
+
+**2. Deployment Frequency**
+- **O que é:** Com que frequência faz deploy
+- **Bom:** Múltiplos por dia
+- **Ruim:** Mensal
+- **Como medir:** Contar deploys por período
+
+**3. Change Failure Rate**
+- **O que é:** % de deploys que causam problemas
+- **Bom:** < 15%
+- **Ruim:** > 45%
+- **Como medir:** (Deploys com problemas / Total deploys) × 100
+
+**4. Mean Time to Recovery (MTTR)**
+- **O que é:** Tempo para recuperar de falha
+- **Bom:** < 1 hora
+- **Ruim:** > 1 semana
+- **Como medir:** Tempo do incidente até resolução
+
+<div style="background: #dbeafe; padding: 1.5rem; border-left: 4px solid #3b82f6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>📈 Dica de métricas:</strong>
+  <p>Comece medindo apenas o <strong>Lead Time</strong>. É a métrica mais fácil e mostra rapidamente se suas melhorias estão funcionando.</p>
+</div>
+
+### 7.2 Métricas de Pipeline
+
+**Tempo de execução:**
+- Build: < 5 min
+- Testes: < 10 min
+- Pipeline completa: < 30 min
+
+**Taxa de sucesso:**
+- Aceitável: > 90%
+- Bom: > 95%
+- Excelente: > 98%
+
+**Custo:**
+- Custo por build
+- Custo por deploy
+- ROI (Retorno sobre investimento)
+
+---17:T605,### 8.1 Primeiros Passos Práticos
+
+**Nível 1: Bebê (Primeira semana)**
+1. Crie conta no GitHub/GitLab
+2. Siga um tutorial de "Hello World" de CI/CD
+3. Automatize testes de um projeto pessoal
+4. Comemore seu primeiro deploy automático! 🎉
+
+**Nível 2: Caminhando (Primeiro mês)**
+1. Adicione cache à sua pipeline
+2. Configure notificações (Slack/Email)
+3. Adicione análise de código (SonarQube)
+4. Implemente deploy automático para staging
+
+**Nível 3: Correndo (Primeiro trimestre)**
+1. Implemente Blue-Green ou Canary
+2. Configure monitoramento da pipeline
+3. Automatize rollback
+4. Documente todo o processo
+
+### 8.2 Projetos para Praticar
+
+**Projeto 1: Pipeline Simples**
+- Objetivo: Testes + Build
+- Ferramenta: GitHub Actions
+- Dificuldade: ⭐☆☆☆☆
+
+**Projeto 2: Pipeline Completa**
+- Objetivo: Testes + Build + Deploy
+- Ferramenta: GitLab CI
+- Dificuldade: ⭐⭐☆☆☆
+
+**Projeto 3: Pipeline Empresarial**
+- Objetivo: Tudo + Segurança + Monitoramento
+- Ferramenta: Jenkins
+- Dificuldade: ⭐⭐⭐⭐☆
+
+### 8.3 Recursos para Aprender Mais
+
+**Livros recomendados:**
+- "Accelerate" - Nicole Forsgren (a Bíblia)
+- "Continuous Delivery" - Jez Humble (clássico)
+- "The DevOps Handbook" - Gene Kim (prático)
+
+**Cursos online:**
+- CI/CD Fundamentals (Coursera)
+- GitHub Actions (YouTube - free)
+- Jenkins Masterclass (Udemy)
+
+**Comunidades:**
+- /r/devops no Reddit
+- DevOps Brasil no Telegram
+- CNCF Slack (canal #ci-cd)
+
+**Blogs para seguir:**
+- Martin Fowler (martinfowler.com)
+- DZone CI/CD
+- DevOps.com
+
+---18:T754,### 🎉 Parabéns por chegar até aqui!
+
+Você acabou de aprender um dos tópicos mais importantes do desenvolvimento moderno. Vamos recapitular:
+
+**O que você aprendeu:**
+
+1. **CI/CD não é bicho de 7 cabeças** - É apenas automação inteligente
+2. **CI = Integração Contínua** - Testar código frequentemente
+3. **CD = Entrega Contínua** - Ter código sempre pronto para produção
+4. **CD = Implantação Contínua** - Deploy automático (opcional)
+5. **Pipeline = Receita automatizada** - Passo a passo do código à produção
+6. **Ferramentas variam** - Escolha baseada em seu contexto
+7. **Boas práticas existem** - Segurança, velocidade, métricas
+8. **Problemas têm solução** - Pipeline lenta, testes flaky, etc.
+
+### 🏆 Seu Certificado Espera!
+
+Agora você está pronto para o desafio final: o **quiz de 30 perguntas**.
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; color: white; text-align: center; margin: 2rem 0;">
+  <h3 style="color: white; margin-bottom: 1rem;">🎯 Hora do Quiz!</h3>
+  <p style="margin-bottom: 1rem;"><strong>30 perguntas • 25 minutos • Nota mínima: 70%</strong></p>
+  <p style="margin-bottom: 1.5rem;">Use tudo que aprendeu. As perguntas cobrem exatamente o conteúdo deste curso.</p>
+  
+  <div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 0.5rem; margin: 1rem 0;">
+    <p style="margin: 0;"><strong>Dicas para o quiz:</strong></p>
+    <ul style="text-align: left; margin: 0.5rem 0 0 0; padding-left: 1.5rem;">
+      <li>CI = Integração Contínua</li>
+      <li>Delivery ≠ Deployment (manual vs automático)</li>
+      <li>Pipeline lenta = anti-padrão</li>
+      <li>GitHub Actions = SaaS, Jenkins = Self-hosted</li>
+    </ul>
+  </div>
+  
+  <p><strong>Você vai se surpreender com quanto aprendeu! 💪</strong></p>
+</div>19:T3584,# Curso de Docker: Containers do Zero
+
+> **Domine containers em 30 minutos!** Neste curso rápido, você vai entender os conceitos essenciais do Docker e como containers revolucionaram a forma como desenvolvemos e entregamos software.
+
+## 🎯 O que você vai aprender em 30 minutos?
+
+- ✅ **O que são containers** e por que são tão importantes
+- ✅ **Como o Docker funciona** na prática
+- ✅ **Comandos essenciais** que todo dev precisa conhecer
+- ✅ **Comparação real** com máquinas virtuais
+- ✅ **Primeiros passos** para começar a usar hoje mesmo
+
+---
+
+## 🚢 Capítulo 1: O Mundo Antes dos Containers
+
+### 1.1 O Problema Clássico: "Funciona na Minha Máquina!"
+
+**Cenário comum:**
+```bash
+# Desenvolvedor A (Mac):
+✅ Aplicação funciona perfeitamente!
+
+# Desenvolvedor B (Windows):
+❌ "Não consigo rodar, falta uma biblioteca!"
+
+# Servidor de Produção (Linux):
+❌ "Erro de permissão, versão do Python diferente!"
+```
+
+**Por que isso acontece?**
+- Sistemas operacionais diferentes
+- Versões de bibliotecas diferentes
+- Configurações de ambiente únicas
+- Dependências específicas
+
+### 1.2 A Solução Antiga: Máquinas Virtuais
+
+**Como funcionava:**
+```
+SERVIDOR FÍSICO
+├── Sistema Operacional Host
+│   ├── Hipervisor (VMware, VirtualBox)
+│   │   ├── MÁQUINA VIRTUAL 1
+│   │   │   ├── Sistema Operacional Convidado
+│   │   │   ├── Bibliotecas
+│   │   │   └── Sua Aplicação
+│   │   ├── MÁQUINA VIRTUAL 2
+│   │   │   ├── Outro Sistema Operacional
+│   │   │   ├── Outras Bibliotecas
+│   │   │   └── Outra Aplicação
+```
+
+**Problemas das VMs:**
+- **Pesadas:** Cada VM tem seu próprio SO completo
+- **Lentas:** Boot demorado, consumo alto de recursos
+- **Complexas:** Muita configuração necessária
+
+---
+
+## 📦 Capítulo 2: Containers - A Revolução
+
+### 2.1 O que É um Container? (Analogia da Caixa de Transporte)
+
+**Pense assim:** Um container de navio de carga!
+
+```
+CONTÊINER DE NAVIO:
+├── Produto (sua aplicação)
+├── Embalagem (dependências)
+├── Instruções (configurações)
+└── Pode ser transportado para:
+    - Qualquer navio
+    - Qualquer porto
+    - Qualquer país
+    → E funciona igual!
+```
+
+**Container Docker funciona da mesma forma:**
+- **Contém** sua aplicação + dependências
+- **Isolado** do resto do sistema
+- **Portátil** - roda em qualquer lugar
+- **Consistente** - funciona igual em todos os lugares
+
+### 2.2 Como Funciona? (Arquitetura Simples)
+
+```
+SEU COMPUTADOR
+├── Sistema Operacional (Linux, Mac, Windows)
+│   ├── Docker Engine
+│   │   ├── CONTAINER 1 (App Node.js)
+│   │   │   ├── Node.js 18
+│   │   │   ├── Bibliotecas
+│   │   │   └── Seu código
+│   │   ├── CONTAINER 2 (App Python)
+│   │   │   ├── Python 3.11
+│   │   │   ├── Bibliotecas
+│   │   │   └── Seu código
+│   │   └── CONTAINER N... (todos compartilham o kernel!)
+```
+
+<div style="background: #f0f9ff; padding: 1.5rem; border-left: 4px solid #0ea5e9; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>💡 Ponto-chave:</strong>
+  <p>Containers <strong>compartilham o kernel do sistema operacional host</strong>, enquanto VMs precisam de um kernel completo cada uma. Isso torna containers muito mais leves e rápidos.</p>
+</div>
+
+### 2.3 Containers vs VMs: Comparação Visual
+
+| Característica | Container (Docker) | Máquina Virtual |
+|----------------|-------------------|-----------------|
+| **Tamanho** | MBs (leve) | GBs (pesado) |
+| **Inicialização** | Segundos | Minutos |
+| **Performance** | Quase nativa | Overhead significativo |
+| **Portabilidade** | Alta (mesma imagem) | Média (depende do hypervisor) |
+| **Isolamento** | Processo/nível de SO | Hardware completo |
+
+**Exemplo numérico:**
+```bash
+# Container Docker
+Tamanho: ~50MB      Boot: 2 segundos     Memória: 100MB
+
+# Máquina Virtual
+Tamanho: ~2GB       Boot: 60 segundos    Memória: 1GB
+```
+
+---
+
+## 🏗️ Capítulo 3: Os Pilares do Docker
+
+### 3.1 Imagem: O Molde
+
+**Pense numa imagem como:** Uma receita de bolo ou um molde de biscoito.
+
+**O que contém uma imagem Docker:**
+- Sistema operacional mínimo (Linux Alpine, Ubuntu slim)
+- Sua aplicação (código compilado ou interpretado)
+- Dependências (bibliotecas, frameworks)
+- Configurações (variáveis de ambiente, portas)
+- Comandos padrão (o que roda ao iniciar)
+
+**Exemplos de imagens populares:**
+- `node:18-alpine` (Node.js em Alpine Linux - 100MB)
+- `python:3.11-slim` (Python slim - 120MB)
+- `nginx:alpine` (Servidor web - 40MB)
+- `postgres:15` (Banco de dados - 380MB)
+
+### 3.2 Container: A Instância em Execução
+
+**Pense num container como:** O bolo assado da receita.
+
+**Relação Imagem → Container:**
+```
+IMAGEM (node:18)                 CONTAINER (em execução)
+├── Node.js 18                   ├── Node.js 18 (rodando)
+├── Linux Alpine                 ├── Processo do seu app
+├── Diretório /app               ├── Sistema de arquivos
+└── Comando: node app.js         └── Porta 3000 exposta
+```
+
+**Importante:** Você pode ter múltiplos containers rodando da MESMA imagem!
+
+```
+node:18 (IMAGEM)
+├── Container 1 (App Frontend) na porta 3000
+├── Container 2 (App Backend) na porta 8080
+└── Container 3 (Worker) processando fila
+```
+
+### 3.3 Dockerfile: A Receita
+
+**O Dockerfile é o arquivo de texto** que ensina o Docker como construir sua imagem personalizada.
+
+**Exemplo super simples:**
+```dockerfile
+# Dockerfile
+FROM node:18-alpine          # Imagem base (molde inicial)
+WORKDIR /app                 # Diretório de trabalho
+COPY package*.json ./        # Copia arquivos de dependência
+RUN npm install              # Instala dependências
+COPY . .                     # Copia o código da aplicação
+EXPOSE 3000                  # Expõe porta 3000
+CMD ["npm", "start"]         # Comando padrão ao iniciar
+```
+
+<div style="background: #dcfce7; padding: 1.5rem; border-left: 4px solid #22c55e; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>✅ Dica rápida:</strong>
+  <p>Um Dockerfile é como um script de instalação automática para sua aplicação. Ele garante que qualquer pessoa (ou servidor) consiga criar exatamente o mesmo ambiente.</p>
+</div>
+
+---
+
+## 🛠️ Capítulo 4: Comandos Essenciais (Os 8 que Você Precisa)
+
+### 4.1 O Ciclo de Vida Básico
+
+```
+1. docker build       # Cria imagem do Dockerfile
+2. docker run         # Roda container da imagem
+3. docker ps          # Lista containers em execução
+4. docker stop        # Para container
+5. docker rm          # Remove container parado
+6. docker images      # Lista imagens locais
+7. docker rmi         # Remove imagem
+8. docker logs        # Vê logs do container
+```
+
+### 4.2 Exemplos Práticos Passo a Passo
+
+**Passo 1: Criar uma imagem**
+```bash
+# No diretório com seu Dockerfile
+docker build -t minha-app:1.0 .
+# -t = tag (nome da imagem)
+# . = diretório atual (onde está o Dockerfile)
+```
+
+**Passo 2: Rodar um container**
+```bash
+docker run -d -p 3000:3000 --name meu-app minha-app:1.0
+# -d = detach (roda em background)
+# -p 3000:3000 = mapeia porta host:container
+# --name = nome amigável para o container
+```
+
+**Passo 3: Verificar se está rodando**
+```bash
+docker ps
+# Saída:
+# CONTAINER ID   IMAGE           STATUS         PORTS
+# abc123def456   minha-app:1.0   Up 2 minutes   0.0.0.0:3000->3000/tcp
+```
+
+**Passo 4: Ver logs da aplicação**
+```bash
+docker logs meu-app
+# Mostra o output do console da sua aplicação
+```
+
+**Passo 5: Parar o container**
+```bash
+docker stop meu-app
+# Para graciosamente (envia sinal SIGTERM)
+
+docker rm meu-app
+# Remove o container (após parar)
+```
+
+### 4.3 Comandos Úteis do Dia a Dia
+
+**Entrar no container (shell):**
+```bash
+docker exec -it meu-app sh
+# -it = modo interativo com terminal
+# sh = shell (ou bash, se disponível)
+```
+
+**Copiar arquivos:**
+```bash
+# Do host para o container
+docker cp arquivo.txt meu-app:/app/arquivo.txt
+
+# Do container para o host
+docker cp meu-app:/app/logs.txt ./logs.txt
+```
+
+**Inspecionar container:**
+```bash
+docker inspect meu-app
+# Mostra TODAS as informações do container
+```
+
+---
+
+## 🎯 Capítulo 5: Casos de Uso Reais
+
+### 5.1 Desenvolvimento Local
+
+**Problema:** Time com 5 desenvolvedores, cada um com setup diferente.
+
+**Solução Docker:**
+```dockerfile
+# Dockerfile.dev
+FROM node:18
+WORKDIR /app
+COPY package.json .
+RUN npm install
+CMD ["npm", "run", "dev"]
+```
+
+```bash
+# Todos os devs rodam:
+docker build -f Dockerfile.dev -t app-dev .
+docker run -p 3000:3000 -v $(pwd):/app app-dev
+# -v = volume (sincroniza código do host com container)
+```
+
+**Resultado:** Mesmo ambiente para todos!
+
+### 5.2 Ambiente de Testes CI/CD
+
+**Pipeline de testes automatizados:**
+```yaml
+# .github/workflows/test.yml
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container: node:18  # Ambiente consistente!
+    steps:
+      - run: npm test   # Testes rodam no container
+```
+
+**Vantagem:** Mesmo ambiente que produção!
+
+### 5.3 Microserviços
+
+**Aplicação moderna:**
+```
+App E-commerce:
+├── Container 1: Frontend (React)
+├── Container 2: Backend API (Node.js)
+├── Container 3: Banco de dados (PostgreSQL)
+├── Container 4: Cache (Redis)
+└── Container 5: Mensageria (RabbitMQ)
+```
+
+**Cada serviço:** Sua própria imagem, sua própria escalabilidade.
+
+---
+
+## ⚡ Capítulo 6: Vantagens em 5 Minutos
+
+### 6.1 Para Desenvolvedores
+
+**✅ "Funciona na minha máquina" VIRA "Funciona no container"**
+- Ambiente idêntico em dev, test, prod
+- Setup rápido para novos desenvolvedores
+- Sem conflitos de dependências
+
+**✅ Produtividade aumentada**
+- Não perde tempo configurando ambiente
+- Foca no código, não no setup
+- Testa múltiplas versões facilmente
+
+### 6.2 Para Operações/DevOps
+
+**✅ Deploy consistente**
+- Mesma imagem em todos os ambientes
+- Rollback fácil (usa imagem anterior)
+- Versionamento de ambientes
+
+**✅ Escalabilidade simplificada**
+- Sobe novos containers em segundos
+- Orquestração com Kubernetes/Docker Swarm
+- Auto-scaling baseado em demanda
+
+### 6.3 Para a Empresa
+
+**✅ Redução de custos**
+- Menos servidores (containers são leves)
+- Melhor utilização de recursos
+- Redução de tempo de inatividade
+
+**✅ Velocidade de entrega**
+- Deploys mais frequentes
+- Menos bugs em produção
+- Time-to-market reduzido
+
+---
+
+## 🚀 Capítulo 7: Primeiros Passos HOJE!
+
+### 7.1 Instalação Rápida
+
+**Windows/Mac:**
+1. Baixe Docker Desktop: [docker.com/get-started](https://www.docker.com/get-started)
+2. Instale (Next, Next, Finish)
+3. Abra terminal e teste:
+   ```bash
+   docker --version
+   docker run hello-world
+   ```
+
+**Linux (Ubuntu):**
+```bash
+# Instalação via script oficial
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker $USER
+# Reinicie o terminal!
+```
+
+### 7.2 Seu Primeiro Projeto Docker (5 minutos)
+
+**Passo 1: Crie um diretório**
+```bash
+mkdir meu-primeiro-container
+cd meu-primeiro-container
+```
+
+**Passo 2: Crie um arquivo index.html**
+```html
+<!-- index.html -->
+<h1>Meu primeiro container! 🐳</h1>
+<p>Funcionou perfeitamente!</p>
+```
+
+**Passo 3: Crie um Dockerfile**
+```dockerfile
+# Dockerfile
+FROM nginx:alpine
+COPY index.html /usr/share/nginx/html/index.html
+```
+
+**Passo 4: Construa e execute!**
+```bash
+docker build -t meu-site .
+docker run -d -p 8080:80 meu-site
+```
+
+**Passo 5: Acesse!**
+Abra no navegador: [http://localhost:8080](http://localhost:8080)
+
+🎉 **Parabéns! Você rodou seu primeiro container!**
+
+### 7.3 Próximos Passos no Aprendizado
+
+**Para continuar aprendendo:**
+
+1. **Hoje (15 minutos extras):**
+   - Brinque com `docker ps`, `docker logs`, `docker stop`
+   - Modifique o index.html e reconstrua a imagem
+
+2. **Esta semana:**
+   - Aprenda sobre `docker-compose` (múltiplos containers)
+   - Suba um app Node.js + banco de dados
+   - Crie volumes para persistir dados
+
+3. **Próximo mês:**
+   - Estude orquestração com Docker Swarm/Kubernetes
+   - Implemente CI/CD com containers
+   - Explore Docker Hub (repositório de imagens)
+
+---
+
+## 📚 Resumo Final
+
+### O que você aprendeu em 30 minutos:
+
+**✅ Containers não são VMs:**
+- Mais leves (MB vs GB)
+- Mais rápidos (segundos vs minutos)
+- Compartilham kernel do host
+
+**✅ Docker tem 3 conceitos principais:**
+1. **Imagem:** Molde/Receita
+2. **Container:** Instância em execução
+3. **Dockerfile:** Instruções para criar imagem
+
+**✅ 8 comandos essenciais:**
+```bash
+docker build    # Cria imagem
+docker run      # Roda container
+docker ps       # Lista containers
+docker stop     # Para container
+docker rm       # Remove container
+docker images   # Lista imagens
+docker rmi      # Remove imagem
+docker logs     # Vê logs
+```
+
+**✅ Vantagens práticas:**
+- Elimina "funciona na minha máquina"
+- Ambiente consistente em dev/test/prod
+- Deploy mais rápido e confiável
+- Melhor uso de recursos
+
+### 🎓 Você está pronto para:
+
+1. **Usar Docker no dia a dia** para seus projetos
+2. **Entender artigos/tutoriais** sobre containers
+3. **Participar de discussões** sobre DevOps
+4. **Começar a aprender** orquestração (próximo nível!)
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; color: white; text-align: center; margin: 2rem 0;">
+  <h3 style="color: white; margin-bottom: 1rem;">🎯 Hora de Praticar!</h3>
+  <p style="margin-bottom: 1.5rem;">Teste seu conhecimento com o quiz rápido sobre Docker.</p>
+  <p><strong>10 perguntas • 10 minutos • Você consegue! 🐳</strong></p>
+</div>1a:T427f,<h1>Curso de Docker: Containers do Zero</h1>
+<blockquote>
+<p><strong>Domine containers em 30 minutos!</strong> Neste curso rápido, você vai entender os conceitos essenciais do Docker e como containers revolucionaram a forma como desenvolvemos e entregamos software.</p>
+</blockquote>
+<h2>🎯 O que você vai aprender em 30 minutos?</h2>
+<ul>
+<li>✅ <strong>O que são containers</strong> e por que são tão importantes</li>
+<li>✅ <strong>Como o Docker funciona</strong> na prática</li>
+<li>✅ <strong>Comandos essenciais</strong> que todo dev precisa conhecer</li>
+<li>✅ <strong>Comparação real</strong> com máquinas virtuais</li>
+<li>✅ <strong>Primeiros passos</strong> para começar a usar hoje mesmo</li>
+</ul>
+<hr>
+<h2>🚢 Capítulo 1: O Mundo Antes dos Containers</h2>
+<h3>1.1 O Problema Clássico: "Funciona na Minha Máquina!"</h3>
+<p><strong>Cenário comum:</strong></p>
+<pre><code class="language-bash"># Desenvolvedor A (Mac):
+✅ Aplicação funciona perfeitamente!
+
+# Desenvolvedor B (Windows):
+❌ "Não consigo rodar, falta uma biblioteca!"
+
+# Servidor de Produção (Linux):
+❌ "Erro de permissão, versão do Python diferente!"
+</code></pre>
+<p><strong>Por que isso acontece?</strong></p>
+<ul>
+<li>Sistemas operacionais diferentes</li>
+<li>Versões de bibliotecas diferentes</li>
+<li>Configurações de ambiente únicas</li>
+<li>Dependências específicas</li>
+</ul>
+<h3>1.2 A Solução Antiga: Máquinas Virtuais</h3>
+<p><strong>Como funcionava:</strong></p>
+<pre><code>SERVIDOR FÍSICO
+├── Sistema Operacional Host
+│   ├── Hipervisor (VMware, VirtualBox)
+│   │   ├── MÁQUINA VIRTUAL 1
+│   │   │   ├── Sistema Operacional Convidado
+│   │   │   ├── Bibliotecas
+│   │   │   └── Sua Aplicação
+│   │   ├── MÁQUINA VIRTUAL 2
+│   │   │   ├── Outro Sistema Operacional
+│   │   │   ├── Outras Bibliotecas
+│   │   │   └── Outra Aplicação
+</code></pre>
+<p><strong>Problemas das VMs:</strong></p>
+<ul>
+<li><strong>Pesadas:</strong> Cada VM tem seu próprio SO completo</li>
+<li><strong>Lentas:</strong> Boot demorado, consumo alto de recursos</li>
+<li><strong>Complexas:</strong> Muita configuração necessária</li>
+</ul>
+<hr>
+<h2>📦 Capítulo 2: Containers - A Revolução</h2>
+<h3>2.1 O que É um Container? (Analogia da Caixa de Transporte)</h3>
+<p><strong>Pense assim:</strong> Um container de navio de carga!</p>
+<pre><code>CONTÊINER DE NAVIO:
+├── Produto (sua aplicação)
+├── Embalagem (dependências)
+├── Instruções (configurações)
+└── Pode ser transportado para:
+    - Qualquer navio
+    - Qualquer porto
+    - Qualquer país
+    → E funciona igual!
+</code></pre>
+<p><strong>Container Docker funciona da mesma forma:</strong></p>
+<ul>
+<li><strong>Contém</strong> sua aplicação + dependências</li>
+<li><strong>Isolado</strong> do resto do sistema</li>
+<li><strong>Portátil</strong> - roda em qualquer lugar</li>
+<li><strong>Consistente</strong> - funciona igual em todos os lugares</li>
+</ul>
+<h3>2.2 Como Funciona? (Arquitetura Simples)</h3>
+<pre><code>SEU COMPUTADOR
+├── Sistema Operacional (Linux, Mac, Windows)
+│   ├── Docker Engine
+│   │   ├── CONTAINER 1 (App Node.js)
+│   │   │   ├── Node.js 18
+│   │   │   ├── Bibliotecas
+│   │   │   └── Seu código
+│   │   ├── CONTAINER 2 (App Python)
+│   │   │   ├── Python 3.11
+│   │   │   ├── Bibliotecas
+│   │   │   └── Seu código
+│   │   └── CONTAINER N... (todos compartilham o kernel!)
+</code></pre>
+<div style="background: #f0f9ff; padding: 1.5rem; border-left: 4px solid #0ea5e9; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>💡 Ponto-chave:</strong>
+  <p>Containers <strong>compartilham o kernel do sistema operacional host</strong>, enquanto VMs precisam de um kernel completo cada uma. Isso torna containers muito mais leves e rápidos.</p>
+</div>
+<h3>2.3 Containers vs VMs: Comparação Visual</h3>
+<table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Container (Docker)</th>
+<th>Máquina Virtual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tamanho</strong></td>
+<td>MBs (leve)</td>
+<td>GBs (pesado)</td>
+</tr>
+<tr>
+<td><strong>Inicialização</strong></td>
+<td>Segundos</td>
+<td>Minutos</td>
+</tr>
+<tr>
+<td><strong>Performance</strong></td>
+<td>Quase nativa</td>
+<td>Overhead significativo</td>
+</tr>
+<tr>
+<td><strong>Portabilidade</strong></td>
+<td>Alta (mesma imagem)</td>
+<td>Média (depende do hypervisor)</td>
+</tr>
+<tr>
+<td><strong>Isolamento</strong></td>
+<td>Processo/nível de SO</td>
+<td>Hardware completo</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Exemplo numérico:</strong></p>
+<pre><code class="language-bash"># Container Docker
+Tamanho: ~50MB      Boot: 2 segundos     Memória: 100MB
+
+# Máquina Virtual
+Tamanho: ~2GB       Boot: 60 segundos    Memória: 1GB
+</code></pre>
+<hr>
+<h2>🏗️ Capítulo 3: Os Pilares do Docker</h2>
+<h3>3.1 Imagem: O Molde</h3>
+<p><strong>Pense numa imagem como:</strong> Uma receita de bolo ou um molde de biscoito.</p>
+<p><strong>O que contém uma imagem Docker:</strong></p>
+<ul>
+<li>Sistema operacional mínimo (Linux Alpine, Ubuntu slim)</li>
+<li>Sua aplicação (código compilado ou interpretado)</li>
+<li>Dependências (bibliotecas, frameworks)</li>
+<li>Configurações (variáveis de ambiente, portas)</li>
+<li>Comandos padrão (o que roda ao iniciar)</li>
+</ul>
+<p><strong>Exemplos de imagens populares:</strong></p>
+<ul>
+<li><code>node:18-alpine</code> (Node.js em Alpine Linux - 100MB)</li>
+<li><code>python:3.11-slim</code> (Python slim - 120MB)</li>
+<li><code>nginx:alpine</code> (Servidor web - 40MB)</li>
+<li><code>postgres:15</code> (Banco de dados - 380MB)</li>
+</ul>
+<h3>3.2 Container: A Instância em Execução</h3>
+<p><strong>Pense num container como:</strong> O bolo assado da receita.</p>
+<p><strong>Relação Imagem → Container:</strong></p>
+<pre><code>IMAGEM (node:18)                 CONTAINER (em execução)
+├── Node.js 18                   ├── Node.js 18 (rodando)
+├── Linux Alpine                 ├── Processo do seu app
+├── Diretório /app               ├── Sistema de arquivos
+└── Comando: node app.js         └── Porta 3000 exposta
+</code></pre>
+<p><strong>Importante:</strong> Você pode ter múltiplos containers rodando da MESMA imagem!</p>
+<pre><code>node:18 (IMAGEM)
+├── Container 1 (App Frontend) na porta 3000
+├── Container 2 (App Backend) na porta 8080
+└── Container 3 (Worker) processando fila
+</code></pre>
+<h3>3.3 Dockerfile: A Receita</h3>
+<p><strong>O Dockerfile é o arquivo de texto</strong> que ensina o Docker como construir sua imagem personalizada.</p>
+<p><strong>Exemplo super simples:</strong></p>
+<pre><code class="language-dockerfile"># Dockerfile
+FROM node:18-alpine          # Imagem base (molde inicial)
+WORKDIR /app                 # Diretório de trabalho
+COPY package*.json ./        # Copia arquivos de dependência
+RUN npm install              # Instala dependências
+COPY . .                     # Copia o código da aplicação
+EXPOSE 3000                  # Expõe porta 3000
+CMD ["npm", "start"]         # Comando padrão ao iniciar
+</code></pre>
+<div style="background: #dcfce7; padding: 1.5rem; border-left: 4px solid #22c55e; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>✅ Dica rápida:</strong>
+  <p>Um Dockerfile é como um script de instalação automática para sua aplicação. Ele garante que qualquer pessoa (ou servidor) consiga criar exatamente o mesmo ambiente.</p>
+</div>
+<hr>
+<h2>🛠️ Capítulo 4: Comandos Essenciais (Os 8 que Você Precisa)</h2>
+<h3>4.1 O Ciclo de Vida Básico</h3>
+<pre><code>1. docker build       # Cria imagem do Dockerfile
+2. docker run         # Roda container da imagem
+3. docker ps          # Lista containers em execução
+4. docker stop        # Para container
+5. docker rm          # Remove container parado
+6. docker images      # Lista imagens locais
+7. docker rmi         # Remove imagem
+8. docker logs        # Vê logs do container
+</code></pre>
+<h3>4.2 Exemplos Práticos Passo a Passo</h3>
+<p><strong>Passo 1: Criar uma imagem</strong></p>
+<pre><code class="language-bash"># No diretório com seu Dockerfile
+docker build -t minha-app:1.0 .
+# -t = tag (nome da imagem)
+# . = diretório atual (onde está o Dockerfile)
+</code></pre>
+<p><strong>Passo 2: Rodar um container</strong></p>
+<pre><code class="language-bash">docker run -d -p 3000:3000 --name meu-app minha-app:1.0
+# -d = detach (roda em background)
+# -p 3000:3000 = mapeia porta host:container
+# --name = nome amigável para o container
+</code></pre>
+<p><strong>Passo 3: Verificar se está rodando</strong></p>
+<pre><code class="language-bash">docker ps
+# Saída:
+# CONTAINER ID   IMAGE           STATUS         PORTS
+# abc123def456   minha-app:1.0   Up 2 minutes   0.0.0.0:3000->3000/tcp
+</code></pre>
+<p><strong>Passo 4: Ver logs da aplicação</strong></p>
+<pre><code class="language-bash">docker logs meu-app
+# Mostra o output do console da sua aplicação
+</code></pre>
+<p><strong>Passo 5: Parar o container</strong></p>
+<pre><code class="language-bash">docker stop meu-app
+# Para graciosamente (envia sinal SIGTERM)
+
+docker rm meu-app
+# Remove o container (após parar)
+</code></pre>
+<h3>4.3 Comandos Úteis do Dia a Dia</h3>
+<p><strong>Entrar no container (shell):</strong></p>
+<pre><code class="language-bash">docker exec -it meu-app sh
+# -it = modo interativo com terminal
+# sh = shell (ou bash, se disponível)
+</code></pre>
+<p><strong>Copiar arquivos:</strong></p>
+<pre><code class="language-bash"># Do host para o container
+docker cp arquivo.txt meu-app:/app/arquivo.txt
+
+# Do container para o host
+docker cp meu-app:/app/logs.txt ./logs.txt
+</code></pre>
+<p><strong>Inspecionar container:</strong></p>
+<pre><code class="language-bash">docker inspect meu-app
+# Mostra TODAS as informações do container
+</code></pre>
+<hr>
+<h2>🎯 Capítulo 5: Casos de Uso Reais</h2>
+<h3>5.1 Desenvolvimento Local</h3>
+<p><strong>Problema:</strong> Time com 5 desenvolvedores, cada um com setup diferente.</p>
+<p><strong>Solução Docker:</strong></p>
+<pre><code class="language-dockerfile"># Dockerfile.dev
+FROM node:18
+WORKDIR /app
+COPY package.json .
+RUN npm install
+CMD ["npm", "run", "dev"]
+</code></pre>
+<pre><code class="language-bash"># Todos os devs rodam:
+docker build -f Dockerfile.dev -t app-dev .
+docker run -p 3000:3000 -v $(pwd):/app app-dev
+# -v = volume (sincroniza código do host com container)
+</code></pre>
+<p><strong>Resultado:</strong> Mesmo ambiente para todos!</p>
+<h3>5.2 Ambiente de Testes CI/CD</h3>
+<p><strong>Pipeline de testes automatizados:</strong></p>
+<pre><code class="language-yaml"># .github/workflows/test.yml
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container: node:18  # Ambiente consistente!
+    steps:
+      - run: npm test   # Testes rodam no container
+</code></pre>
+<p><strong>Vantagem:</strong> Mesmo ambiente que produção!</p>
+<h3>5.3 Microserviços</h3>
+<p><strong>Aplicação moderna:</strong></p>
+<pre><code>App E-commerce:
+├── Container 1: Frontend (React)
+├── Container 2: Backend API (Node.js)
+├── Container 3: Banco de dados (PostgreSQL)
+├── Container 4: Cache (Redis)
+└── Container 5: Mensageria (RabbitMQ)
+</code></pre>
+<p><strong>Cada serviço:</strong> Sua própria imagem, sua própria escalabilidade.</p>
+<hr>
+<h2>⚡ Capítulo 6: Vantagens em 5 Minutos</h2>
+<h3>6.1 Para Desenvolvedores</h3>
+<p><strong>✅ "Funciona na minha máquina" VIRA "Funciona no container"</strong></p>
+<ul>
+<li>Ambiente idêntico em dev, test, prod</li>
+<li>Setup rápido para novos desenvolvedores</li>
+<li>Sem conflitos de dependências</li>
+</ul>
+<p><strong>✅ Produtividade aumentada</strong></p>
+<ul>
+<li>Não perde tempo configurando ambiente</li>
+<li>Foca no código, não no setup</li>
+<li>Testa múltiplas versões facilmente</li>
+</ul>
+<h3>6.2 Para Operações/DevOps</h3>
+<p><strong>✅ Deploy consistente</strong></p>
+<ul>
+<li>Mesma imagem em todos os ambientes</li>
+<li>Rollback fácil (usa imagem anterior)</li>
+<li>Versionamento de ambientes</li>
+</ul>
+<p><strong>✅ Escalabilidade simplificada</strong></p>
+<ul>
+<li>Sobe novos containers em segundos</li>
+<li>Orquestração com Kubernetes/Docker Swarm</li>
+<li>Auto-scaling baseado em demanda</li>
+</ul>
+<h3>6.3 Para a Empresa</h3>
+<p><strong>✅ Redução de custos</strong></p>
+<ul>
+<li>Menos servidores (containers são leves)</li>
+<li>Melhor utilização de recursos</li>
+<li>Redução de tempo de inatividade</li>
+</ul>
+<p><strong>✅ Velocidade de entrega</strong></p>
+<ul>
+<li>Deploys mais frequentes</li>
+<li>Menos bugs em produção</li>
+<li>Time-to-market reduzido</li>
+</ul>
+<hr>
+<h2>🚀 Capítulo 7: Primeiros Passos HOJE!</h2>
+<h3>7.1 Instalação Rápida</h3>
+<p><strong>Windows/Mac:</strong></p>
+<ol>
+<li>Baixe Docker Desktop: <a href="https://www.docker.com/get-started">docker.com/get-started</a></li>
+<li>Instale (Next, Next, Finish)</li>
+<li>Abra terminal e teste:
+<pre><code class="language-bash">docker --version
+docker run hello-world
+</code></pre>
+</li>
+</ol>
+<p><strong>Linux (Ubuntu):</strong></p>
+<pre><code class="language-bash"># Instalação via script oficial
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker $USER
+# Reinicie o terminal!
+</code></pre>
+<h3>7.2 Seu Primeiro Projeto Docker (5 minutos)</h3>
+<p><strong>Passo 1: Crie um diretório</strong></p>
+<pre><code class="language-bash">mkdir meu-primeiro-container
+cd meu-primeiro-container
+</code></pre>
+<p><strong>Passo 2: Crie um arquivo index.html</strong></p>
+<pre><code class="language-html">&#x3C;!-- index.html -->
+&#x3C;h1>Meu primeiro container! 🐳&#x3C;/h1>
+&#x3C;p>Funcionou perfeitamente!&#x3C;/p>
+</code></pre>
+<p><strong>Passo 3: Crie um Dockerfile</strong></p>
+<pre><code class="language-dockerfile"># Dockerfile
+FROM nginx:alpine
+COPY index.html /usr/share/nginx/html/index.html
+</code></pre>
+<p><strong>Passo 4: Construa e execute!</strong></p>
+<pre><code class="language-bash">docker build -t meu-site .
+docker run -d -p 8080:80 meu-site
+</code></pre>
+<p><strong>Passo 5: Acesse!</strong>
+Abra no navegador: <a href="http://localhost:8080">http://localhost:8080</a></p>
+<p>🎉 <strong>Parabéns! Você rodou seu primeiro container!</strong></p>
+<h3>7.3 Próximos Passos no Aprendizado</h3>
+<p><strong>Para continuar aprendendo:</strong></p>
+<ol>
+<li>
+<p><strong>Hoje (15 minutos extras):</strong></p>
+<ul>
+<li>Brinque com <code>docker ps</code>, <code>docker logs</code>, <code>docker stop</code></li>
+<li>Modifique o index.html e reconstrua a imagem</li>
+</ul>
+</li>
+<li>
+<p><strong>Esta semana:</strong></p>
+<ul>
+<li>Aprenda sobre <code>docker-compose</code> (múltiplos containers)</li>
+<li>Suba um app Node.js + banco de dados</li>
+<li>Crie volumes para persistir dados</li>
+</ul>
+</li>
+<li>
+<p><strong>Próximo mês:</strong></p>
+<ul>
+<li>Estude orquestração com Docker Swarm/Kubernetes</li>
+<li>Implemente CI/CD com containers</li>
+<li>Explore Docker Hub (repositório de imagens)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>📚 Resumo Final</h2>
+<h3>O que você aprendeu em 30 minutos:</h3>
+<p><strong>✅ Containers não são VMs:</strong></p>
+<ul>
+<li>Mais leves (MB vs GB)</li>
+<li>Mais rápidos (segundos vs minutos)</li>
+<li>Compartilham kernel do host</li>
+</ul>
+<p><strong>✅ Docker tem 3 conceitos principais:</strong></p>
+<ol>
+<li><strong>Imagem:</strong> Molde/Receita</li>
+<li><strong>Container:</strong> Instância em execução</li>
+<li><strong>Dockerfile:</strong> Instruções para criar imagem</li>
+</ol>
+<p><strong>✅ 8 comandos essenciais:</strong></p>
+<pre><code class="language-bash">docker build    # Cria imagem
+docker run      # Roda container
+docker ps       # Lista containers
+docker stop     # Para container
+docker rm       # Remove container
+docker images   # Lista imagens
+docker rmi      # Remove imagem
+docker logs     # Vê logs
+</code></pre>
+<p><strong>✅ Vantagens práticas:</strong></p>
+<ul>
+<li>Elimina "funciona na minha máquina"</li>
+<li>Ambiente consistente em dev/test/prod</li>
+<li>Deploy mais rápido e confiável</li>
+<li>Melhor uso de recursos</li>
+</ul>
+<h3>🎓 Você está pronto para:</h3>
+<ol>
+<li><strong>Usar Docker no dia a dia</strong> para seus projetos</li>
+<li><strong>Entender artigos/tutoriais</strong> sobre containers</li>
+<li><strong>Participar de discussões</strong> sobre DevOps</li>
+<li><strong>Começar a aprender</strong> orquestração (próximo nível!)</li>
+</ol>
+<hr>
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; color: white; text-align: center; margin: 2rem 0;">
+  <h3 style="color: white; margin-bottom: 1rem;">🎯 Hora de Praticar!</h3>
+  <p style="margin-bottom: 1.5rem;">Teste seu conhecimento com o quiz rápido sobre Docker.</p>
+  <p><strong>10 perguntas • 10 minutos • Você consegue! 🐳</strong></p>
+</div>
+1b:T4ca,### 1.1 O Problema Clássico: "Funciona na Minha Máquina!"
+
+**Cenário comum:**
+```bash
+# Desenvolvedor A (Mac):
+✅ Aplicação funciona perfeitamente!
+
+# Desenvolvedor B (Windows):
+❌ "Não consigo rodar, falta uma biblioteca!"
+
+# Servidor de Produção (Linux):
+❌ "Erro de permissão, versão do Python diferente!"
+```
+
+**Por que isso acontece?**
+- Sistemas operacionais diferentes
+- Versões de bibliotecas diferentes
+- Configurações de ambiente únicas
+- Dependências específicas
+
+### 1.2 A Solução Antiga: Máquinas Virtuais
+
+**Como funcionava:**
+```
+SERVIDOR FÍSICO
+├── Sistema Operacional Host
+│   ├── Hipervisor (VMware, VirtualBox)
+│   │   ├── MÁQUINA VIRTUAL 1
+│   │   │   ├── Sistema Operacional Convidado
+│   │   │   ├── Bibliotecas
+│   │   │   └── Sua Aplicação
+│   │   ├── MÁQUINA VIRTUAL 2
+│   │   │   ├── Outro Sistema Operacional
+│   │   │   ├── Outras Bibliotecas
+│   │   │   └── Outra Aplicação
+```
+
+**Problemas das VMs:**
+- **Pesadas:** Cada VM tem seu próprio SO completo
+- **Lentas:** Boot demorado, consumo alto de recursos
+- **Complexas:** Muita configuração necessária
+
+---1c:T87b,### 2.1 O que É um Container? (Analogia da Caixa de Transporte)
+
+**Pense assim:** Um container de navio de carga!
+
+```
+CONTÊINER DE NAVIO:
+├── Produto (sua aplicação)
+├── Embalagem (dependências)
+├── Instruções (configurações)
+└── Pode ser transportado para:
+    - Qualquer navio
+    - Qualquer porto
+    - Qualquer país
+    → E funciona igual!
+```
+
+**Container Docker funciona da mesma forma:**
+- **Contém** sua aplicação + dependências
+- **Isolado** do resto do sistema
+- **Portátil** - roda em qualquer lugar
+- **Consistente** - funciona igual em todos os lugares
+
+### 2.2 Como Funciona? (Arquitetura Simples)
+
+```
+SEU COMPUTADOR
+├── Sistema Operacional (Linux, Mac, Windows)
+│   ├── Docker Engine
+│   │   ├── CONTAINER 1 (App Node.js)
+│   │   │   ├── Node.js 18
+│   │   │   ├── Bibliotecas
+│   │   │   └── Seu código
+│   │   ├── CONTAINER 2 (App Python)
+│   │   │   ├── Python 3.11
+│   │   │   ├── Bibliotecas
+│   │   │   └── Seu código
+│   │   └── CONTAINER N... (todos compartilham o kernel!)
+```
+
+<div style="background: #f0f9ff; padding: 1.5rem; border-left: 4px solid #0ea5e9; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>💡 Ponto-chave:</strong>
+  <p>Containers <strong>compartilham o kernel do sistema operacional host</strong>, enquanto VMs precisam de um kernel completo cada uma. Isso torna containers muito mais leves e rápidos.</p>
+</div>
+
+### 2.3 Containers vs VMs: Comparação Visual
+
+| Característica | Container (Docker) | Máquina Virtual |
+|----------------|-------------------|-----------------|
+| **Tamanho** | MBs (leve) | GBs (pesado) |
+| **Inicialização** | Segundos | Minutos |
+| **Performance** | Quase nativa | Overhead significativo |
+| **Portabilidade** | Alta (mesma imagem) | Média (depende do hypervisor) |
+| **Isolamento** | Processo/nível de SO | Hardware completo |
+
+**Exemplo numérico:**
+```bash
+# Container Docker
+Tamanho: ~50MB      Boot: 2 segundos     Memória: 100MB
+
+# Máquina Virtual
+Tamanho: ~2GB       Boot: 60 segundos    Memória: 1GB
+```
+
+---1d:T8e5,### 3.1 Imagem: O Molde
+
+**Pense numa imagem como:** Uma receita de bolo ou um molde de biscoito.
+
+**O que contém uma imagem Docker:**
+- Sistema operacional mínimo (Linux Alpine, Ubuntu slim)
+- Sua aplicação (código compilado ou interpretado)
+- Dependências (bibliotecas, frameworks)
+- Configurações (variáveis de ambiente, portas)
+- Comandos padrão (o que roda ao iniciar)
+
+**Exemplos de imagens populares:**
+- `node:18-alpine` (Node.js em Alpine Linux - 100MB)
+- `python:3.11-slim` (Python slim - 120MB)
+- `nginx:alpine` (Servidor web - 40MB)
+- `postgres:15` (Banco de dados - 380MB)
+
+### 3.2 Container: A Instância em Execução
+
+**Pense num container como:** O bolo assado da receita.
+
+**Relação Imagem → Container:**
+```
+IMAGEM (node:18)                 CONTAINER (em execução)
+├── Node.js 18                   ├── Node.js 18 (rodando)
+├── Linux Alpine                 ├── Processo do seu app
+├── Diretório /app               ├── Sistema de arquivos
+└── Comando: node app.js         └── Porta 3000 exposta
+```
+
+**Importante:** Você pode ter múltiplos containers rodando da MESMA imagem!
+
+```
+node:18 (IMAGEM)
+├── Container 1 (App Frontend) na porta 3000
+├── Container 2 (App Backend) na porta 8080
+└── Container 3 (Worker) processando fila
+```
+
+### 3.3 Dockerfile: A Receita
+
+**O Dockerfile é o arquivo de texto** que ensina o Docker como construir sua imagem personalizada.
+
+**Exemplo super simples:**
+```dockerfile
+# Dockerfile
+FROM node:18-alpine          # Imagem base (molde inicial)
+WORKDIR /app                 # Diretório de trabalho
+COPY package*.json ./        # Copia arquivos de dependência
+RUN npm install              # Instala dependências
+COPY . .                     # Copia o código da aplicação
+EXPOSE 3000                  # Expõe porta 3000
+CMD ["npm", "start"]         # Comando padrão ao iniciar
+```
+
+<div style="background: #dcfce7; padding: 1.5rem; border-left: 4px solid #22c55e; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>✅ Dica rápida:</strong>
+  <p>Um Dockerfile é como um script de instalação automática para sua aplicação. Ele garante que qualquer pessoa (ou servidor) consiga criar exatamente o mesmo ambiente.</p>
+</div>
+
+---1e:T71b,### 4.1 O Ciclo de Vida Básico
+
+```
+1. docker build       # Cria imagem do Dockerfile
+2. docker run         # Roda container da imagem
+3. docker ps          # Lista containers em execução
+4. docker stop        # Para container
+5. docker rm          # Remove container parado
+6. docker images      # Lista imagens locais
+7. docker rmi         # Remove imagem
+8. docker logs        # Vê logs do container
+```
+
+### 4.2 Exemplos Práticos Passo a Passo
+
+**Passo 1: Criar uma imagem**
+```bash
+# No diretório com seu Dockerfile
+docker build -t minha-app:1.0 .
+# -t = tag (nome da imagem)
+# . = diretório atual (onde está o Dockerfile)
+```
+
+**Passo 2: Rodar um container**
+```bash
+docker run -d -p 3000:3000 --name meu-app minha-app:1.0
+# -d = detach (roda em background)
+# -p 3000:3000 = mapeia porta host:container
+# --name = nome amigável para o container
+```
+
+**Passo 3: Verificar se está rodando**
+```bash
+docker ps
+# Saída:
+# CONTAINER ID   IMAGE           STATUS         PORTS
+# abc123def456   minha-app:1.0   Up 2 minutes   0.0.0.0:3000->3000/tcp
+```
+
+**Passo 4: Ver logs da aplicação**
+```bash
+docker logs meu-app
+# Mostra o output do console da sua aplicação
+```
+
+**Passo 5: Parar o container**
+```bash
+docker stop meu-app
+# Para graciosamente (envia sinal SIGTERM)
+
+docker rm meu-app
+# Remove o container (após parar)
+```
+
+### 4.3 Comandos Úteis do Dia a Dia
+
+**Entrar no container (shell):**
+```bash
+docker exec -it meu-app sh
+# -it = modo interativo com terminal
+# sh = shell (ou bash, se disponível)
+```
+
+**Copiar arquivos:**
+```bash
+# Do host para o container
+docker cp arquivo.txt meu-app:/app/arquivo.txt
+
+# Do container para o host
+docker cp meu-app:/app/logs.txt ./logs.txt
+```
+
+**Inspecionar container:**
+```bash
+docker inspect meu-app
+# Mostra TODAS as informações do container
+```
+
+---1f:T481,### 5.1 Desenvolvimento Local
+
+**Problema:** Time com 5 desenvolvedores, cada um com setup diferente.
+
+**Solução Docker:**
+```dockerfile
+# Dockerfile.dev
+FROM node:18
+WORKDIR /app
+COPY package.json .
+RUN npm install
+CMD ["npm", "run", "dev"]
+```
+
+```bash
+# Todos os devs rodam:
+docker build -f Dockerfile.dev -t app-dev .
+docker run -p 3000:3000 -v $(pwd):/app app-dev
+# -v = volume (sincroniza código do host com container)
+```
+
+**Resultado:** Mesmo ambiente para todos!
+
+### 5.2 Ambiente de Testes CI/CD
+
+**Pipeline de testes automatizados:**
+```yaml
+# .github/workflows/test.yml
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container: node:18  # Ambiente consistente!
+    steps:
+      - run: npm test   # Testes rodam no container
+```
+
+**Vantagem:** Mesmo ambiente que produção!
+
+### 5.3 Microserviços
+
+**Aplicação moderna:**
+```
+App E-commerce:
+├── Container 1: Frontend (React)
+├── Container 2: Backend API (Node.js)
+├── Container 3: Banco de dados (PostgreSQL)
+├── Container 4: Cache (Redis)
+└── Container 5: Mensageria (RabbitMQ)
+```
+
+**Cada serviço:** Sua própria imagem, sua própria escalabilidade.
+
+---20:T686,### 7.1 Instalação Rápida
+
+**Windows/Mac:**
+1. Baixe Docker Desktop: [docker.com/get-started](https://www.docker.com/get-started)
+2. Instale (Next, Next, Finish)
+3. Abra terminal e teste:
+   ```bash
+   docker --version
+   docker run hello-world
+   ```
+
+**Linux (Ubuntu):**
+```bash
+# Instalação via script oficial
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker $USER
+# Reinicie o terminal!
+```
+
+### 7.2 Seu Primeiro Projeto Docker (5 minutos)
+
+**Passo 1: Crie um diretório**
+```bash
+mkdir meu-primeiro-container
+cd meu-primeiro-container
+```
+
+**Passo 2: Crie um arquivo index.html**
+```html
+<!-- index.html -->
+<h1>Meu primeiro container! 🐳</h1>
+<p>Funcionou perfeitamente!</p>
+```
+
+**Passo 3: Crie um Dockerfile**
+```dockerfile
+# Dockerfile
+FROM nginx:alpine
+COPY index.html /usr/share/nginx/html/index.html
+```
+
+**Passo 4: Construa e execute!**
+```bash
+docker build -t meu-site .
+docker run -d -p 8080:80 meu-site
+```
+
+**Passo 5: Acesse!**
+Abra no navegador: [http://localhost:8080](http://localhost:8080)
+
+🎉 **Parabéns! Você rodou seu primeiro container!**
+
+### 7.3 Próximos Passos no Aprendizado
+
+**Para continuar aprendendo:**
+
+1. **Hoje (15 minutos extras):**
+   - Brinque com `docker ps`, `docker logs`, `docker stop`
+   - Modifique o index.html e reconstrua a imagem
+
+2. **Esta semana:**
+   - Aprenda sobre `docker-compose` (múltiplos containers)
+   - Suba um app Node.js + banco de dados
+   - Crie volumes para persistir dados
+
+3. **Próximo mês:**
+   - Estude orquestração com Docker Swarm/Kubernetes
+   - Implemente CI/CD com containers
+   - Explore Docker Hub (repositório de imagens)
+
+---21:T5c3,### O que você aprendeu em 30 minutos:
+
+**✅ Containers não são VMs:**
+- Mais leves (MB vs GB)
+- Mais rápidos (segundos vs minutos)
+- Compartilham kernel do host
+
+**✅ Docker tem 3 conceitos principais:**
+1. **Imagem:** Molde/Receita
+2. **Container:** Instância em execução
+3. **Dockerfile:** Instruções para criar imagem
+
+**✅ 8 comandos essenciais:**
+```bash
+docker build    # Cria imagem
+docker run      # Roda container
+docker ps       # Lista containers
+docker stop     # Para container
+docker rm       # Remove container
+docker images   # Lista imagens
+docker rmi      # Remove imagem
+docker logs     # Vê logs
+```
+
+**✅ Vantagens práticas:**
+- Elimina "funciona na minha máquina"
+- Ambiente consistente em dev/test/prod
+- Deploy mais rápido e confiável
+- Melhor uso de recursos
+
+### 🎓 Você está pronto para:
+
+1. **Usar Docker no dia a dia** para seus projetos
+2. **Entender artigos/tutoriais** sobre containers
+3. **Participar de discussões** sobre DevOps
+4. **Começar a aprender** orquestração (próximo nível!)
+
+---
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; color: white; text-align: center; margin: 2rem 0;">
+  <h3 style="color: white; margin-bottom: 1rem;">🎯 Hora de Praticar!</h3>
+  <p style="margin-bottom: 1.5rem;">Teste seu conhecimento com o quiz rápido sobre Docker.</p>
+  <p><strong>10 perguntas • 10 minutos • Você consegue! 🐳</strong></p>
+</div>2:["$","$Ld",null,{"courses":[{"id":"cicd","title":"CI/CD: Fundamentos e Prática","description":"Aprenda os conceitos essenciais de Integração e Entrega Contínua, com exemplos práticos e pipelines reais.","duration":"1h","level":"Intermediário","area":"DevOps","icon":"🚀","color":"#3B82F6","cover":"/courses/cicd/cover.png?v=Nzk4OS0x","tags":["CI/CD","DevOps","Automação","Pipeline","Jenkins","GitHub Actions","Integração Contínua"],"instructor":{"id":"waltenne"},"published":true,"featured":false,"content":"$e","htmlContent":"$f","sections":[{"id":"introducao","title":"Introdução","level":2,"content":"# Curso de CI/CD: Fundamentos e Prática\n\n> **Automatize seu fluxo de desenvolvimento!** Neste curso você vai aprender CI/CD do zero: desde os conceitos básicos até a implementação de pipelines completas. Ao final, você será capaz de criar, otimizar e gerenciar fluxos de entrega contínua."},{"id":"introducao","title":"📚 Introdução","level":2,"content":"Imagine poder entregar software com mais qualidade, menos bugs e muito mais rapidez. Isso é o que o CI/CD oferece! Neste curso, vamos desmistificar esses conceitos que parecem complexos, mas são essenciais para qualquer desenvolvedor moderno.\n\n**Por que CI/CD é importante?**\n- Reduz em até 70% os bugs em produção\n- Acelera o tempo de entrega em 90%\n- Aumenta a produtividade da equipe em 50%\n- Garante mais estabilidade e confiança\n\n**Para quem é este curso?**\n- Desenvolvedores que querem automatizar seus processos\n- DevOps iniciantes buscando entender fundamentos\n- Tech leads que precisam melhorar fluxos de entrega\n- Qualquer pessoa curiosa sobre automação de software\n\n**Tempo estimado:** 1 hora (mas você pode ir no seu ritmo!)\n\n---"},{"id":"objetivos-de-aprendizagem","title":"🎯 Objetivos de Aprendizagem","level":2,"content":"Ao final deste curso, você será capaz de:\n\n- [ ] **Explicar** com suas palavras o que é CI, CD e a diferença entre eles\n- [ ] **Identificar** os componentes básicos de uma pipeline\n- [ ] **Comparar** ferramentas populares de CI/CD\n- [ ] **Aplicar** boas práticas de segurança em pipelines\n- [ ] **Otimizar** uma pipeline para ser mais rápida\n- [ ] **Escolher** a ferramenta certa para cada cenário\n- [ ] **Criar** uma pipeline básica do zero\n\n---"},{"id":"secao-1-entendendo-ci-cd-os-conceitos-fundamentais","title":"📖 Seção 1: Entendendo CI/CD - Os Conceitos Fundamentais","level":2,"content":"$10"},{"id":"secao-2-como-tudo-funciona-a-pipeline","title":"💻 Seção 2: Como Tudo Funciona - A Pipeline","level":2,"content":"$11"},{"id":"secao-3-as-ferramentas-escolhendo-a-certa","title":"🛠️ Seção 3: As Ferramentas - Escolhendo a Certa","level":2,"content":"$12"},{"id":"secao-4-boas-praticas-fazendo-certo","title":"🔍 Seção 4: Boas Práticas - Fazendo Certo","level":2,"content":"$13"},{"id":"secao-5-problemas-comuns-e-como-resolver","title":"⚠️ Seção 5: Problemas Comuns (E Como Resolver)","level":2,"content":"$14"},{"id":"secao-6-estrategias-avancadas-de-deploy","title":"🎨 Seção 6: Estratégias Avançadas de Deploy","level":2,"content":"$15"},{"id":"secao-7-metricas-o-que-medir","title":"📊 Seção 7: Métricas - O Que Medir?","level":2,"content":"$16"},{"id":"secao-8-proximos-passos-sua-jornada-continua","title":"🚀 Seção 8: Próximos Passos - Sua Jornada Continua","level":2,"content":"$17"},{"id":"conclusao-voce-conseguiu","title":"✅ Conclusão - Você Conseguiu!","level":2,"content":"$18"}],"readingTime":"16 min","instructorData":{"id":"waltenne","name":"Waltenne Carvalho","avatar":"https://avatars.githubusercontent.com/u/38992117?v=4","bio":"DevOps Engineer com experiência em CI/CD, automação. Especialista em Jenkins, Gitlab e práticas de DevOps.","role":"Instrutor","social":{"github":"https://github.com/waltenne","linkedin":"https://linkedin.com/in/waltenne"}}},{"id":"docker-basico","title":"Curso Básico de Docker","description":"Fundamentos de containers, imagens, comandos essenciais e boas práticas com Docker.","duration":"45 min","level":"Iniciante","area":"DevOps","icon":"🚀","color":"#3B82F6","cover":"/courses/docker-basico/cover.png?v=Mjg0MTY4","tags":["Docker","Containers","DevOps"],"instructor":{"id":"comunidade-aprendi"},"published":true,"featured":false,"content":"$19","htmlContent":"$1a","sections":[{"id":"introducao","title":"Introdução","level":2,"content":"# Curso de Docker: Containers do Zero\n\n> **Domine containers em 30 minutos!** Neste curso rápido, você vai entender os conceitos essenciais do Docker e como containers revolucionaram a forma como desenvolvemos e entregamos software."},{"id":"o-que-voce-vai-aprender-em-30-minutos","title":"🎯 O que você vai aprender em 30 minutos?","level":2,"content":"- ✅ **O que são containers** e por que são tão importantes\n- ✅ **Como o Docker funciona** na prática\n- ✅ **Comandos essenciais** que todo dev precisa conhecer\n- ✅ **Comparação real** com máquinas virtuais\n- ✅ **Primeiros passos** para começar a usar hoje mesmo\n\n---"},{"id":"capitulo-1-o-mundo-antes-dos-containers","title":"🚢 Capítulo 1: O Mundo Antes dos Containers","level":2,"content":"$1b"},{"id":"capitulo-2-containers-a-revolucao","title":"📦 Capítulo 2: Containers - A Revolução","level":2,"content":"$1c"},{"id":"capitulo-3-os-pilares-do-docker","title":"🏗️ Capítulo 3: Os Pilares do Docker","level":2,"content":"$1d"},{"id":"capitulo-4-comandos-essenciais-os-8-que-voce-precisa","title":"🛠️ Capítulo 4: Comandos Essenciais (Os 8 que Você Precisa)","level":2,"content":"$1e"},{"id":"capitulo-5-casos-de-uso-reais","title":"🎯 Capítulo 5: Casos de Uso Reais","level":2,"content":"$1f"},{"id":"capitulo-6-vantagens-em-5-minutos","title":"⚡ Capítulo 6: Vantagens em 5 Minutos","level":2,"content":"### 6.1 Para Desenvolvedores\n\n**✅ \"Funciona na minha máquina\" VIRA \"Funciona no container\"**\n- Ambiente idêntico em dev, test, prod\n- Setup rápido para novos desenvolvedores\n- Sem conflitos de dependências\n\n**✅ Produtividade aumentada**\n- Não perde tempo configurando ambiente\n- Foca no código, não no setup\n- Testa múltiplas versões facilmente\n\n### 6.2 Para Operações/DevOps\n\n**✅ Deploy consistente**\n- Mesma imagem em todos os ambientes\n- Rollback fácil (usa imagem anterior)\n- Versionamento de ambientes\n\n**✅ Escalabilidade simplificada**\n- Sobe novos containers em segundos\n- Orquestração com Kubernetes/Docker Swarm\n- Auto-scaling baseado em demanda\n\n### 6.3 Para a Empresa\n\n**✅ Redução de custos**\n- Menos servidores (containers são leves)\n- Melhor utilização de recursos\n- Redução de tempo de inatividade\n\n**✅ Velocidade de entrega**\n- Deploys mais frequentes\n- Menos bugs em produção\n- Time-to-market reduzido\n\n---"},{"id":"capitulo-7-primeiros-passos-hoje","title":"🚀 Capítulo 7: Primeiros Passos HOJE!","level":2,"content":"$20"},{"id":"resumo-final","title":"📚 Resumo Final","level":2,"content":"$21"}],"readingTime":"10 min","instructorData":{"id":"comunidade-aprendi","name":"Comunidade Aprendi","bio":"Conteúdo criado colaborativamente pela comunidade Aprendi, um espaço dedicado a compartilhar conhecimento técnico de forma gratuita e acessível para todos.","role":"Comunidade","social":{"github":"https://github.com/waltenne/aprendi"},"avatar":"/instructors/comunidade-aprendi.png"}}]}]
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#ffffff"}],["$","meta","2",{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#0a0a0f"}],["$","meta","3",{"charSet":"utf-8"}],["$","title","4",{"children":"Favoritos | Aprendi"}],["$","meta","5",{"name":"description","content":"Seus cursos favoritados na Aprendi."}],["$","meta","6",{"name":"author","content":"Aprendi"}],["$","meta","7",{"name":"keywords","content":"cursos gratuitos,educação online,quiz,certificado,aprendizado,programação,tecnologia"}],["$","meta","8",{"name":"creator","content":"Aprendi"}],["$","meta","9",{"name":"publisher","content":"Aprendi"}],["$","meta","10",{"name":"robots","content":"index, follow"}],["$","meta","11",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","12",{"rel":"canonical","href":"https://aprendi.vercel.app/"}],["$","meta","13",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","14",{"property":"og:title","content":"Aprendi - Plataforma Educacional Gratuita"}],["$","meta","15",{"property":"og:description","content":"Aprendi - Cursos gratuitos, quizzes interativos e certificados simbólicos. Conhecimento acessível para todos."}],["$","meta","16",{"property":"og:url","content":"https://aprendi.vercel.app/"}],["$","meta","17",{"property":"og:site_name","content":"Aprendi"}],["$","meta","18",{"property":"og:locale","content":"pt_BR"}],["$","meta","19",{"property":"og:image","content":"https://aprendi.vercel.app/og-image.png"}],["$","meta","20",{"property":"og:image:width","content":"1200"}],["$","meta","21",{"property":"og:image:height","content":"630"}],["$","meta","22",{"property":"og:image:alt","content":"Aprendi"}],["$","meta","23",{"property":"og:type","content":"website"}],["$","meta","24",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","25",{"name":"twitter:title","content":"Aprendi - Plataforma Educacional Gratuita"}],["$","meta","26",{"name":"twitter:description","content":"Aprendi - Cursos gratuitos, quizzes interativos e certificados simbólicos. Conhecimento acessível para todos."}],["$","meta","27",{"name":"twitter:image","content":"https://aprendi.vercel.app/og-image.png"}],["$","link","28",{"rel":"icon","href":"/favicon.ico","sizes":"any"}],["$","link","29",{"rel":"icon","href":"/images/logo.png","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/images/logo.png"}],["$","meta","31",{"name":"next-size-adjust"}]]
+1:null

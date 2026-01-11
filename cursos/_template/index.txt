@@ -1,0 +1,695 @@
+2:I[2469,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","170","static/chunks/170-6bf90522e0c0a634.js","1","static/chunks/1-3cb360009fcf4d46.js","345","static/chunks/345-267ac2c1e02b1490.js","572","static/chunks/app/cursos/%5Bslug%5D/page-4a501deed85e4e1a.js"],"CoursePageClient"]
+5:I[4707,[],""]
+7:I[6423,[],""]
+8:I[3605,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","1","static/chunks/1-3cb360009fcf4d46.js","12","static/chunks/12-6fe65af5063886dc.js","992","static/chunks/992-e92008d167744a7b.js","185","static/chunks/app/layout-a7397fd7fa732ea5.js"],"UmamiAnalytics"]
+9:I[2513,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","1","static/chunks/1-3cb360009fcf4d46.js","12","static/chunks/12-6fe65af5063886dc.js","992","static/chunks/992-e92008d167744a7b.js","185","static/chunks/app/layout-a7397fd7fa732ea5.js"],"ThemeProvider"]
+a:"$Sreact.suspense"
+b:I[8883,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","1","static/chunks/1-3cb360009fcf4d46.js","12","static/chunks/12-6fe65af5063886dc.js","992","static/chunks/992-e92008d167744a7b.js","185","static/chunks/app/layout-a7397fd7fa732ea5.js"],"SidebarLayout"]
+c:I[376,["601","static/chunks/app/error-5c786af7c63a05d7.js"],"default"]
+d:I[2972,["972","static/chunks/972-a21c671ddfad791b.js","160","static/chunks/app/not-found-b221cedcb4c797f1.js"],""]
+e:I[4886,["972","static/chunks/972-a21c671ddfad791b.js","688","static/chunks/688-e6f8901f302eda9f.js","145","static/chunks/145-8c16152d0fd176ac.js","1","static/chunks/1-3cb360009fcf4d46.js","12","static/chunks/12-6fe65af5063886dc.js","992","static/chunks/992-e92008d167744a7b.js","185","static/chunks/app/layout-a7397fd7fa732ea5.js"],"Toaster"]
+3:T1ea0,````markdown
+# Título do Curso
+
+> **Bem-vindo!** Neste curso você vai aprender [resumo do que será aprendido]. Ao final, você será capaz de [objetivo principal].
+
+## 📚 Introdução
+
+Breve introdução contextualizando o tema do curso. Explique:
+- Por que este assunto é importante
+- Pré-requisitos (se houver)
+- O que o aluno será capaz de fazer ao concluir
+
+**Tempo estimado:** 30 minutos
+
+---
+
+## 🎯 Objetivos de Aprendizagem
+
+Ao final deste curso, você será capaz de:
+
+- [ ] Objetivo 1: Compreender os conceitos fundamentais
+- [ ] Objetivo 2: Aplicar na prática o conhecimento adquirido
+- [ ] Objetivo 3: Resolver problemas reais do dia a dia
+
+---
+
+## 📖 Seção 1: Conceitos Fundamentais
+
+### 1.1 O que é [Conceito Principal]?
+
+Explique o conceito principal de forma clara e objetiva.
+
+**Definição:**
+> [Conceito] é... [definição clara em 1-2 frases]
+
+**Por que é importante:**
+- Razão 1
+- Razão 2
+- Razão 3
+
+### 1.2 Como funciona?
+
+Detalhes sobre o funcionamento ou arquitetura.
+
+![Diagrama explicativo](https://via.placeholder.com/1200x600?text=Adicione+uma+imagem+explicativa)
+*Legenda: Descrição do que a imagem mostra*
+
+**Componentes principais:**
+
+1. **Componente A**: Descrição e função
+2. **Componente B**: Descrição e função
+3. **Componente C**: Descrição e função
+
+---
+
+## 💻 Seção 2: Primeiros Passos na Prática
+
+### 2.1 Instalação e Configuração
+
+Guia passo a passo para configurar o ambiente.
+
+```bash
+# Passo 1: Instalar ferramenta
+comando-de-instalacao
+
+# Passo 2: Verificar instalação
+comando --version
+
+# Passo 3: Configurar ambiente
+comando config --init
+```
+
+### 2.2 Primeiro Exemplo Prático
+
+Vamos criar nosso primeiro projeto!
+
+```bash
+# Criar novo projeto
+mkdir meu-primeiro-projeto
+cd meu-primeiro-projeto
+
+# Inicializar
+comando init
+```
+
+**Resultado esperado:**
+```
+✓ Projeto criado com sucesso!
+✓ Arquivos de configuração gerados
+```
+
+### 2.3 Estrutura de um Projeto
+
+Entenda a estrutura básica:
+
+```
+meu-projeto/
+├── src/           # Código fonte
+├── config/        # Configurações
+├── tests/         # Testes
+└── README.md      # Documentação
+```
+
+---
+
+## 🎥 Seção 3: Demonstração em Vídeo
+
+Assista este vídeo para ver uma demonstração prática completa:
+
+![](https://www.youtube.com/watch?v=VIDEO_ID)
+
+*Clique para assistir a demonstração prática no YouTube*
+
+### 3.1 Pontos-chave do vídeo
+
+- **[00:00-02:00]** - Introdução e overview
+- **[02:00-05:00]** - Configuração inicial
+- **[05:00-08:00]** - Exemplo prático
+- **[08:00-10:00]** - Conclusão e próximos passos
+
+---
+
+## 🛠️ Seção 4: Comandos Essenciais
+
+### 4.1 Comandos Básicos
+
+| Comando | Descrição | Exemplo |
+|---------|-----------|---------|
+| `comando init` | Inicializa projeto | `comando init meu-app` |
+| `comando start` | Inicia serviço | `comando start` |
+| `comando stop` | Para serviço | `comando stop` |
+| `comando status` | Verifica status | `comando status` |
+
+### 4.2 Comandos Avançados
+
+```bash
+# Exemplo de comando avançado
+comando advanced --flag1 --flag2 "valor"
+
+# Com múltiplas opções
+comando complex \
+  --option1 value1 \
+  --option2 value2 \
+  --verbose
+```
+
+**Dica:** Use `comando --help` para ver todas as opções disponíveis.
+
+---
+
+## 🔍 Seção 5: Conceitos Avançados
+
+### 5.1 Tópico Avançado 1
+
+Explicação de conceito mais complexo.
+
+<div style="background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #3B82F6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>💡 Dica Importante:</strong>
+  <p>Informação relevante que merece destaque.</p>
+</div>
+
+### 5.2 Tópico Avançado 2
+
+Mais detalhes técnicos.
+
+```javascript
+// Exemplo de código JavaScript
+function exemplo() {
+  console.log('Hello World!');
+  return true;
+}
+```
+
+```python
+# Exemplo de código Python
+def exemplo():
+    print("Hello World!")
+    return True
+```
+
+---
+
+## ⚠️ Seção 6: Problemas Comuns e Soluções
+
+### 6.1 Erro 1: [Nome do Erro]
+
+**Problema:**
+```
+Error: mensagem de erro
+```
+
+**Causa:** Explicação do que causa o erro.
+
+**Solução:**
+```bash
+# Comando para resolver
+comando fix --repair
+```
+
+### 6.2 Erro 2: [Nome do Erro]
+
+**Problema:** Descrição do problema.
+
+**Solução passo a passo:**
+1. Primeiro passo
+2. Segundo passo
+3. Terceiro passo
+
+<div style="background: #fef2f2; padding: 1.5rem; border-left: 4px solid #EF4444; border-radius: 0.5rem; margin: 1.5rem 0;">
+  <strong>⚠️ Atenção:</strong>
+  <p>Cuidado ao executar comandos destrutivos. Sempre faça backup antes!</p>
+</div>
+
+---
+
+## 🎨 Seção 7: Boas Práticas
+
+### 7.1 Checklist de Qualidade
+
+✅ **Sempre faça:**
+- Item 1: Descrição
+- Item 2: Descrição
+- Item 3: Descrição
+
+❌ **Evite:**
+- Anti-padrão 1: Por que evitar
+- Anti-padrão 2: Por que evitar
+- Anti-padrão 3: Por que evitar
+
+### 7.2 Dicas de Performance
+
+1. **Dica 1:** Otimize X para melhorar Y
+2. **Dica 2:** Use Z em vez de W
+3. **Dica 3:** Configure A para reduzir B
+
+---
+
+## 📊 Seção 8: Comparações e Alternativas
+
+### 8.1 Comparação com Tecnologias Similares
+
+| Recurso | Tecnologia A | Tecnologia B | Esta Tecnologia |
+|---------|--------------|--------------|-----------------|
+| Performance | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| Facilidade | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ |
+| Comunidade | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
+
+### 8.2 Quando usar cada uma?
+
+- **Tecnologia A**: Melhor para [cenário]
+- **Tecnologia B**: Ideal para [cenário]
+- **Esta Tecnologia**: Perfeita para [cenário]
+
+---
+
+## 🚀 Seção 9: Próximos Passos
+
+### 9.1 Para continuar aprendendo
+
+**Documentação oficial:**
+- [Link 1](https://exemplo.com) - Documentação completa
+- [Link 2](https://exemplo.com) - Tutoriais avançados
+
+**Cursos recomendados:**
+- Curso A - [Descrição]
+- Curso B - [Descrição]
+
+**Comunidades:**
+- Discord: [link]
+- Telegram: [link]
+- Forum: [link]
+
+### 9.2 Projetos práticos sugeridos
+
+1. **Projeto Iniciante:** Crie um [projeto simples]
+2. **Projeto Intermediário:** Desenvolva um [projeto médio]
+3. **Projeto Avançado:** Construa um [projeto complexo]
+
+---
+
+## 📚 Seção 10: Recursos Adicionais
+
+### 10.1 Material Complementar
+
+- 📄 [Cheat Sheet](link) - Comandos mais usados
+- 📹 [Playlist no YouTube](link) - Vídeos tutoriais
+- 📖 [E-book gratuito](link) - Guia completo
+
+### 10.2 Ferramentas Úteis
+
+- **Ferramenta 1**: [Descrição e link]
+- **Ferramenta 2**: [Descrição e link]
+- **Ferramenta 3**: [Descrição e link]
+
+---
+
+## ✅ Conclusão
+
+Parabéns por chegar até aqui! 🎉
+
+### O que você aprendeu:
+
+Neste curso você aprendeu:
+1. ✓ Conceitos fundamentais de [tema]
+2. ✓ Como configurar e usar na prática
+3. ✓ Comandos essenciais e avançados
+4. ✓ Resolver problemas comuns
+5. ✓ Boas práticas e otimizações
+
+### Próximo passo
+
+Agora você está pronto para fazer o **quiz final** e testar seus conhecimentos!
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; color: white; text-align: center; margin: 2rem 0;">
+  <h3 style="color: white; margin-bottom: 1rem;">🎯 Teste seu conhecimento!</h3>
+  <p style="margin-bottom: 1.5rem;">Complete o quiz para validar o que aprendeu e ganhar seu certificado.</p>
+  <strong>Boa sorte! 🍀</strong>
+</div>
+
+---
+
+## 💬 Feedback
+
+Gostou do curso? Tem sugestões de melhoria? 
+
+Entre em contato através das nossas redes sociais ou deixe um comentário na seção abaixo!
+
+---
+
+## 🏆 Sobre o Certificado
+
+Após completar o curso e ser aprovado no quiz (nota mínima 70%), você receberá um **certificado digital** que pode:
+- Baixar em PNG de alta qualidade
+- Compartilhar nas redes sociais
+- Adicionar ao seu LinkedIn
+- Incluir no seu portfólio
+
+**Validade:** Permanente
+**Emissão:** Automática após aprovação no quiz
+
+````
+4:T1f25,<pre><code class="language-markdown"># Título do Curso
+
+> **Bem-vindo!** Neste curso você vai aprender [resumo do que será aprendido]. Ao final, você será capaz de [objetivo principal].
+
+## 📚 Introdução
+
+Breve introdução contextualizando o tema do curso. Explique:
+- Por que este assunto é importante
+- Pré-requisitos (se houver)
+- O que o aluno será capaz de fazer ao concluir
+
+**Tempo estimado:** 30 minutos
+
+---
+
+## 🎯 Objetivos de Aprendizagem
+
+Ao final deste curso, você será capaz de:
+
+- [ ] Objetivo 1: Compreender os conceitos fundamentais
+- [ ] Objetivo 2: Aplicar na prática o conhecimento adquirido
+- [ ] Objetivo 3: Resolver problemas reais do dia a dia
+
+---
+
+## 📖 Seção 1: Conceitos Fundamentais
+
+### 1.1 O que é [Conceito Principal]?
+
+Explique o conceito principal de forma clara e objetiva.
+
+**Definição:**
+> [Conceito] é... [definição clara em 1-2 frases]
+
+**Por que é importante:**
+- Razão 1
+- Razão 2
+- Razão 3
+
+### 1.2 Como funciona?
+
+Detalhes sobre o funcionamento ou arquitetura.
+
+![Diagrama explicativo](https://via.placeholder.com/1200x600?text=Adicione+uma+imagem+explicativa)
+*Legenda: Descrição do que a imagem mostra*
+
+**Componentes principais:**
+
+1. **Componente A**: Descrição e função
+2. **Componente B**: Descrição e função
+3. **Componente C**: Descrição e função
+
+---
+
+## 💻 Seção 2: Primeiros Passos na Prática
+
+### 2.1 Instalação e Configuração
+
+Guia passo a passo para configurar o ambiente.
+
+```bash
+# Passo 1: Instalar ferramenta
+comando-de-instalacao
+
+# Passo 2: Verificar instalação
+comando --version
+
+# Passo 3: Configurar ambiente
+comando config --init
+```
+
+### 2.2 Primeiro Exemplo Prático
+
+Vamos criar nosso primeiro projeto!
+
+```bash
+# Criar novo projeto
+mkdir meu-primeiro-projeto
+cd meu-primeiro-projeto
+
+# Inicializar
+comando init
+```
+
+**Resultado esperado:**
+```
+✓ Projeto criado com sucesso!
+✓ Arquivos de configuração gerados
+```
+
+### 2.3 Estrutura de um Projeto
+
+Entenda a estrutura básica:
+
+```
+meu-projeto/
+├── src/           # Código fonte
+├── config/        # Configurações
+├── tests/         # Testes
+└── README.md      # Documentação
+```
+
+---
+
+## 🎥 Seção 3: Demonstração em Vídeo
+
+Assista este vídeo para ver uma demonstração prática completa:
+
+![](https://www.youtube.com/watch?v=VIDEO_ID)
+
+*Clique para assistir a demonstração prática no YouTube*
+
+### 3.1 Pontos-chave do vídeo
+
+- **[00:00-02:00]** - Introdução e overview
+- **[02:00-05:00]** - Configuração inicial
+- **[05:00-08:00]** - Exemplo prático
+- **[08:00-10:00]** - Conclusão e próximos passos
+
+---
+
+## 🛠️ Seção 4: Comandos Essenciais
+
+### 4.1 Comandos Básicos
+
+| Comando | Descrição | Exemplo |
+|---------|-----------|---------|
+| `comando init` | Inicializa projeto | `comando init meu-app` |
+| `comando start` | Inicia serviço | `comando start` |
+| `comando stop` | Para serviço | `comando stop` |
+| `comando status` | Verifica status | `comando status` |
+
+### 4.2 Comandos Avançados
+
+```bash
+# Exemplo de comando avançado
+comando advanced --flag1 --flag2 "valor"
+
+# Com múltiplas opções
+comando complex \
+  --option1 value1 \
+  --option2 value2 \
+  --verbose
+```
+
+**Dica:** Use `comando --help` para ver todas as opções disponíveis.
+
+---
+
+## 🔍 Seção 5: Conceitos Avançados
+
+### 5.1 Tópico Avançado 1
+
+Explicação de conceito mais complexo.
+
+&#x3C;div style="background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #3B82F6; border-radius: 0.5rem; margin: 1.5rem 0;">
+  &#x3C;strong>💡 Dica Importante:&#x3C;/strong>
+  &#x3C;p>Informação relevante que merece destaque.&#x3C;/p>
+&#x3C;/div>
+
+### 5.2 Tópico Avançado 2
+
+Mais detalhes técnicos.
+
+```javascript
+// Exemplo de código JavaScript
+function exemplo() {
+  console.log('Hello World!');
+  return true;
+}
+```
+
+```python
+# Exemplo de código Python
+def exemplo():
+    print("Hello World!")
+    return True
+```
+
+---
+
+## ⚠️ Seção 6: Problemas Comuns e Soluções
+
+### 6.1 Erro 1: [Nome do Erro]
+
+**Problema:**
+```
+Error: mensagem de erro
+```
+
+**Causa:** Explicação do que causa o erro.
+
+**Solução:**
+```bash
+# Comando para resolver
+comando fix --repair
+```
+
+### 6.2 Erro 2: [Nome do Erro]
+
+**Problema:** Descrição do problema.
+
+**Solução passo a passo:**
+1. Primeiro passo
+2. Segundo passo
+3. Terceiro passo
+
+&#x3C;div style="background: #fef2f2; padding: 1.5rem; border-left: 4px solid #EF4444; border-radius: 0.5rem; margin: 1.5rem 0;">
+  &#x3C;strong>⚠️ Atenção:&#x3C;/strong>
+  &#x3C;p>Cuidado ao executar comandos destrutivos. Sempre faça backup antes!&#x3C;/p>
+&#x3C;/div>
+
+---
+
+## 🎨 Seção 7: Boas Práticas
+
+### 7.1 Checklist de Qualidade
+
+✅ **Sempre faça:**
+- Item 1: Descrição
+- Item 2: Descrição
+- Item 3: Descrição
+
+❌ **Evite:**
+- Anti-padrão 1: Por que evitar
+- Anti-padrão 2: Por que evitar
+- Anti-padrão 3: Por que evitar
+
+### 7.2 Dicas de Performance
+
+1. **Dica 1:** Otimize X para melhorar Y
+2. **Dica 2:** Use Z em vez de W
+3. **Dica 3:** Configure A para reduzir B
+
+---
+
+## 📊 Seção 8: Comparações e Alternativas
+
+### 8.1 Comparação com Tecnologias Similares
+
+| Recurso | Tecnologia A | Tecnologia B | Esta Tecnologia |
+|---------|--------------|--------------|-----------------|
+| Performance | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| Facilidade | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ |
+| Comunidade | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
+
+### 8.2 Quando usar cada uma?
+
+- **Tecnologia A**: Melhor para [cenário]
+- **Tecnologia B**: Ideal para [cenário]
+- **Esta Tecnologia**: Perfeita para [cenário]
+
+---
+
+## 🚀 Seção 9: Próximos Passos
+
+### 9.1 Para continuar aprendendo
+
+**Documentação oficial:**
+- [Link 1](https://exemplo.com) - Documentação completa
+- [Link 2](https://exemplo.com) - Tutoriais avançados
+
+**Cursos recomendados:**
+- Curso A - [Descrição]
+- Curso B - [Descrição]
+
+**Comunidades:**
+- Discord: [link]
+- Telegram: [link]
+- Forum: [link]
+
+### 9.2 Projetos práticos sugeridos
+
+1. **Projeto Iniciante:** Crie um [projeto simples]
+2. **Projeto Intermediário:** Desenvolva um [projeto médio]
+3. **Projeto Avançado:** Construa um [projeto complexo]
+
+---
+
+## 📚 Seção 10: Recursos Adicionais
+
+### 10.1 Material Complementar
+
+- 📄 [Cheat Sheet](link) - Comandos mais usados
+- 📹 [Playlist no YouTube](link) - Vídeos tutoriais
+- 📖 [E-book gratuito](link) - Guia completo
+
+### 10.2 Ferramentas Úteis
+
+- **Ferramenta 1**: [Descrição e link]
+- **Ferramenta 2**: [Descrição e link]
+- **Ferramenta 3**: [Descrição e link]
+
+---
+
+## ✅ Conclusão
+
+Parabéns por chegar até aqui! 🎉
+
+### O que você aprendeu:
+
+Neste curso você aprendeu:
+1. ✓ Conceitos fundamentais de [tema]
+2. ✓ Como configurar e usar na prática
+3. ✓ Comandos essenciais e avançados
+4. ✓ Resolver problemas comuns
+5. ✓ Boas práticas e otimizações
+
+### Próximo passo
+
+Agora você está pronto para fazer o **quiz final** e testar seus conhecimentos!
+
+&#x3C;div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; color: white; text-align: center; margin: 2rem 0;">
+  &#x3C;h3 style="color: white; margin-bottom: 1rem;">🎯 Teste seu conhecimento!&#x3C;/h3>
+  &#x3C;p style="margin-bottom: 1.5rem;">Complete o quiz para validar o que aprendeu e ganhar seu certificado.&#x3C;/p>
+  &#x3C;strong>Boa sorte! 🍀&#x3C;/strong>
+&#x3C;/div>
+
+---
+
+## 💬 Feedback
+
+Gostou do curso? Tem sugestões de melhoria? 
+
+Entre em contato através das nossas redes sociais ou deixe um comentário na seção abaixo!
+
+---
+
+## 🏆 Sobre o Certificado
+
+Após completar o curso e ser aprovado no quiz (nota mínima 70%), você receberá um **certificado digital** que pode:
+- Baixar em PNG de alta qualidade
+- Compartilhar nas redes sociais
+- Adicionar ao seu LinkedIn
+- Incluir no seu portfólio
+
+**Validade:** Permanente
+**Emissão:** Automática após aprovação no quiz
+
+</code></pre>
+6:["slug","_template","d"]
+0:["yzYEF-k3GnNnochTD_wU_",[[["",{"children":["cursos",{"children":[["slug","_template","d"],{"children":["__PAGE__?{\"slug\":\"_template\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["cursos",{"children":[["slug","_template","d"],{"children":["__PAGE__",{},[["$L1",[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Course\",\"name\":\"Título do Curso\",\"description\":\"Descrição breve e objetiva do curso em 1-2 frases. Explique o que o aluno vai aprender.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Aprendi\",\"url\":\"https://aprendi.vercel.app\"},\"courseMode\":\"online\",\"isAccessibleForFree\":true,\"inLanguage\":\"pt-BR\",\"educationalLevel\":\"Iniciante\",\"timeRequired\":\"30 min\",\"hasCourseInstance\":{\"@type\":\"CourseInstance\",\"courseMode\":\"online\",\"courseWorkload\":\"30 min\"}}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\",\"item\":\"https://aprendi.vercel.app\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Cursos\",\"item\":\"https://aprendi.vercel.app/cursos\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Título do Curso\",\"item\":\"https://aprendi.vercel.app/cursos/meu-curso-slug\"}]}"}}],["$","$L2",null,{"course":{"id":"meu-curso-slug","title":"Título do Curso","description":"Descrição breve e objetiva do curso em 1-2 frases. Explique o que o aluno vai aprender.","duration":"30 min","level":"Iniciante","area":"Desenvolvimento","icon":"💻","color":"#10B981","tags":["Tag1","Tag2","Tag3"],"instructor":{"id":"id-do-instrutor"},"published":false,"featured":false,"content":"$3","htmlContent":"$4","sections":[{"id":"introducao","title":"Introdução","level":2,"content":"````markdown\n# Título do Curso\n\n> **Bem-vindo!** Neste curso você vai aprender [resumo do que será aprendido]. Ao final, você será capaz de [objetivo principal]."},{"id":"introducao","title":"📚 Introdução","level":2,"content":"Breve introdução contextualizando o tema do curso. Explique:\n- Por que este assunto é importante\n- Pré-requisitos (se houver)\n- O que o aluno será capaz de fazer ao concluir\n\n**Tempo estimado:** 30 minutos\n\n---"},{"id":"objetivos-de-aprendizagem","title":"🎯 Objetivos de Aprendizagem","level":2,"content":"Ao final deste curso, você será capaz de:\n\n- [ ] Objetivo 1: Compreender os conceitos fundamentais\n- [ ] Objetivo 2: Aplicar na prática o conhecimento adquirido\n- [ ] Objetivo 3: Resolver problemas reais do dia a dia\n\n---"},{"id":"secao-1-conceitos-fundamentais","title":"📖 Seção 1: Conceitos Fundamentais","level":2,"content":"### 1.1 O que é [Conceito Principal]?\n\nExplique o conceito principal de forma clara e objetiva.\n\n**Definição:**\n> [Conceito] é... [definição clara em 1-2 frases]\n\n**Por que é importante:**\n- Razão 1\n- Razão 2\n- Razão 3\n\n### 1.2 Como funciona?\n\nDetalhes sobre o funcionamento ou arquitetura.\n\n![Diagrama explicativo](https://via.placeholder.com/1200x600?text=Adicione+uma+imagem+explicativa)\n*Legenda: Descrição do que a imagem mostra*\n\n**Componentes principais:**\n\n1. **Componente A**: Descrição e função\n2. **Componente B**: Descrição e função\n3. **Componente C**: Descrição e função\n\n---"},{"id":"secao-2-primeiros-passos-na-pratica","title":"💻 Seção 2: Primeiros Passos na Prática","level":2,"content":"### 2.1 Instalação e Configuração\n\nGuia passo a passo para configurar o ambiente.\n\n```bash\n# Passo 1: Instalar ferramenta\ncomando-de-instalacao\n\n# Passo 2: Verificar instalação\ncomando --version\n\n# Passo 3: Configurar ambiente\ncomando config --init\n```\n\n### 2.2 Primeiro Exemplo Prático\n\nVamos criar nosso primeiro projeto!\n\n```bash\n# Criar novo projeto\nmkdir meu-primeiro-projeto\ncd meu-primeiro-projeto\n\n# Inicializar\ncomando init\n```\n\n**Resultado esperado:**\n```\n✓ Projeto criado com sucesso!\n✓ Arquivos de configuração gerados\n```\n\n### 2.3 Estrutura de um Projeto\n\nEntenda a estrutura básica:\n\n```\nmeu-projeto/\n├── src/           # Código fonte\n├── config/        # Configurações\n├── tests/         # Testes\n└── README.md      # Documentação\n```\n\n---"},{"id":"secao-3-demonstracao-em-video","title":"🎥 Seção 3: Demonstração em Vídeo","level":2,"content":"Assista este vídeo para ver uma demonstração prática completa:\n\n![](https://www.youtube.com/watch?v=VIDEO_ID)\n\n*Clique para assistir a demonstração prática no YouTube*\n\n### 3.1 Pontos-chave do vídeo\n\n- **[00:00-02:00]** - Introdução e overview\n- **[02:00-05:00]** - Configuração inicial\n- **[05:00-08:00]** - Exemplo prático\n- **[08:00-10:00]** - Conclusão e próximos passos\n\n---"},{"id":"secao-4-comandos-essenciais","title":"🛠️ Seção 4: Comandos Essenciais","level":2,"content":"### 4.1 Comandos Básicos\n\n| Comando | Descrição | Exemplo |\n|---------|-----------|---------|\n| `comando init` | Inicializa projeto | `comando init meu-app` |\n| `comando start` | Inicia serviço | `comando start` |\n| `comando stop` | Para serviço | `comando stop` |\n| `comando status` | Verifica status | `comando status` |\n\n### 4.2 Comandos Avançados\n\n```bash\n# Exemplo de comando avançado\ncomando advanced --flag1 --flag2 \"valor\"\n\n# Com múltiplas opções\ncomando complex \\\n  --option1 value1 \\\n  --option2 value2 \\\n  --verbose\n```\n\n**Dica:** Use `comando --help` para ver todas as opções disponíveis.\n\n---"},{"id":"secao-5-conceitos-avancados","title":"🔍 Seção 5: Conceitos Avançados","level":2,"content":"### 5.1 Tópico Avançado 1\n\nExplicação de conceito mais complexo.\n\n<div style=\"background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #3B82F6; border-radius: 0.5rem; margin: 1.5rem 0;\">\n  <strong>💡 Dica Importante:</strong>\n  <p>Informação relevante que merece destaque.</p>\n</div>\n\n### 5.2 Tópico Avançado 2\n\nMais detalhes técnicos.\n\n```javascript\n// Exemplo de código JavaScript\nfunction exemplo() {\n  console.log('Hello World!');\n  return true;\n}\n```\n\n```python\n# Exemplo de código Python\ndef exemplo():\n    print(\"Hello World!\")\n    return True\n```\n\n---"},{"id":"secao-6-problemas-comuns-e-solucoes","title":"⚠️ Seção 6: Problemas Comuns e Soluções","level":2,"content":"### 6.1 Erro 1: [Nome do Erro]\n\n**Problema:**\n```\nError: mensagem de erro\n```\n\n**Causa:** Explicação do que causa o erro.\n\n**Solução:**\n```bash\n# Comando para resolver\ncomando fix --repair\n```\n\n### 6.2 Erro 2: [Nome do Erro]\n\n**Problema:** Descrição do problema.\n\n**Solução passo a passo:**\n1. Primeiro passo\n2. Segundo passo\n3. Terceiro passo\n\n<div style=\"background: #fef2f2; padding: 1.5rem; border-left: 4px solid #EF4444; border-radius: 0.5rem; margin: 1.5rem 0;\">\n  <strong>⚠️ Atenção:</strong>\n  <p>Cuidado ao executar comandos destrutivos. Sempre faça backup antes!</p>\n</div>\n\n---"},{"id":"secao-7-boas-praticas","title":"🎨 Seção 7: Boas Práticas","level":2,"content":"### 7.1 Checklist de Qualidade\n\n✅ **Sempre faça:**\n- Item 1: Descrição\n- Item 2: Descrição\n- Item 3: Descrição\n\n❌ **Evite:**\n- Anti-padrão 1: Por que evitar\n- Anti-padrão 2: Por que evitar\n- Anti-padrão 3: Por que evitar\n\n### 7.2 Dicas de Performance\n\n1. **Dica 1:** Otimize X para melhorar Y\n2. **Dica 2:** Use Z em vez de W\n3. **Dica 3:** Configure A para reduzir B\n\n---"},{"id":"secao-8-comparacoes-e-alternativas","title":"📊 Seção 8: Comparações e Alternativas","level":2,"content":"### 8.1 Comparação com Tecnologias Similares\n\n| Recurso | Tecnologia A | Tecnologia B | Esta Tecnologia |\n|---------|--------------|--------------|-----------------|\n| Performance | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |\n| Facilidade | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ |\n| Comunidade | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |\n\n### 8.2 Quando usar cada uma?\n\n- **Tecnologia A**: Melhor para [cenário]\n- **Tecnologia B**: Ideal para [cenário]\n- **Esta Tecnologia**: Perfeita para [cenário]\n\n---"},{"id":"secao-9-proximos-passos","title":"🚀 Seção 9: Próximos Passos","level":2,"content":"### 9.1 Para continuar aprendendo\n\n**Documentação oficial:**\n- [Link 1](https://exemplo.com) - Documentação completa\n- [Link 2](https://exemplo.com) - Tutoriais avançados\n\n**Cursos recomendados:**\n- Curso A - [Descrição]\n- Curso B - [Descrição]\n\n**Comunidades:**\n- Discord: [link]\n- Telegram: [link]\n- Forum: [link]\n\n### 9.2 Projetos práticos sugeridos\n\n1. **Projeto Iniciante:** Crie um [projeto simples]\n2. **Projeto Intermediário:** Desenvolva um [projeto médio]\n3. **Projeto Avançado:** Construa um [projeto complexo]\n\n---"},{"id":"secao-10-recursos-adicionais","title":"📚 Seção 10: Recursos Adicionais","level":2,"content":"### 10.1 Material Complementar\n\n- 📄 [Cheat Sheet](link) - Comandos mais usados\n- 📹 [Playlist no YouTube](link) - Vídeos tutoriais\n- 📖 [E-book gratuito](link) - Guia completo\n\n### 10.2 Ferramentas Úteis\n\n- **Ferramenta 1**: [Descrição e link]\n- **Ferramenta 2**: [Descrição e link]\n- **Ferramenta 3**: [Descrição e link]\n\n---"},{"id":"conclusao","title":"✅ Conclusão","level":2,"content":"Parabéns por chegar até aqui! 🎉\n\n### O que você aprendeu:\n\nNeste curso você aprendeu:\n1. ✓ Conceitos fundamentais de [tema]\n2. ✓ Como configurar e usar na prática\n3. ✓ Comandos essenciais e avançados\n4. ✓ Resolver problemas comuns\n5. ✓ Boas práticas e otimizações\n\n### Próximo passo\n\nAgora você está pronto para fazer o **quiz final** e testar seus conhecimentos!\n\n<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 1rem; color: white; text-align: center; margin: 2rem 0;\">\n  <h3 style=\"color: white; margin-bottom: 1rem;\">🎯 Teste seu conhecimento!</h3>\n  <p style=\"margin-bottom: 1.5rem;\">Complete o quiz para validar o que aprendeu e ganhar seu certificado.</p>\n  <strong>Boa sorte! 🍀</strong>\n</div>\n\n---"},{"id":"feedback","title":"💬 Feedback","level":2,"content":"Gostou do curso? Tem sugestões de melhoria? \n\nEntre em contato através das nossas redes sociais ou deixe um comentário na seção abaixo!\n\n---"},{"id":"sobre-o-certificado","title":"🏆 Sobre o Certificado","level":2,"content":"Após completar o curso e ser aprovado no quiz (nota mínima 70%), você receberá um **certificado digital** que pode:\n- Baixar em PNG de alta qualidade\n- Compartilhar nas redes sociais\n- Adicionar ao seu LinkedIn\n- Incluir no seu portfólio\n\n**Validade:** Permanente\n**Emissão:** Automática após aprovação no quiz\n\n````"}],"readingTime":"6 min","instructorData":"$undefined"},"quizAvailable":true}]],null],null],null]},[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","cursos","children","$6","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","cursos","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/undefined/_next/static/css/f1ab10af7341b8ee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"pt-BR","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","$L8",null,{}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"EducationalOrganization\",\"name\":\"Aprendi\",\"url\":\"https://aprendi.vercel.app\",\"logo\":\"https://aprendi.vercel.app/logo.png\",\"description\":\"Aprendi - Cursos gratuitos, quizzes interativos e certificados simbólicos. Conhecimento acessível para todos.\",\"sameAs\":[]}"}}]]}],["$","body",null,{"className":"__variable_7b5f59 font-sans antialiased","children":["$","$L9",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$a",null,{"fallback":["$","div",null,{}],"children":["$","$Lb",null,{"levels":["Iniciante","Intermediário"],"instructors":[{"id":"waltenne","name":"Waltenne Carvalho"},{"id":"comunidade-aprendi","name":"Comunidade Aprendi"}],"areas":["DevOps"],"tags":["Automação","CI/CD","Containers","DevOps","Docker","GitHub Actions","Integração Contínua","Jenkins","Pipeline"],"children":[["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$c","errorStyles":[],"errorScripts":[],"template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"container mx-auto px-4 py-24 text-center","children":[["$","h1",null,{"className":"text-9xl font-bold text-muted-foreground/30","children":"404"}],["$","h2",null,{"className":"text-2xl font-bold mt-4 mb-2","children":"Página não encontrada"}],["$","p",null,{"className":"text-muted-foreground mb-8 max-w-md mx-auto","children":"A página que você está procurando não existe ou foi movida."}],["$","div",null,{"className":"flex gap-4 justify-center","children":[["$","$Ld",null,{"href":"/","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-home h-4 w-4 mr-2","children":[["$","path","y5dka4",{"d":"m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}],["$","polyline","e2us08",{"points":"9 22 9 12 15 12 15 22"}],"$undefined"]}],"Início"],"className":"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2"}],["$","$Ld",null,{"href":"/cursos","children":"Explorar Cursos","className":"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"}]]}]]}],"notFoundStyles":[]}],["$","$Le",null,{}]]}]}]}]}]]}]],null],null],["$Lf",null]]]]
+f:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#ffffff"}],["$","meta","2",{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#0a0a0f"}],["$","meta","3",{"charSet":"utf-8"}],["$","title","4",{"children":"Título do Curso | Aprendi"}],["$","meta","5",{"name":"description","content":"Descrição breve e objetiva do curso em 1-2 frases. Explique o que o aluno vai aprender."}],["$","meta","6",{"name":"keywords","content":"título do curso,Tag1,Tag2,Tag3,Iniciante,curso gratuito,tutorial"}],["$","meta","7",{"name":"creator","content":"Aprendi"}],["$","meta","8",{"name":"publisher","content":"Aprendi"}],["$","meta","9",{"name":"robots","content":"index, follow"}],["$","meta","10",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","11",{"rel":"canonical","href":"https://aprendi.vercel.app/cursos/meu-curso-slug/"}],["$","meta","12",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","13",{"property":"og:title","content":"Título do Curso - Curso Gratuito"}],["$","meta","14",{"property":"og:description","content":"Descrição breve e objetiva do curso em 1-2 frases. Explique o que o aluno vai aprender."}],["$","meta","15",{"property":"og:url","content":"https://aprendi.vercel.app/cursos/meu-curso-slug/"}],["$","meta","16",{"property":"og:site_name","content":"Aprendi"}],["$","meta","17",{"property":"og:locale","content":"pt_BR"}],["$","meta","18",{"property":"og:image","content":"https://aprendi.vercel.app/api/og?title=T%C3%ADtulo%20do%20Curso&icon=%F0%9F%92%BB"}],["$","meta","19",{"property":"og:image:width","content":"1200"}],["$","meta","20",{"property":"og:image:height","content":"630"}],["$","meta","21",{"property":"og:image:alt","content":"Título do Curso"}],["$","meta","22",{"property":"og:type","content":"article"}],["$","meta","23",{"property":"article:tag","content":"Tag1"}],["$","meta","24",{"property":"article:tag","content":"Tag2"}],["$","meta","25",{"property":"article:tag","content":"Tag3"}],["$","meta","26",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","27",{"name":"twitter:title","content":"Título do Curso - Curso Gratuito"}],["$","meta","28",{"name":"twitter:description","content":"Descrição breve e objetiva do curso em 1-2 frases. Explique o que o aluno vai aprender."}],["$","meta","29",{"name":"twitter:image","content":"https://aprendi.vercel.app/api/og?title=T%C3%ADtulo%20do%20Curso&icon=%F0%9F%92%BB"}],["$","link","30",{"rel":"icon","href":"/favicon.ico","sizes":"any"}],["$","link","31",{"rel":"icon","href":"/images/logo.png","type":"image/png"}],["$","link","32",{"rel":"apple-touch-icon","href":"/images/logo.png"}],["$","meta","33",{"name":"next-size-adjust"}]]
+1:null

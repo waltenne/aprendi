@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+Host: https://pcursos.vercel.app
+Sitemap: https://pcursos.vercel.app/sitemap.xml
