@@ -7,14 +7,19 @@
     "dev": "next dev",
     "prebuild": "npm run test && npm run copy-images",
     "build": "npm run validate && next build",
+    "build:gh-pages": "GITHUB_PAGES=true NEXT_PUBLIC_BASE_PATH=/aprendi npm run build",
+    "postbuild": "npm run fix-asset-paths",
     "copy-images": "node scripts/copy-images.js",
+    "fix-asset-paths": "node scripts/fix-asset-paths.js",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "validate": "tsx scripts/validate-courses.ts"
+    "validate": "tsx scripts/validate-courses.ts",
+    "serve:gh-pages": "npx serve out -l 3000",
+    "verify-build": "node scripts/verify-build.js"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
@@ -55,6 +60,7 @@
     "autoprefixer": "^10.4.19",
     "eslint": "^9.39.2",
     "eslint-config-next": "^16.1.1",
+    "fs-extra": "^11.3.3",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "tailwindcss-animate": "^1.0.7",
