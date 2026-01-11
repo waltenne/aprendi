@@ -1,122 +1,212 @@
-# PCursos - Plataforma Educacional
+# 🚀 Aprendi - Plataforma Educacional Open-Source
 
-Plataforma educacional gratuita com cursos, quizzes interativos e certificados simbólicos.
+[![Next.js](https://img.shields.io/badge/Next.js-14.2-000000?style=for-the-badge&logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.4-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/) [![Node.js](https://img.shields.io/badge/Node.js-≥18-339933?style=for-the-badge&logo=node.js)](https://nodejs.org/) [![Vitest](https://img.shields.io/badge/Vitest-4.0-6E9F18?style=for-the-badge&logo=vitest)](https://vitest.dev/) [![Zustand](https://img.shields.io/badge/Zustand-5.0-764ABC?style=for-the-badge)](https://zustand-demo.pmnd.rs/) [![License: MIT](https://img.shields.io/badge/License-MIT-00A0A0?style=for-the-badge)](LICENSE) ![Status](https://img.shields.io/badge/status-development-yellow?style=for-the-badge)
 
-## 🚀 Tecnologias
+> **✨ Construído com Vibe Coding** - Este projeto foi desenvolvido com foco na experiência do desenvolvedor, uso de ferramentas modernas e fluxo de trabalho otimizado para produtividade e qualidade.
 
-- **Next.js 14** (App Router)
-- **TypeScript**
-- **Tailwind CSS**
-- **shadcn/ui**
-- **Zod** para validação
-- **remark/rehype** para Markdown
+Aprendi é uma plataforma educacional open-source, construída pela comunidade, para a comunidade. Nosso foco: cursos práticos em Markdown, quizzes interativos, certificados simbólicos e uma experiência leve e acessível. ✨
 
-## 📁 Estrutura do Projeto
+## 🎯 Missão & Visão
 
-```
-pcursos/
-├── content/                    # Conteúdo versionado
-│   ├── instructors/           # Dados dos instrutores
-│   │   └── instructors.yml
-│   └── courses/               # Cursos
-│       └── [slug]/
-│           ├── meta.yml       # Metadados do curso
-│           ├── content.md     # Conteúdo em Markdown
-│           └── quiz.yml       # Quiz do curso
-├── src/
-│   ├── app/                   # App Router (páginas)
-│   ├── components/
-# Aprendi
+### 🎯 **Missão**
+Proporcionar educação acessível e gratuita para quem deseja aprender, sem barreiras técnicas ou financeiras.
 
-![Next.js](https://img.shields.io/badge/Next.js-14.2.35-000000?style=for-the-badge&logo=next.js)
-![Node.js](https://img.shields.io/badge/Node-%3E=18.0.0-339933?style=for-the-badge&logo=node.js)
-![License: MIT](https://img.shields.io/badge/License-MIT-00A0A0?style=for-the-badge)
+### 👁️ **Visão**
+Tornar-se referência em cursos gratuitos em português, com conteúdo de qualidade revisado pela comunidade e experiência de aprendizado envolvente.
 
-**Aprendi** é uma plataforma educacional open-source para criar e publicar cursos técnicos em Markdown, com quizzes, certificados e rastreamento de progresso.
+## ❤️ **Valores do Projeto**
 
-**Por que usar**
-- Conteúdo em Markdown com metadados (meta.yml) — fácil de manter.
-- Feedback imediato com quizzes e timers.
-- Sistema de progresso por sessão salvo no navegador.
-- Design responsivo com suporte a dark mode.
+| Valor | Descrição |
+|-------|-----------|
+| 🎓 **Educação Acessível** | Conhecimento gratuito e de qualidade para todos |
+| 🤝 **Comunidade First** | Colaboração e revisão aberta por autores e mantenedores |
+| 🔓 **Transparência Total** | Código aberto e processos claros de contribuição |
+| ⚡ **Inovação Contínua** | Tecnologias modernas para excelente experiência do usuário |
+| 🎨 **Simplicidade Elegante** | Interface limpa, intuitiva e direta ao ponto |
 
-**Índice**
-- **Descrição**: visão geral do projeto
-- **Instalação**: passos rápidos para rodar localmente
-- **Contribuir**: veja [CONTRIBUTING.md](CONTRIBUTING.md)
-- **Documentação**: guias em `docs/`
+## ✨ **Recursos Principais**
 
----
+| Recurso | Descrição |
+|---------|-----------|
+| 📚 **Cursos em Markdown** | Conteúdo estruturado em arquivos `.md` fáceis de editar |
+| ⏱️ **Quizzes Interativos** | Sistema com timer e regras de aprovação configuráveis |
+| 🏆 **Certificados Exportáveis** | Geração de certificados em PNG com dados do aluno |
+| 🔒 **Privacidade Garantida** | Progresso salvo localmente por perfil (não rastreamos) |
+| 🌙 **Dark Mode Nativo** | Interface com suporte completo a temas claro/escuro |
+| 📱 **Totalmente Responsivo** | Experiência otimizada para desktop e mobile |
+| ⚡ **Performance Otimizada** | Carregamento rápido com Next.js 14 e caching inteligente |
 
-## ✨ Principais recursos
+## 🚀 **Comece Agora**
 
-- Cursos estruturados em `content/courses/<slug>` (`meta.yml`, `content.md`, `quiz.yml`)
-- Quizzes com timer e regras de aprovação
-- Certificados exportáveis em PNG
-- Sidebar com filtros e integração básica de analytics
+### 📋 **Pré-requisitos**
 
-## 🚀 Começando (desenvolvimento)
+- Node.js >= 18.x
+- npm ou yarn
+- Git
 
-Pré-requisitos
-- Node.js >= 18
-- npm
-
-Instalar dependências
+### ⚡ **Instalação Rápida**
 
 ```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/aprendi.git
+cd aprendi
+
+# Instale as dependências
 npm install
-```
 
-Rodar em desenvolvimento
-
-```bash
+# Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-Build para produção
+Acesse [http://localhost:3000](http://localhost:3000) no seu navegador.
+
+### 🛠️ **Comandos Úteis**
 
 ```bash
-npm run build
-npm start
+# Desenvolvimento
+npm run dev          # Inicia servidor de desenvolvimento
+npm run test         # Executa testes
+npm run test:watch   # Modo watch para testes
+npm run lint         # Verifica qualidade do código
+
+# Produção
+npm run build        # Cria build de produção
+npm run start        # Inicia servidor de produção
+npm run validate     # Valida estrutura dos cursos
+
+# Utilitários
+npm run type-check   # Verificação de tipos TypeScript
+npm run test:coverage # Gera relatório de cobertura de testes
 ```
 
-Testes e validação
+## 🏗️ **Arquitetura do Projeto**
 
+```
+aprendi/
+├── content/                 # Conteúdo dos cursos
+│   ├── courses/            # Cada curso em sua própria pasta
+│   │   ├── meu-curso/      # Exemplo: estrutura de curso
+│   │   │   ├── meta.yml    # Metadados do curso
+│   │   │   ├── content.md  # Conteúdo em Markdown
+│   │   │   ├── quiz.yml    # Perguntas do quiz (opcional)
+│   │   │   └── cover.png   # Imagem de capa
+│   └── instructors/        # Informações dos instrutores
+├── src/                    # Código-fonte da aplicação
+│   ├── app/               # Rotas e páginas (App Router)
+│   ├── components/        # Componentes React reutilizáveis
+│   ├── hooks/            # Custom hooks
+│   ├── lib/              # Utilitários e configurações
+│   └── stores/           # Estado global (Zustand)
+├── public/                # Assets estáticos
+├── docs/                  # Documentação detalhada
+├── scripts/              # Scripts de automação
+└── tests/                # Testes automatizados
+```
+
+## 📖 **Documentação Detalhada**
+
+### 📚 **Criando Conteúdo**
+- [📝 Como Criar Cursos](docs/CRIAR_CURSOS.md) - Guia completo para criação de cursos
+- [🎨 Boas Práticas de Conteúdo](#-boas-práticas-de-conteúdo)
+- [📊 Estrutura de Metadados](docs/METADATA_STRUCTURE.md)
+
+### 🎯 **Sistemas Especializados**
+- [⏱️ Sistema de Quizzes](docs/QUIZ_TIMER_SYSTEM.md) - Timer, pontuação e aprovação
+- [🏆 Exportação de Certificados](docs/CERTIFICATE_EXPORT_SOLUTION.md) - Geração de PNG
+- [📈 Analytics & Comentários](docs/ANALYTICS_E_COMENTARIOS.md) - Engajamento e feedback
+
+### 🔧 **Desenvolvimento**
+- [⚙️ Configuração do Ambiente](docs/SETUP_DEVELOPMENT.md)
+- [🧪 Guia de Testes](docs/TESTING_GUIDE.md)
+- [🚀 Deployment](docs/DEPLOYMENT_GUIDE.md)
+
+## 🤝 **Contribuindo para o Aprendi**
+
+Adoramos contribuições! Siga estes passos:
+
+1. **Fork** o repositório
+2. **Clone** localmente: `git clone https://github.com/seu-usuario/aprendi.git`
+3. **Crie uma branch**: `git checkout -b feat/nova-funcionalidade`
+4. **Faça suas alterações** seguindo as convenções do projeto
+5. **Teste suas mudanças**: `npm run test && npm run lint`
+6. **Commit com mensagem clara**: `git commit -m "feat: adiciona nova funcionalidade"`
+7. **Push para sua branch**: `git push origin feat/nova-funcionalidade`
+8. **Abra um Pull Request** com descrição detalhada
+
+📘 Leia nosso [CONTRIBUTING.md](CONTRIBUTING.md) para guidelines completas.
+
+## 📝 **Boas Práticas de Conteúdo**
+
+### 🎯 **Estrutura de Curso**
+Cada curso deve conter:
+
+```yaml
+# meta.yml
+title: "Nome do Curso"
+description: "Descrição curta e atraente"
+author: "Nome do Autor"
+level: "iniciante|intermediário|avançado"
+duration: "2 horas"
+tags: ["tag1", "tag2"]
+published: false  # Mude para true quando pronto!
+```
+
+### 🎨 **Assets Visuais**
+- **Capa do curso**: `cover.png` (1200×630px) - Otimizado para redes sociais
+- **Imagens internas**: Use formato WebP quando possível
+- **Ícones**: Sistema de ícones do Lucide React
+
+### ✍️ **Formatação de Conteúdo**
+- Use Markdown com extensões GFM (GitHub Flavored Markdown)
+- Inclua exemplos de código com syntax highlighting
+- Adicone quizzes interativos para reforçar aprendizado
+- Mantenha tom acessível e inclusivo
+
+## 🧪 **Qualidade & Testes**
+
+### ✅ **Pipeline de Qualidade**
 ```bash
-npm run test
-npm run lint
-npm run validate
+# Fluxo completo de validação
+npm run lint     # ESLint para padrões de código
+npm run test     # Vitest para testes unitários
+npm run type-check # TypeScript type checking
+npm run validate # Validação de estrutura de cursos
 ```
 
-## 📚 Documentação
+### 📊 **Cobertura de Código**
+- Testes unitários com Vitest
+- Testes de componentes React
+- Validação de schemas com Zod
+- Cobertura alvo: >80%
 
-- Guia para criar cursos: [docs/CRIAR_CURSOS.md](docs/CRIAR_CURSOS.md)
-- Exportação de certificados: [docs/CERTIFICATE_EXPORT_SOLUTION.md](docs/CERTIFICATE_EXPORT_SOLUTION.md)
-- Sistema de quiz: [docs/QUIZ_TIMER_SYSTEM.md](docs/QUIZ_TIMER_SYSTEM.md)
-- Analytics e comentários: [docs/ANALYTICS_E_COMENTARIOS.md](docs/ANALYTICS_E_COMENTARIOS.md)
+## ⚖️ **Licença**
 
-## 🤝 Como contribuir
+Distribuído sob licença MIT. Veja [LICENSE](LICENSE) para mais informações.
 
-Leia o guia de contribuição: [CONTRIBUTING.md](CONTRIBUTING.md)
+## 📞 **Suporte & Comunidade**
 
-Resumo rápido
+- 📖 **Documentação**: [docs/](docs/)
+- 🐛 **Reportar Bugs**: [Issues](https://github.com/seu-usuario/aprendi/issues)
+- 💡 **Sugestões**: [Discussions](https://github.com/seu-usuario/aprendi/discussions)
+- 💬 **Chat**: [Discord/Slack] - *Adicione seu link aqui*
 
-1. Fork → clone → crie uma branch (`feature/nome`)
-2. Faça mudanças pequenas e testáveis
-3. Rode `npm run test` e `npm run lint`
-4. Abra um PR descrevendo a mudança
+## 🌟 **Feito com Vibe Coding**
 
-## 📝 Boas práticas para conteúdo
-
-- Cada curso fica em `content/courses/<slug>` com `meta.yml` e `content.md`.
-- Use título, descrição curta, tags e `published: true` quando pronto.
-- Adicione `cover.png` (1200×630) para melhor compartilhamento.
-
-## ⚖️ Licença
-
-MIT — veja `LICENSE`.
+Este projeto foi desenvolvido seguindo princípios de **Vibe Coding**:
+- 🎵 **Flow contínuo** - Ferramentas configuradas para desenvolvimento sem interrupções
+- ⚡ **Feedback instantâneo** - Hot reload, testes rápidos e validação em tempo real
+- 🎨 **Experiência visual** - UI/UX cuidadosamente planejada desde o início
+- 🧩 **Modularidade** - Componentes reutilizáveis e estrutura escalável
+- 🤝 **Colaboração feliz** - Convenções que facilitam trabalho em equipe
 
 ---
 
-Se quiser, eu posso também adicionar um `CODE_OF_CONDUCT.md` e badges de CI (GitHub Actions).
-### Type check
+<div align="center">
+  
+**✨ Aprendi - Educação gratuita, código aberto, comunidade forte**
+
+[Comece a contribuir](#-contribuindo-para-o-aprendi) •
+[Explore a documentação](#-documentação-detalhada) •
+[Crie seu primeiro curso](docs/CRIAR_CURSOS.md)
+
+</div>
